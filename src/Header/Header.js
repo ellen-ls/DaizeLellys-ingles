@@ -19,7 +19,8 @@ const Header = () => {
         </header>
 
         <main>
-            <div>
+            <div className='carousel'>
+                <h1>carrossel</h1>
                 
             </div>
         </main>

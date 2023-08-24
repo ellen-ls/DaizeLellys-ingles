@@ -23,9 +23,9 @@
 
 .logo{
 
-    font-family: 'Sacramento', cursive;
-    font-style: italic;
-    font-size: 30px;
+    font-family: 'Italianno', cursive;
+    font-weight: 200;
+    font-size: 40px;
     margin-left: 1rem;
     margin-top: 1rem;
 }
@@ -58,6 +58,14 @@
 .info-header a:hover{
     color: #E24040;
     border-bottom:2px solid #E24040;
+}
+
+/* ----- Carousel ----- */
+
+.carousel{
+    background-color: gray;
+    width: 100%;
+    
 }
 
 
