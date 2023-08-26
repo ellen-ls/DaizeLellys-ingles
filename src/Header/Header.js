@@ -1,32 +1,32 @@
 import React from 'react'
 import './Header.css'
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import estrelas from './Img/estrelas.png'
 
 const Header = () => {
   return (
-    <div>
-        <header className='header'>
-            <nav className='div-logo'>
-            <h2 className='logo'>Daize Lellys</h2>
-            <p className='text-logo'>Speak up to the world</p>
-            </nav>
+    <Navbar expand="lg" className="header">
+      <Container>
 
-            <nav className='info-header'>
-                <a href='home'>Home</a>
-                <a href='quem sou eu'>Quem sou eu</a>
-                <a href='valores'>Valores</a>
-            </nav>
-            
-        </header>
+        <Navbar.Brand href="#home">
+          <h2 className='logo'>Daize Lellys</h2>
+          <p className='text-logo'>Speak up to the world</p>
+        </Navbar.Brand>
+        <nav className='info-header'>
+          <a className='nav-link' href='home'>Home</a>
+          <a className='nav-link' href='qm sou eu'>Quem sou eu</a>
+          <a className='nav-link' href='valores'>Valores</a>
+          <img src={estrelas} alt=''/>
+                   
+       </nav>
+       
+       
+      </Container>
+    </Navbar>
+  );
 
-        <main>
-            <div className='carousel'>
-                <h1>carrossel</h1>
-                
-            </div>
-        </main>
-      
-    </div>
-  )
+
 }
 
 export default Header
