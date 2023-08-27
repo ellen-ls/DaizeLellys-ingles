@@ -1,0 +1,46 @@
+.sobre {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    height: 100%;
+    width: 100%;
+    padding: 50px 40px;
+}
+.sobre>h1{
+ 
+    color: #AC4E4E;
+}
+.sobre>h2{
+    color: #AC4E4E;
+    line-height: 1.8;
+    border-bottom:2px solid #AC4E4E;
+}
+
+.text-sobre {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.text {
+   
+    color: #553939;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 50px;
+   
+   
+    
+}
+
+.img-daize {
+    width: 300px;
+    height: 400px;
+    border-radius: 100px 100px 0 0;
+    border: 2px solid #553939;
+
+}
