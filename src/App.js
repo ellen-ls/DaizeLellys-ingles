@@ -1,14 +1,17 @@
-
-import './App.css';
+import React from 'react';
 import Header from './Header/Header.js';
 import Footer from './Footer/Footer';
+import Carrossel from './Carrossel/Carrossel';
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div>
      <Header></Header>
+     
+      <Carrossel></Carrossel>
+      
      <Footer></Footer>
           
     </div>

@@ -17,7 +17,7 @@ const Header = () => {
           <a className='nav-link' href='home'>Home</a>
           <a className='nav-link' href='qm sou eu'>Quem sou eu</a>
           <a className='nav-link' href='valores'>Valores</a>
-          <img src={estrelas} alt=''/>
+          <img className='estrelas' src={estrelas} alt=''/>
                    
        </nav>
        

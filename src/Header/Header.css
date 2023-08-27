@@ -8,12 +8,12 @@
 .header{
        background-color: #B92626;
        border-top: 10px solid #173174;
-       position: relative;
+      
 
 }
 
 .container{
-    left: 0;
+   width: 100%;
 }
 
 .div-logo{
@@ -28,9 +28,7 @@
     font-size: 40px;
     text-decoration: none;
     color: #D9D9D9;
-    left: 20px;
- 
-   
+       
 }
 
 .text-logo{
@@ -64,11 +62,12 @@
    
 }
 
-img{
+.estrelas{
     width: 100px;
     height: 100px;
-    top:15px ;
-    right: 10px;
+    bottom:10px ;
+    top: 0;
+    right: 0;
     position: absolute;
 }
 
