@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Carrossel from '../Carrossel/Carrossel'
 import SobreMim from '../SobreMim/SobreMim'
 import Footer from '../Footer/Footer'
+import Motivacao from '../Motivacao/Motivacao'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Header></Header>
         <Carrossel></Carrossel>
         <SobreMim></SobreMim>
+        <Motivacao></Motivacao>
         <Footer></Footer>
 
       
