@@ -11,10 +11,13 @@
 }
 
 .button{
-  width: 200px;  
+  width: 180px;  
+  height: 60px;
   border-radius: 20px;
   border: 2px solid #FFFFFF;
+  background-color: #F9EBEB;
   color: #553939;
+  font-size: 15px;
     
 }
 

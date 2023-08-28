@@ -1,7 +1,7 @@
 .sobre {
     display: flex;
     flex-direction: column;
-    background-color: #FFF;
+    background-color: #d9d9d9;
     height: 100%;
     width: 100%;
     padding: 50px 40px;
@@ -43,4 +43,13 @@
     border-radius: 100px 100px 0 0;
     border: 2px solid #553939;
 
+}
+
+.button-sobre-mim{
+    background-color: #f9ebeb;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 200px;
+    height: 84px;
 }

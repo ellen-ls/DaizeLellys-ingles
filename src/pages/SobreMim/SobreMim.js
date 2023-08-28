@@ -4,8 +4,11 @@ import daize from './img/IMG_1484.jpg'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { useNavigate } from 'react-router-dom';
 
 function SobreMim() {
+
+  const navigate = useNavigate()
   return (
     <div className='sobre'>
          <h1>QUEM É SUA TEACHER</h1>
@@ -18,13 +21,15 @@ function SobreMim() {
       primeiro contato com o inglês aos nove anos, com uma amiga canadense. Sou Professora de Inglês, Mentora e Líder no 
       segmento de Inglês através da Bíblia, com graduação em Letras, pós-graduação em Educação Global e Liderança Avançada
       no Haggai Institute nos EUA.Há mais de 25 anos, tenho ensinado centenas de pessoas a serem independentes no inglês 
-      para realizarem seus sonhos.</p></Col>
+      para realizarem seus sonhos.</p>
+      <button className='button-sobre-mim' onClick={()=>(navigate('/sobre-mim'))}>Saiba mais sobre mim</button>
+      </Col>
+      
       </Row>
-     
+        
     </Container>
    
-   
-    
+       
      </div>
   )
 }

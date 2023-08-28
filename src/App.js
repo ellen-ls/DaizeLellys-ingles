@@ -1,18 +1,18 @@
 import React from 'react';
-import Header from './Header/Header.js';
-import Footer from './Footer/Footer';
-import Carrossel from './Carrossel/Carrossel';
-import SobreMim from './SobreMim/SobreMim.js'
+import Home from './pages/Home/Home.js';
+import Sobre from './pages/Sobre/Sobre.js'
+import { Route, Routes } from 'react-router-dom';
 
 
 
 function App() {
   return (
     <div>
-     <Header></Header>
-     <Carrossel></Carrossel>
-     <SobreMim></SobreMim>
-     <Footer></Footer>
+     
+     <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/sobre-mim' element={<Sobre/>}/>
+     </Routes>
           
     </div>
   );
