@@ -10,7 +10,7 @@ function SobreMim() {
 
   const navigate = useNavigate()
   return (
-    <div className='sobre'>
+    <div id='quem-sou-eu' className='sobre'>
          <h1>QUEM É SUA TEACHER</h1>
      <h2>Sobre mim</h2>
  
