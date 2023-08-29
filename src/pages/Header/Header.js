@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
       <Container>
-        <Navbar.Brand href="" className='div-logo'>
+      <Navbar.Brand className='div-logo' href='#home'>
           <h2 className='text-danger logo'>Daize Lellys</h2>
           <p className='text-dark text-logo'>Speak up to the world</p>
           </Navbar.Brand>
