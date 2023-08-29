@@ -2,28 +2,29 @@ import React from 'react'
 import './Header.css'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import estrelas from './Img/estrelas.png'
+import { Nav} from 'react-bootstrap';
+
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="header">
+    <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-
         <Navbar.Brand href="#home">
-          <h2 className='logo'>Daize Lellys</h2>
-          <p className='text-logo'>Speak up to the world</p>
-        </Navbar.Brand>
-        <nav className='info-header'>
-          <a className='nav-link' href='home'>Home</a>
-          <a className='nav-link' href='qm sou eu'>Quem sou eu</a>
-          <a className='nav-link' href='valores'>Valores</a>
-          <img className='estrelas' src={estrelas} alt=''/>
-                   
-       </nav>
-       
-       
+          <h2 className='text-danger logo'>Daize Lellys</h2>
+          <p className='text-dark text-logo'>Speak up to the world</p>
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">Quem sou eu</Nav.Link>
+            <Nav.Link href="#link">Valores</Nav.Link>
+            </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
+      
+   
   );
 
 

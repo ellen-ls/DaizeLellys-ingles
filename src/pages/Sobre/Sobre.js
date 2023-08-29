@@ -6,7 +6,7 @@ import './Sobre.css'
 import daizeSobre from './Img/daize-sobre.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { RxHeight } from 'react-icons/rx';
+
 
 
 const Sobre = () => {
