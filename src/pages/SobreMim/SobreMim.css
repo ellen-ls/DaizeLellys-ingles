@@ -7,10 +7,13 @@
     padding: 50px 40px;
 }
 .sobre>h1{
- 
-    color: #AC4E4E;
+    font-family: Inter;
+    font-size: 20px;
+     color: #AC4E4E;
 }
 .sobre>h2{
+    font-family: Inter;
+    font-size: 30px;
     color: #AC4E4E;
     line-height: 1.8;
     border-bottom:2px solid #AC4E4E;

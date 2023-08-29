@@ -1,0 +1,28 @@
+.motivacao{
+ padding:50px;
+ 
+}
+
+.motivacao>h3{
+color: #AC4E4E;
+font-family: Inter;
+font-size: 20px;
+}
+
+.motivacao>h1{
+   color: #AC4E4E;
+   font-family: Inter;
+   font-size: 30px;
+   line-height: 1.8;
+   border-bottom:2px solid #AC4E4E;
+}
+
+.container-motivacao{
+   margin-top: 100px;
+}
+
+
+
+
+
+
