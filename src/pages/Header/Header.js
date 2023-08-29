@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" className='div-logo'>
           <h2 className='text-danger logo'>Daize Lellys</h2>
           <p className='text-dark text-logo'>Speak up to the world</p>
           </Navbar.Brand>

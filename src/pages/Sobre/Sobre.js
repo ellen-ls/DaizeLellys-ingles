@@ -6,6 +6,7 @@ import './Sobre.css'
 import daizeSobre from './Img/daize-sobre.jpg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Nav } from 'react-bootstrap';
 
 
 
@@ -14,19 +15,20 @@ const Sobre = () => {
     const navigate = useNavigate()
   return (
     <div>
-       <Navbar expand="lg" className="header">
+     
+    <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-
-        <Navbar.Brand>
-          <h2 className='logo'>Daize Lellys</h2>
-          <p className='text-logo'>Speak up to the world</p>
-        </Navbar.Brand>
-        <nav className='info-header'>
-          <a className='nav-link' href='/' onClick={()=>(navigate('/'))}>Home</a>
-                                  
-       </nav>
-       
-       
+        <Navbar.Brand href="#home" className='div-logo'>
+          <h2 className='text-danger logo'>Daize Lellys</h2>
+          <p className='text-dark text-logo'>Speak up to the world</p>
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href='/' onClick={()=>(navigate('/'))}>Home</Nav.Link>
+            
+            </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
 
