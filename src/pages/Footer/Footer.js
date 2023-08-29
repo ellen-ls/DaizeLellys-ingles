@@ -12,7 +12,7 @@ const Footer = () => {
     
     <footer className="footer">
     <div className="footer-content">
-        <h2 className='contact'>Contact</h2>
+        <h2 id='contate-me' className='contact'>Contact</h2>
         <button className='button'>Click here to schedule a free class</button>
         <p>CONNECT WITH ME</p>
 <a href='intsagram'><RxInstagramLogo className='icons'></RxInstagramLogo></a>

@@ -9,7 +9,7 @@ import imagem4 from './Img/biblia.png'
 const Carrossel = () => {
   return (
     
-  <Carousel className='dark'>
+  <Carousel className='dark' id='home'>
       <Carousel.Item interval={4000}>
         <img className='img-carrossel' src={imagem1} alt=''  text="First slide" />
         
