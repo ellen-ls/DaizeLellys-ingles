@@ -22,7 +22,7 @@ function Motivacao() {
             <Container className='container-motivacao'>
                 <Row className='row-container'>
                     <Col>  
-                    <Card style={{ width: '15rem',height:'15rem', textAlign:'center',margin:'10px 0 20px 0', backgroundColor:'#d9d9d9'}}>
+                    <Card style={{ width: '15rem',height:'15rem', textAlign:'center',margin:'10px 0 20px 0'}} className='card-motivacao'>
                         <Card.Img variant="top" src={dinheiro} style={{height:'8rem'}}/>
                         <Card.Body>
                             <Card.Title style={{fontSize:'18px'}}>Ganhar dinheiro</Card.Title>
@@ -30,7 +30,7 @@ function Motivacao() {
                     </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9'}}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-motivacao'>
                             <Card.Img variant="top" src={interagir} style={{height:'8rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Interagir com outras Culturas</Card.Title>
@@ -38,7 +38,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9'}}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-motivacao'>
                             <Card.Img variant="top" src={viajar} style={{height:'8rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Viajar com mais segurança e aproveitamento</Card.Title>
@@ -46,7 +46,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9' }}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-motivacao'>
                             <Card.Img variant="top" src={explorar} style={{height:'8rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Explorar Conhecimento</Card.Title>
@@ -54,7 +54,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9' }}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-motivacao'>
                             <Card.Img variant="top" src={cantar} style={{height:'8rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Cantar em inglês</Card.Title>
@@ -62,7 +62,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9' }}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-motivacao'>
                             <Card.Img variant="top" src={intercambio} style={{height:'8rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Morar/Estudar/Trabalhar no Exterior</Card.Title>
@@ -70,7 +70,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9' }}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-motivacao'>
                             <Card.Img variant="top" src={prova} style={{height:'8rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Passar em uma Prova Internacional</Card.Title>
@@ -78,7 +78,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0', backgroundColor:'#d9d9d9' }}>
+                        <Card style={{ width: '15rem',height:'15rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-motivacao'>
                             <Card.Img variant="top" src={missionario} style={{height:'8rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}}>Ser Missionário </Card.Title>
