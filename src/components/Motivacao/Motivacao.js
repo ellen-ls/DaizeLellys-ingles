@@ -86,6 +86,7 @@ function Motivacao() {
                         </Card>
                     </Col>
                 </Row>
+                <button className='button-motivacao'><a>Clique aqui para agendar uma aula experimental</a></button>
             </Container>
 
 
