@@ -1,0 +1,33 @@
+.metodologia{
+    padding:50px;
+    background-color: #d9d9d9;
+   }
+   
+      
+   .metodologia>h1{
+      color: #AC4E4E;
+      font-family: Inter;
+      font-size: 30px;
+      line-height: 1.8;
+      border-bottom:2px solid #AC4E4E;
+   }
+
+   .container-metodologia{
+    margin-top: 100px;
+   }
+   
+   .card-metodologia{
+    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 59%, rgba(35,59,231,0.5438550420168067) 86%);
+    box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
+   }
+
+   .card-metodologia-1{
+    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 49%, rgba(233,42,42,0.3981967787114846) 86%);
+    box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
+   }
+
+   .linha{
+    
+    line-height: 1.8;
+    border-bottom: 1px solid #0c0505;
+   }
