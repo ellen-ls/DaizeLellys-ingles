@@ -28,15 +28,22 @@ font-size: 20px;
 .button-motivacao{
    display: inline-block;
    background-color: #D4341E;
-   color: #ffffff;
    border: 2px solid #ffffff;
    border-radius: 8px;
    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
    width: 200px;
    height: 84px;
+   
+}
+.button-motivacao a{
+   text-decoration: none;
+   color: #ffffff;
 }
 .button-motivacao:hover{
    background-color: #AC4E4E;
+}
+.button-motivacao:hover a{
+   color: #ffffff;
 }
 
 
