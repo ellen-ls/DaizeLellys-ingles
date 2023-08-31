@@ -1,8 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import {RxInstagramLogo} from 'react-icons/rx'
-import {AiOutlineFacebook} from 'react-icons/ai'
-import {CiLinkedin} from 'react-icons/ci'
+
+import telegram from '../Header/Img/telegram.png'
+import instagram from '../Header/Img/instagram.png'
+import facebook from '../Header/Img/facebook.png'
+import linkedin from '../Header/Img/linkedin.png'
 
 
 
@@ -13,11 +15,15 @@ const Footer = () => {
     <footer className="footer">
     <div className="footer-content">
         <h2 id='contate-me' className='contact'>Contact</h2>
-        <button className='button'>Click here to schedule a free class</button>
+        <button className='button'>Clique aqui para assistir uma aula experimental</button>
         <p>CONNECT WITH ME</p>
-<a href='intsagram'><RxInstagramLogo className='icons'></RxInstagramLogo></a>
-<a href='facebook'><AiOutlineFacebook className='icons'></AiOutlineFacebook></a>
-<a href='linkedin'><CiLinkedin className='icons'></CiLinkedin></a>
+        <div>
+        <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
+        <img className='img-sociais-footer' src={telegram} alt=''/>
+        <img className='img-sociais-footer' src={instagram} alt=''/>
+        <img className='img-sociais-footer' src={facebook} alt=''/>
+        <img className='img-sociais-footer' src={linkedin} alt=''/>
+      </div>
 
     </div>
     
