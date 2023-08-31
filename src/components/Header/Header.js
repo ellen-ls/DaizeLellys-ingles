@@ -22,7 +22,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href= "#home">Home</Nav.Link>
+            <Nav.Link href= "#home" className='ativo'>Home</Nav.Link>
             <Nav.Link href = "#quem-sou-eu">Quem sou eu</Nav.Link>
             <Nav.Link href = "#cursos">Cursos</Nav.Link>
             <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
