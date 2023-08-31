@@ -17,12 +17,12 @@
    }
    
    .card-metodologia{
-    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 59%, rgba(35,59,231,0.5438550420168067) 86%);
+    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
     box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
    }
 
    .card-metodologia-1{
-    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 49%, rgba(233,42,42,0.3981967787114846) 86%);
+    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 49%, #b22234 86%);
     box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
    }
 

@@ -3,8 +3,8 @@ import './Footer.css'
 
 import telegram from '../Header/Img/telegram.png'
 import instagram from '../Header/Img/instagram.png'
-import facebook from '../Header/Img/facebook.png'
-import linkedin from '../Header/Img/linkedin.png'
+import tiktok from '../Header/Img/tiktok.png'
+import youtube from '../Header/Img/youtube.png'
 
 
 
@@ -21,8 +21,8 @@ const Footer = () => {
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
         <img className='img-sociais-footer' src={telegram} alt=''/>
         <img className='img-sociais-footer' src={instagram} alt=''/>
-        <img className='img-sociais-footer' src={facebook} alt=''/>
-        <img className='img-sociais-footer' src={linkedin} alt=''/>
+        <img className='img-sociais-footer' src={tiktok} alt=''/>
+        <img className='img-sociais-footer' src={youtube} alt=''/>
       </div>
 
     </div>

@@ -5,8 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Nav} from 'react-bootstrap';
 import telegram from './Img/telegram.png'
 import instagram from './Img/instagram.png'
-import facebook from './Img/facebook.png'
-import linkedin from './Img/linkedin.png'
+import youtube from './Img/youtube.png'
+import tiktok from './Img/tiktok.png'
 import fonte from './Img/fonte2.png'
 const Header = () => {
   return (
@@ -31,10 +31,10 @@ const Header = () => {
       </Container>
       <div>
         <p className='p-sociais'>Me siga nas redes sociais:</p>
-        <img className='img-sociais' src={telegram} alt=''/>
+        <img className='img-sociais' src={tiktok} alt=''/>
         <img className='img-sociais' src={instagram} alt=''/>
-        <img className='img-sociais' src={facebook} alt=''/>
-        <img className='img-sociais' src={linkedin} alt=''/>
+        <img className='img-sociais' src={youtube} alt=''/>
+        <img className='img-sociais' src={telegram} alt=''/>
       </div>
       </Navbar>
       
