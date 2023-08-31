@@ -8,7 +8,7 @@ import consultoria from './img/consultoria.png'
 
 function Precos() {
     return (
-        <div id='valores' className='valores'>
+        <div className='valores'>
             <h1>Preços</h1>
             <Container className='container-valores' style={{ width: '100%'}}>
                 <Row>
@@ -60,7 +60,7 @@ function Precos() {
                                <Card.Text className='text-valores'>
                                    Semestre por  6x 197.00 por pessoa.
                                 </Card.Text>
-                                <Card.Link href="#" className='link-valores'>Contrate-me</Card.Link>
+                                <Card.Link href="#"className='link-valores' >Contrate-me</Card.Link>
                             </Card.Body>
                             
                         </Card>
