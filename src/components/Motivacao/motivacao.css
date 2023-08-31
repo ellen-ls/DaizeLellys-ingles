@@ -22,7 +22,7 @@ font-size: 20px;
 }
 
 .card-motivacao{
-   background: linear-gradient(221deg, rgba(233,42,42,0.3981967787114846) 40%, rgba(241,235,238,0.7287289915966386) 59%, rgba(35,59,231,0.5438550420168067) 86%);
+   background: linear-gradient(221deg, #b22234 40%, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
 }
 
 .button-motivacao{
