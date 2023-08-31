@@ -7,7 +7,8 @@ import telegram from './Img/telegram.png'
 import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
-import fonte from './Img/fonte2.png'
+import fonte from './Img/fonte2.png';
+import copia from './Img/logo daize lellys.png'
 const Header = () => {
   return (
 
@@ -15,7 +16,7 @@ const Header = () => {
       <Container>
       <Navbar.Brand className='div-logo' href='#home'>
           {/* <h2 className='logo' style={{color:'#3c3b6e'}}>Daize Lellys</h2> */}
-          <img className='fonte' src={fonte} alt=''/>
+          <img className='fonte' src={copia} alt=''/>
           
           <p className='text-logo' style={{color:'#b22234'}}>Inglês sob medida</p>
           </Navbar.Brand>
