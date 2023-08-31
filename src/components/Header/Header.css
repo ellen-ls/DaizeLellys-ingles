@@ -9,12 +9,8 @@
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
      background: rgba( 255, 255, 255, 0.35 );
      backdrop-filter: blur( 13.5px );
-}
-
-.text-danger{
-    box-shadow: 2px 4px 4px 0px rgba(4, 2, 20, 0.342);
-    transform: skewY(-2deg);
-    background-color: rgba(194, 215, 243, 0.507);
+        
+         
 }
 
 .text-dark{
@@ -24,26 +20,31 @@
 
 .div-logo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
  
 }
 
 .logo{
-    font-family: 'Italianno', cursive;
+    font-family: 'Mr De Haviland', cursive;
     font-size: 50px;
+    border-right: 2px solid #D9D9D9;
     text-decoration: none;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    
-       
+    font-weight: 700;
+    width: 200px;
+      
 }
 
 .text-logo{
     font-size: 13px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    
 }
 
 .me-auto {
-   margin-left:50% ;    
+   margin-left:30% ;    
    gap: 20px;
    font-weight: 700;
     

@@ -15,13 +15,13 @@ import jogo from './Img/jogo.png'
 
 const Metodologia = () => {
   return (
-    <div className='metodologia'>
+    <div className='metodologia' id='cursos'>
             
             <h1>Metodologia e Cursos</h1>
-            <Container className='container-metodologia' style={{width:'80%'}}>
+            <Container className='container-metodologia' style={{width:'100%'}}>
                 <Row className='row-container'>
                     <Col>  
-                    <Card style={{ width: '15rem',height:'30rem', textAlign:'center',margin:'10px 0 20px 0'}} className='card-metodologia'>
+                    <Card style={{ width: '17rem',height:'30rem', textAlign:'center',margin:'10px 0 20px 0'}} className='card-metodologia'>
                         <Card.Img variant="top" src={personalizado} style={{height:'10rem'}}/>
                         <Card.Body>
                             <Card.Title style={{fontSize:'18px'}} className='linha'>Estudos personalizados </Card.Title>
@@ -34,7 +34,7 @@ const Metodologia = () => {
                     </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-metodologia-1'>
+                        <Card style={{ width: '17rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-metodologia-1'>
                             <Card.Img variant="top" src={biblia} style={{height:'10rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês pela Bíblia</Card.Title>
@@ -48,7 +48,7 @@ const Metodologia = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-metodologia'>
+                        <Card style={{ width: '17rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0'}} className='card-metodologia'>
                             <Card.Img variant="top" src={negocios} style={{height:'10rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês para negócios</Card.Title>
@@ -60,7 +60,7 @@ const Metodologia = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-metodologia-1'>
+                        <Card style={{ width: '17rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-metodologia-1'>
                             <Card.Img variant="top" src={musica} style={{height:'10rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês com música</Card.Title>
@@ -73,7 +73,7 @@ const Metodologia = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-metodologia'>
+                        <Card style={{ width: '17rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-metodologia'>
                             <Card.Img variant="top" src={conversa} style={{height:'10rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Conversation classes</Card.Title>
@@ -88,7 +88,7 @@ const Metodologia = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0' }} className='card-metodologia-1'>
+                        <Card style={{ width: '17rem',height:'30rem', textAlign:'center', margin:'10px 0 100px 0' }} className='card-metodologia-1'>
                             <Card.Img variant="top" src={estrangeiro} style={{height:'10rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Português para estrangeiros</Card.Title>
