@@ -14,18 +14,21 @@ const Carrossel = () => {
         <img className='img-carrossel' src={imagem1} alt=''  text="First slide" />
         
       </Carousel.Item>
-      <Carousel.Item interval={1000}>
-        <img className='img-carrossel' src={imagem2} alt=''  text="Second slide" />
-        
-      </Carousel.Item>
-      <Carousel.Item>
-        <img className='img-carrossel' src={imagem3} alt='' text="Third slide" />
-        
-      </Carousel.Item>
       <Carousel.Item>
         <img className='img-carrossel' src={imagem4} alt='' text="Third slide" />
         
       </Carousel.Item>
+      <Carousel.Item interval={1000}>
+        <img className='img-carrossel' src={imagem2} alt=''  text="Second slide" />
+        
+      </Carousel.Item>
+      
+      <Carousel.Item>
+        <img className='img-carrossel' src={imagem3} alt='' text="Third slide" />
+        
+      </Carousel.Item>
+      
+      
     </Carousel>
    
   )
