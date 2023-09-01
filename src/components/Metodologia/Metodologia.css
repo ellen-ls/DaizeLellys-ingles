@@ -1,5 +1,4 @@
 .metodologia{
-   
    display: flex;
    flex-direction: column;
    background-color: #ddb1b1;
@@ -10,20 +9,18 @@
    }
 
    .logo-biblia{
-    width: 300px;
+    width: 330px;
     
    }
-
-
-   
-      
+        
    .metodologia>h1{
       color: #3c3b6e;
-      font-family: Inter;
+      font-family: 'Rowdies', cursive;
       font-size: 30px;
       line-height: 1.8;
       border-bottom:2px solid #3c3b6e;
-      width: 300px;
+      
+      margin-top: 20px;
       
      
      
@@ -63,7 +60,7 @@
 
    .text2{
       color: #b22234;
-      font-family: Inter;
+      font-family: 'Rowdies', cursive;
       font-style: normal;
       font-size: 1.5rem;
       font-weight: 400;
