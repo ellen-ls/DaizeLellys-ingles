@@ -13,17 +13,22 @@
 
 /* ------ Sobre -----*/
 
+.principal{
+    background-color: #9bacda;
+}
+
 .geral{
     width: 50%;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .sobre-mim{
-    width: 250px;
+    width: 350px;
     height: 300px;
-    border: 3px solid #AC4E4E;
+    border: 3px solid #3c3b6e;
     border-radius: 5px;
 }
 
@@ -33,9 +38,9 @@
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 30px;
-    border-bottom: 2px solid #AC4E4E;
+    border-bottom: 2px solid #b22234;
     line-height: 1.8;
-    color: #AC4E4E;
+    color: #b22234;
 }
 
 

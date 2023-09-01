@@ -3,10 +3,15 @@ import { useNavigate } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './Sobre.css'
-import daizeSobre from './Img/daize-sobre.jpg'
+import daizeSobre from './Img/daize-sobre-mim.jpeg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Nav } from 'react-bootstrap';
+import telegram from '../../components/Header/Img/telegram.png'
+import instagram from '../../components/Header/Img/instagram.png'
+import youtube from '../../components/Header/Img/youtube.png'
+import tiktok from '../../components/Header/Img/tiktok.png'
+import copia from '../../components/Header/Img/logo daize lellys.png'
 
 
 
@@ -14,24 +19,33 @@ const Sobre = () => {
 
     const navigate = useNavigate()
   return (
-    <div>
+    <div className='principal'>
      
-    <Navbar expand="lg" className="bg-body-tertiary">
+     <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
       <Container>
-        <Navbar.Brand href="#home" className='div-logo'>
-          <h2 className='text-danger logo'>Daize Lellys</h2>
-          <p className='text-dark text-logo'>Speak up to the world</p>
+      <Navbar.Brand className='div-logo' href='#home'>
+          
+          <img className='fonte' src={copia} alt=''/>
+          
+          <p className='text-logo' style={{color:'#b22234'}}>Inglês sob medida</p>
           </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href='/' onClick={()=>(navigate('/'))}>Home</Nav.Link>
-            
+          <Nav.Link href='/' onClick={()=>(navigate('/'))}>Home</Nav.Link>
             </Nav>
-        </Navbar.Collapse>
+ </Navbar.Collapse>
       </Container>
-    </Navbar>
-
+      <div>
+        <p className='p-sociais'>Me siga nas redes sociais:</p>
+        
+        <img className='img-sociais' src={instagram} alt=''/>
+        <img className='img-sociais' src={youtube} alt=''/>
+        <img className='img-sociais' src={tiktok} alt=''/>
+        <img className='img-sociais' src={telegram} alt=''/>
+      </div>
+      </Navbar>
+    
     <Container className='geral'>
       <Row>
         <Col className='coluna'><img className='sobre-mim' src={daizeSobre} alt=''></img></Col>

@@ -3,17 +3,18 @@
 }
 
 .motivacao>h3{
-color: #AC4E4E;
+color: #b22234;
 font-family: Inter;
 font-size: 20px;
 }
 
 .motivacao>h1{
-   color: #AC4E4E;
+   color: #3c3b6e;
    font-family: Inter;
    font-size: 30px;
    line-height: 1.8;
-   border-bottom:2px solid #AC4E4E;
+   border-bottom:2px solid #3c3b6e;
+   width: 250px;
 }
 
 .container-motivacao{

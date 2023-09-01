@@ -1,5 +1,6 @@
 .valores{
     padding:50px;
+    background-color:#9bacda;
 }
 
 .valores>h1{
@@ -14,6 +15,7 @@
 .container-valores{
    
     margin-top: 100px;
+    
    
 }
 
