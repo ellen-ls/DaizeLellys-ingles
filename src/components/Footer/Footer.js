@@ -19,10 +19,10 @@ const Footer = () => {
         <p>CONNECT WITH ME</p>
         <div>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
-        <img className='img-sociais-footer' src={telegram} alt=''/>
         <img className='img-sociais-footer' src={instagram} alt=''/>
-        <img className='img-sociais-footer' src={tiktok} alt=''/>
         <img className='img-sociais-footer' src={youtube} alt=''/>
+        <img className='img-sociais-footer' src={tiktok} alt=''/>
+        <img className='img-sociais-footer' src={telegram} alt=''/>
       </div>
 
     </div>

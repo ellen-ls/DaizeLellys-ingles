@@ -1,16 +1,14 @@
-.carrossel{
-
-background-color: black;
-width: 100%;
-height: 100%;
-z-index: 1;
-color: aliceblue;
+#home{
+    background: linear-gradient(221deg, #b22234 10%, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
+   
 }
 
 .Carousel{
     width: 100%;
     height: 100%;
     z-index: 1;
+    
+   
 }
 
 .dark{
@@ -19,6 +17,10 @@ color: aliceblue;
 }
 
 .img-carrossel{
-    width: 100%;
+    width: 60%;
     height: 100%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    
+    
 }
