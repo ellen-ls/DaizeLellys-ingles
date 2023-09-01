@@ -1,35 +1,69 @@
 .metodologia{
-    padding:50px;
-    background-color: #d9d9d9;
-   }
+   display: flex;
+   flex-direction: column;
+   background-color: #ddb1b1;
+   height: 100%;
+   width: 100%;
+   padding: 50px 40px;
    
-      
+   }
+
+   .logo-biblia{
+    width: 330px;
+    
+   }
+        
    .metodologia>h1{
-      color: #AC4E4E;
-      font-family: Inter;
+      color: #3c3b6e;
+      font-family: 'Rowdies', cursive;
       font-size: 30px;
       line-height: 1.8;
-      border-bottom:2px solid #AC4E4E;
+      border-bottom:2px solid #3c3b6e;
+      
+      margin-top: 20px;
+      
+     
+     
+   }
+   .text-biblia{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+  
    }
 
-   .container-metodologia{
-    margin-top: 100px;
+   .img-biblia{
+      width: 350px;
+      margin-top: 60px;
+      border: 2px solid #3c3b6e;
+      border-radius: 5px;
    }
    
-   .card-metodologia{
-    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
-    box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
-    
+   .text1{
+      color: #3c3b6e;
+      font-family: Inter;
+      font-style: normal;
+      font-size: 1.3rem;
+      font-weight: 400;
+      margin-top: 50px;
+     
    }
 
-   .card-metodologia-1{
-    background: linear-gradient(221deg, rgba(241,235,238,0.7287289915966386) 49%, #b22234 86%);
-    box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
-    
+   .img-biblia1{
+      width: 350px;
+      border: 2px solid #b22234;
+      border-radius: 5px;
+      
    }
 
-   .linha{
-    
-    line-height: 1.8;
-    border-bottom: 1px solid #0c0505;
+   .text2{
+      color: #b22234;
+      font-family: 'Rowdies', cursive;
+      font-style: normal;
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-top: 50px;
+     
    }
