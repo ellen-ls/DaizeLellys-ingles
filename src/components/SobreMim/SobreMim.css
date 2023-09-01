@@ -1,22 +1,23 @@
 .sobre {
     display: flex;
     flex-direction: column;
-    background-color: #d9d9d9;
+    background-color: #9bacda;
     height: 100%;
     width: 100%;
     padding: 50px 40px;
 }
 .sobre>h1{
-    font-family: Inter;
+    font-family: 'Rowdies', cursive;
     font-size: 20px;
-     color: #AC4E4E;
+     color: #b22234;
 }
 .sobre>h2{
-    font-family: Inter;
+    font-family: 'Rowdies', cursive;
     font-size: 30px;
-    color: #AC4E4E;
+    color: #3c3b6e;
     line-height: 1.8;
-    border-bottom:2px solid #AC4E4E;
+    border-bottom:2px solid #3c3b6e;
+    width: 250px;
 }
 
 .text-sobre {
@@ -29,7 +30,7 @@
 
 .text {
    
-    color: #553939;
+    color: #b22234;
     font-family: Inter;
     font-style: normal;
     font-size: 1.5rem;
@@ -44,7 +45,7 @@
     width: 300px;
     height: 400px;
     border-radius: 100px 100px 0 0;
-    border: 2px solid #553939;
+    border: 2px solid #3c3b6e;
 
 }
 

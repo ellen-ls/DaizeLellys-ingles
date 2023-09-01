@@ -1,0 +1,39 @@
+.cursos{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfcfc;
+    height: 100%;
+    width: 100%;
+    padding: 50px 40px;
+    
+    
+}
+
+.cursos>h1{
+    color: #3c3b6e;
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    line-height: 1.8;
+    border-bottom:2px solid #3c3b6e;
+    width: 250px;
+    
+}
+
+
+.container-cursos{
+    margin-top: 100px;
+   }
+   
+.card-cursos{
+ 
+ box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
+ 
+    
+   }
+
+
+.linha{
+    
+line-height: 1.8;
+border-bottom: 1px solid #0c0505;
+   }

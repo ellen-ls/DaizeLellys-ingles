@@ -6,6 +6,7 @@ import Footer from '../../components/Footer/Footer'
 import Motivacao from '../../components/Motivacao/Motivacao'
 import Metodologia from '../../components/Metodologia/Metodologia'
 import Precos from '../../components/Precos/Precos'
+import Cursos from '../../components/Cursos/Cursos'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <SobreMim></SobreMim>
         <Motivacao></Motivacao>
         <Metodologia></Metodologia>
+        <Cursos></Cursos>
         <Precos></Precos>
         <Footer></Footer>
 

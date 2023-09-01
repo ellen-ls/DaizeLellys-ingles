@@ -7,8 +7,9 @@ import telegram from './Img/telegram.png'
 import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
-
 import copia from './Img/logo daize lellys.png'
+
+
 const Header = () => {
   return (
 

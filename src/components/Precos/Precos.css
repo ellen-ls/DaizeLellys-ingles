@@ -1,19 +1,21 @@
 .valores{
     padding:50px;
+    background-color:#9bacda;
 }
 
 .valores>h1{
-    color: #AC4E4E;
-    font-family: Inter;
+    color: #b22234;
+    font-family: 'Rowdies', cursive;
     font-size: 30px;
     line-height: 1.8;
-    border-bottom:2px solid #AC4E4E;
- 
+    border-bottom:2px solid #b22234;
+    width: 250px;
 }
 
 .container-valores{
    
     margin-top: 100px;
+    
    
 }
 
