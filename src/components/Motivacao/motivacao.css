@@ -17,12 +17,13 @@ font-size: 20px;
 }
 
 .container-motivacao{
-   margin-top: 100px;
-   
+   margin-top: 50px;
+      
 }
 
-.card-motivacao{
-   background: linear-gradient(221deg, #b22234 40%, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
+.row-container{
+  
+   text-align: center;
 }
 
 .button-motivacao{
@@ -45,6 +46,8 @@ font-size: 20px;
 .button-motivacao:hover a{
    color: #ffffff;
 }
+
+
 
 
 
