@@ -16,6 +16,7 @@
 
 .text-dark{
     text-align: center;
+    
         
 }
 
@@ -29,22 +30,11 @@
 .fonte{
     width: 200px;
     border-right: 2px solid #D9D9D9;
-    margin-left: 20px;
+    margin-left: 5px;
     padding: 10px;
     
 }
 
-/* .logo{
-    font-family: 'Mr De Haviland', cursive;
-    font-size: 50px;
-    font-weight: 700;
-    border-right: 2px solid #D9D9D9;
-    text-decoration: none;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 200px;
-    margin-left: 20px;
-      
-} */
 
 .text-logo{
     font-size: 13px;
@@ -80,8 +70,8 @@
 
 
 .active {
-    color: red !important; 
-    border-bottom: 2px solid red;
+    color: #b22234!important; 
+    border-bottom: 2px solid #b22234;
 }
 
 

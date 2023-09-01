@@ -7,7 +7,7 @@ import telegram from './Img/telegram.png'
 import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
-import fonte from './Img/fonte2.png';
+
 import copia from './Img/logo daize lellys.png'
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
     <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
       <Container>
       <Navbar.Brand className='div-logo' href='#home'>
-          {/* <h2 className='logo' style={{color:'#3c3b6e'}}>Daize Lellys</h2> */}
+          
           <img className='fonte' src={copia} alt=''/>
           
           <p className='text-logo' style={{color:'#b22234'}}>Inglês sob medida</p>
@@ -32,9 +32,10 @@ const Header = () => {
       </Container>
       <div>
         <p className='p-sociais'>Me siga nas redes sociais:</p>
-        <img className='img-sociais' src={tiktok} alt=''/>
+        
         <img className='img-sociais' src={instagram} alt=''/>
         <img className='img-sociais' src={youtube} alt=''/>
+        <img className='img-sociais' src={tiktok} alt=''/>
         <img className='img-sociais' src={telegram} alt=''/>
       </div>
       </Navbar>
