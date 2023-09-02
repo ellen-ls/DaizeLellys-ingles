@@ -16,7 +16,9 @@ const Metodologia = () => {
             <img className='logo-biblia' src={logo} alt=''></img>
             <h1 >Por que aprender Inglês através da Bíblia?</h1>
           
-                 <Container className='text-biblia'>
+      
+            <Container className='text-biblia'>
+
       <Row>
         <Col><img className='img-biblia' src={inglesBiblia} alt=''/></Col>
         <Col> <p className='text1'>A Bíblia é um recurso linguístico excepcional para o estudo da língua inglesa. 
