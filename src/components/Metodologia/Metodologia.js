@@ -16,8 +16,12 @@ const Metodologia = () => {
             <img className='logo-biblia' src={logo} alt=''></img>
             <h1 >Por que aprender Inglês através da Bíblia?</h1>
           
+<<<<<<<<< Temporary merge branch 1
+            
+           
+            
 
-        
+
             <Container className='text-biblia'>
 
       <Row>
