@@ -8,6 +8,8 @@ import imagem4 from './Img/biblia.png'
 
 const Carrossel = () => {
   return (
+
+    
     
   <Carousel className='dark' id='home'>
       <Carousel.Item interval={4000}>

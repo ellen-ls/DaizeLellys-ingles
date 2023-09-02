@@ -1,0 +1,30 @@
+.comentarios{
+padding: 50px;
+}
+
+.container-comments{
+    background: linear-gradient(221deg, #b22234 10%, rgba(241,235,238,0.7287289915966386) 59%, #3c3b6e 86%);
+    padding-top: 20px;
+    align-items: center;
+    justify-items: center;
+    border-radius:50px;
+}
+
+.comentarios>h1{
+    color: #b22234;
+    font-family: 'Rowdies', cursive;
+    font-size: 2rem;
+    width:80%;
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+
+
+.hr-comments{
+    margin-top: 50px;
+    width: 100px;
+    margin-left: 80px;
+
+}
+
+

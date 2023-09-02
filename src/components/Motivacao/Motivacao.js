@@ -2,13 +2,14 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import dinheiro from './img/ganhar-dinheiro.jpg';
-import interagir from './img/interagir.jpg';
-import viajar from './img/viagem.jpg';
-import explorar from './img/explorar-conhecimento.jpg';
-import cantar from './img/cantar.jpg';
-import intercambio from './img/intercambio.jpg';
-import './motivacao.css'
+import dinheiro from './img/ganhar-dinheiro.png';
+import interagir from './img/interagir.png';
+import viajar from './img/viagem.png';
+import explorar from './img/conhecimento.png';
+import cantar from './img/cantar.png'
+import intercambio from './img/intercambio.png'
+import './motivacao.css';
+
 import { Figure, Image } from 'react-bootstrap';
 
 
@@ -22,8 +23,8 @@ function Motivacao() {
                     <Col>
                         <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
                             src={dinheiro}
                                 
@@ -36,8 +37,8 @@ function Motivacao() {
                     <Col>
                         <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
                                 src={interagir}
                             />
@@ -49,8 +50,8 @@ function Motivacao() {
                     <Col>
                         <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
                             src={viajar}
                             />
@@ -63,8 +64,8 @@ function Motivacao() {
                     <Col>
                         <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
                             src={explorar}
                             />
@@ -77,10 +78,10 @@ function Motivacao() {
                     <Col>
                     <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
-                            src={explorar}
+                            src={cantar}
                             />
                             <Figure.Caption>
                             Cantar em inglês
@@ -90,10 +91,10 @@ function Motivacao() {
                     <Col>
                     <Figure>
                             <Image
-                            width={100}
-                            height={100}
+                            width={120}
+                            height={120}
                             roundedCircle
-                            src={explorar}
+                            src={intercambio}
                             />
                             <Figure.Caption>
                                 Morar/Estudar
@@ -103,9 +104,9 @@ function Motivacao() {
                     </Col>
 
                 </Row>
-                <button className='button-motivacao'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Clique aqui para agendar uma aula experimental</a></button>
+                
             </Container>
-
+            <button className='button-motivacao'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Clique aqui para agendar uma aula experimental</a></button>
 
 
 

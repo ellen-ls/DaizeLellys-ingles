@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="footer-content">
         <h2 id='contate-me' className='contact'>Contact</h2>
         <button className='button'>Clique aqui para assistir uma aula experimental</button>
-        <p>CONNECT WITH ME</p>
+        
         <div>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
         <img className='img-sociais-footer' src={instagram} alt=''/>
