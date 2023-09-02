@@ -18,9 +18,11 @@
       font-family: 'Rowdies', cursive;
       font-size: 30px;
       line-height: 1.8;
+      border-bottom:2px solid #3c3b6e;
+      
    }
    .img-biblia{
-      width: 350px;
+      width: 300px;
       margin-top: 60px;
       border: 2px solid #3c3b6e;
       border-radius: 5px;
@@ -30,16 +32,17 @@
       color: #3c3b6e;
       font-family: Inter;
       font-style: normal;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 400;
       margin-top: 50px;
      
    }
 
    .img-biblia1{
-      width: 350px;
+      width: 300px;
       border: 2px solid #b22234;
       border-radius: 5px;
+      margin-top: 50px;
       
    }
 

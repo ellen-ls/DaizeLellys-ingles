@@ -24,8 +24,9 @@ const Footer = () => {
         <img className='img-sociais-footer' src={tiktok} alt=''/>
         <img className='img-sociais-footer' src={telegram} alt=''/>
       </div>
-
+          <a id='link-topo' href='#'>^</a>
     </div>
+    
     
     <div className='employment'>
         <p>Desenvolvido por Els Development</p>
