@@ -8,26 +8,29 @@ import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
 import copia from './Img/logo daize lellys.png'
+import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
+
+ 
   return (
 
-    <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
+    <Navbar expand="lg" className="bg-body-tertiary" sticky='top' >
       <Container>
-      <Navbar.Brand className='div-logo' href='#home'>
+      <Navbar.Brand className='div-logo'>
           
-          <img className='fonte' src={copia} alt=''/>
+          <img className='fonte' src={copia} alt='/'/>
           
           <p className='text-logo' style={{color:'#b22234'}}>Inglês sob medida</p>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href= "#home" className='ativo'>Home</Nav.Link>
-            <Nav.Link href = "#quem-sou-eu">Quem sou eu</Nav.Link>
-            <Nav.Link href = "#cursos">Cursos</Nav.Link>
-            <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
+            <Nav.Link><NavLink to='/'>Home</NavLink></Nav.Link>
+            <Nav.Link><NavLink to='/sobre-mim'>Quem sou eu</NavLink> </Nav.Link>
+            <Nav.Link><NavLink to='/cursos'>Nossos Cursos</NavLink></Nav.Link>
+            <Nav.Link href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Contate-me</Nav.Link>
             </Nav>
  </Navbar.Collapse>
       </Container>
