@@ -8,6 +8,7 @@ import Metodologia from '../../components/Metodologia/Metodologia'
 import Precos from '../../components/Precos/Precos'
 import Cursos from '../../components/Cursos/Cursos'
 import Comentarios from '../../components/Comentarios/Comentarios'
+import Materiais from  '../../components/Materiais/Materiais'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <Cursos></Cursos>
         <Precos></Precos>
         <Comentarios></Comentarios>
+        <Materiais></Materiais>
         <Footer></Footer>
 
       

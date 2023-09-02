@@ -1,0 +1,19 @@
+.materiais-geral{
+   display: flex;
+   flex-direction: column;
+   background-color: #c9bbbb;
+   height: 100%;
+   width: 100%;
+   padding: 50px 40px;
+}
+
+.materiais-geral>h1{
+    color: #3c3b6e;
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    line-height: 1.8;
+    border-bottom:2px solid #3c3b6e;
+    width: 300px;
+   
+        
+ }

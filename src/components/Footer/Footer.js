@@ -10,8 +10,7 @@ import youtube from '../Header/Img/youtube.png'
 
 const Footer = () => {
   return (
-    
-    
+        
     <footer className="footer">
     <div className="footer-content">
         <h2 className='contact'>Contact</h2>
@@ -24,8 +23,9 @@ const Footer = () => {
         <img className='img-sociais-footer' src={tiktok} alt=''/>
         <img className='img-sociais-footer' src={telegram} alt=''/>
       </div>
-
+          <a id='link-topo' href='#'>^</a>
     </div>
+    
     
     <div className='employment'>
         <p>Desenvolvido por Els Development</p>

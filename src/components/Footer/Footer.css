@@ -27,12 +27,29 @@
   width: 70px;
   cursor: pointer;
   
+  
 }
 
 .p-sociais-footer{
   font-weight: 700;
   font-size: 14px;
   margin-left: 20px;
+}
+
+#link-topo{
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #3c3b6e;
+  padding: 10px;
+  font-size: 2rem;
+  position: absolute;
+  right: 10px;
+  bottom: 100px;
+  
+  text-align: center;
+  font-weight: 700;
 }
 
 .employment{
