@@ -10,8 +10,7 @@ import youtube from '../Header/Img/youtube.png'
 
 const Footer = () => {
   return (
-    
-    
+        
     <footer className="footer">
     <div className="footer-content">
         <h2 id='contate-me' className='contact'>Contact</h2>
