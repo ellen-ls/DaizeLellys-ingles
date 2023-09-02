@@ -1,20 +1,22 @@
 import React from 'react';
 import Home from './pages/Home/Home.js';
 import Sobre from './pages/Sobre/Sobre.js'
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,BrowserRouter } from 'react-router-dom';
 
 
 
 function App() {
   return (
-    <div>
-     
+  
+     <BrowserRouter>
+     <div>
      <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/sobre-mim' element={<Sobre/>}/>
-     </Routes>
-          
-    </div>
+     <Route path="/" element={<Home/>} />
+     <Route path="/sobre-mim" element={<Sobre/>} />
+    </Routes>
+     </div>
+    </BrowserRouter>      
+  
   );
 }
 

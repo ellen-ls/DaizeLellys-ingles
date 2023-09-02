@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate,NavLink } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import './Sobre.css'
@@ -23,7 +23,7 @@ const Sobre = () => {
      
      <Navbar expand="lg" className="bg-body-tertiary" sticky='top'>
       <Container>
-      <Navbar.Brand className='div-logo' href='#home'>
+      <Navbar.Brand className='div-logo'>
           
           <img className='fonte' src={copia} alt=''/>
           
@@ -32,7 +32,10 @@ const Sobre = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href='/' onClick={()=>(navigate('/'))}>Home</Nav.Link>
+          <Nav.Link href='#' onClick={()=>(navigate('/'))}>Home</Nav.Link>
+          <Nav.Link onClick={()=>(navigate('/sobre-mim'))}>Quem sou eu</Nav.Link>
+            <Nav.Link href = "#cursos">Cursos</Nav.Link>
+            <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
             </Nav>
  </Navbar.Collapse>
       </Container>

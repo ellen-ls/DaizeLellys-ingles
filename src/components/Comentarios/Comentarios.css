@@ -1,5 +1,5 @@
 .comentarios{
-padding: 50px;
+padding: 50px 15px;
 }
 
 .container-comments{
@@ -23,8 +23,9 @@ padding: 50px;
 .hr-comments{
     margin-top: 50px;
     width: 100px;
-    margin-left: 80px;
-
+    margin-left: 140px;
 }
+
+
 
 
