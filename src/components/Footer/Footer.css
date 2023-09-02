@@ -10,7 +10,7 @@
     
 }
 
-.button{
+.button {
   width: 180px;  
   height: 60px;
   border-radius: 20px;
@@ -20,6 +20,16 @@
   font-size: 15px;
   margin: 20px 0;
     
+}
+.button a{
+ text-decoration: none;
+ color: #553939;  
+}
+.button:hover,.button a:hover{
+  text-decoration: none;
+  color: #553939;
+ background-color: #f1cccc;
+
 }
 
 .img-sociais-footer{
