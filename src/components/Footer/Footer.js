@@ -14,7 +14,7 @@ const Footer = () => {
     <footer className="footer">
     <div className="footer-content">
         <h2 className='contact'>Contact</h2>
-        <button className='button'>Clique aqui para assistir uma aula experimental</button>
+        <button className='button'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank' >Clique aqui para assistir uma aula experimental</a></button>
         
         <div>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>

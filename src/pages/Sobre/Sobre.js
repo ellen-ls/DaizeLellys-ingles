@@ -32,7 +32,7 @@ const Sobre = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link href='#' onClick={()=>(navigate('/'))}>Home</Nav.Link>
+          <Nav.Link><NavLink to='/'>Home</NavLink></Nav.Link>
           <Nav.Link ><NavLink to='/sobre-mim'>Quem sou eu</NavLink></Nav.Link>
             <Nav.Link><NavLink to='/cursos'>Nossos Cursos</NavLink></Nav.Link>
             <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
