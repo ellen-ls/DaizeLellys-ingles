@@ -52,8 +52,18 @@
 
 .nav-link{
     color: rgba(0,0,0,.55);
-    border-bottom:2px solid rgba(0,0,0,.55);
-   
+  
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+    border-bottom: 2px solid rgba(0,0,0,.55);
+}
+.nav-link a:hover{
+    text-decoration: none;
+    color: rgb(80, 76, 76);
+    
 }
 
 .img-sociais{
@@ -70,9 +80,11 @@
 
 
 .active {
+    text-decoration: none;
     color: #b22234!important; 
-    border-bottom: 2px solid #b22234;
+    border-bottom: 2px solid #b22234!important;
 }
+
 
 
 

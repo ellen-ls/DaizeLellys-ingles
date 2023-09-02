@@ -33,8 +33,8 @@ const Sobre = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Nav.Link href='#' onClick={()=>(navigate('/'))}>Home</Nav.Link>
-          <Nav.Link onClick={()=>(navigate('/sobre-mim'))}>Quem sou eu</Nav.Link>
-            <Nav.Link href = "#cursos">Cursos</Nav.Link>
+          <Nav.Link ><NavLink to='/sobre-mim'>Quem sou eu</NavLink></Nav.Link>
+            <Nav.Link><NavLink to='/cursos'>Nossos Cursos</NavLink></Nav.Link>
             <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
             </Nav>
  </Navbar.Collapse>

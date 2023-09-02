@@ -6,8 +6,6 @@ import conversa from '../Metodologia/Img/conversa.png'
 import estrangeiro from '../Metodologia/Img/estrangeiro.png'
 import './Cursos.css'
 
-
-
 const Cursos = () => {
   return (
     <div className='cursos'>

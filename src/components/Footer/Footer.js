@@ -14,7 +14,7 @@ const Footer = () => {
     
     <footer className="footer">
     <div className="footer-content">
-        <h2 id='contate-me' className='contact'>Contact</h2>
+        <h2 className='contact'>Contact</h2>
         <button className='button'>Clique aqui para assistir uma aula experimental</button>
         
         <div>
