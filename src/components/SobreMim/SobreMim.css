@@ -1,7 +1,7 @@
 .sobre {
     display: flex;
     flex-direction: column;
-    background-color: #9bacda;
+    background-color: #ccd1e0;
     height: 100%;
     width: 100%;
     padding: 50px 40px;
@@ -31,11 +31,15 @@
 .text {
    
     color: #b22234;
-    font-family: Inter;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
    
    
     
@@ -50,21 +54,21 @@
 }
 
 .button-sobre-mim{
-    background-color: #f9ebeb;
-    border: 2px solid #ffffff;
-    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #b22234;
+    border: none;
+    border-radius: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 200px;
     height: 84px;
+    margin-left: 40px;
 
 }
 .button-sobre-mim:hover{
    
-   color: #553939;
-   background-color: #f1cccc;
-  
-  }
-
-    margin-left: 40px;
+   color: #fff;
+   background-color: #72131e;
+   
 }
 

@@ -1,6 +1,7 @@
 .valores{
     padding:50px;
-    background-color:#9bacda;
+    background-color:#ccd1e0;
+    font-family: 'Rubik', sans-serif;
 }
 
 .valores>h1{
@@ -21,19 +22,22 @@
 
 .text-valores{
     font-weight: 700;
+    font-family: 'Rubik', sans-serif;
 }
 
 .link-valores{
     padding: 0.5rem 2.5rem;
-    background-color: #d9d9d95b;
-    border-radius: 5px;
+    background-color: #fff;
+    border-radius: 20px;
     text-decoration: none;
-    color: #AC4E4E;
+    color: #b22234;
     font-weight: 500;
+    
 
 }
 .link-valores:hover{
-    color:#e08c8c;
+    color:#fff;
+    background-color: #b22234;
 }
 
 

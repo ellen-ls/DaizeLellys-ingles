@@ -106,8 +106,9 @@ function Motivacao() {
                 </Row>
                 
             </Container>
+            <div className='div-button'>
             <button className='button-motivacao'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Clique aqui para agendar uma aula experimental</a></button>
-
+            </div>
 
 
         </div>
