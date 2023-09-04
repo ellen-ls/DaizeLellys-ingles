@@ -35,7 +35,7 @@ const Sobre = () => {
           <Nav.Link><NavLink to='/'>Home</NavLink></Nav.Link>
           <Nav.Link ><NavLink to='/sobre-mim'>Quem sou eu</NavLink></Nav.Link>
             <Nav.Link><NavLink to='/cursos'>Nossos Cursos</NavLink></Nav.Link>
-            <Nav.Link href = "#contate-me">Contate-me</Nav.Link>
+            <Nav.Link href = 'https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Contate-me</Nav.Link>
             </Nav>
  </Navbar.Collapse>
       </Container>

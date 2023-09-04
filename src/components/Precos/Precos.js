@@ -25,7 +25,7 @@ function Precos() {
                                 <Card.Text className='text-valores'>
                                     Semestre por 6x 397.00.
                                 </Card.Text>
-                                <Card.Link href="#" className='link-valores'>Contrate-me</Card.Link>
+                                <Card.Link href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+individual%21' target='blank' className='link-valores'>Contrate-me</Card.Link>
                            </Card.Body>
                      
                         </Card>
@@ -42,13 +42,13 @@ function Precos() {
                                 <Card.Text className='text-valores'>
                                     Semestre por 6x 297.00 por pessoa.
                                 </Card.Text>
-                                <Card.Link href="#" className='link-valores'>Contrate-me</Card.Link>
+                                <Card.Link href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+até+3+pessoas%21' target='blank' className='link-valores'>Contrate-me</Card.Link>
                             </Card.Body>
                            
                         </Card>
                     </Col>
                     <Col className='col-valores'>
-                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda' }} className='card-valores'>
+                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda'}} className='card-valores'>
                             <Card.Img variant="top" src={grupos} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos</Card.Title>
@@ -60,7 +60,7 @@ function Precos() {
                                <Card.Text className='text-valores'>
                                    Semestre por  6x 197.00 por pessoa.
                                 </Card.Text>
-                                <Card.Link href="#"className='link-valores' >Contrate-me</Card.Link>
+                                <Card.Link href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+5+ou+mais+pessoas%21' target='blank' className='link-valores' >Contrate-me</Card.Link>
                             </Card.Body>
                             
                         </Card>
@@ -78,7 +78,7 @@ function Precos() {
                                 <Card.Text className='text-valores'>
                                     A partir de 200,00.
                                 </Card.Text>
-                                <Card.Link href="#" className='link-valores'>Contrate-me</Card.Link>
+                                <Card.Link href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Gostaria+de+uma+consultoria+avaliativa%21' target='blank' className='link-valores'>Contrate-me</Card.Link>
                             </Card.Body>
                            
                         </Card>

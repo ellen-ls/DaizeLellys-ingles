@@ -37,10 +37,10 @@ const Header = () => {
       <div>
         <p className='p-sociais'>Me siga nas redes sociais:</p>
         
-        <img className='img-sociais' src={instagram} alt=''/>
-        <img className='img-sociais' src={youtube} alt=''/>
-        <img className='img-sociais' src={tiktok} alt=''/>
-        <img className='img-sociais' src={telegram} alt=''/>
+        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais' src={instagram} alt=''/></a>
+       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais' src={youtube} alt='' /></a>
+       <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais' src={tiktok} alt=''/></a>
+       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais' src={telegram} alt=''/></a>
       </div>
       </Navbar>
       
