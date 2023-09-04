@@ -1,7 +1,7 @@
 .metodologia{
    display: flex;
    flex-direction: column;
-   background-color: #ddb1b1;
+   background-color: #e6cfcf;
    height: 100%;
    width: 100%;
    padding: 50px 40px;
@@ -30,7 +30,7 @@
    
    .text1{
       color: #3c3b6e;
-      font-family: Inter;
+      font-family: 'Rubik', sans-serif;
       font-style: normal;
       font-size: 1.2rem;
       font-weight: 400;

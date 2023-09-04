@@ -13,7 +13,7 @@ function Precos() {
             <Container className='container-valores' style={{ width: '100%'}}>
                 <Row>
                     <Col>
-                        <Card style={{width:'14rem',height: '40rem', textAlign: 'center',border:'none', backgroundColor:'#9bacda'}} className='card-valores'>
+                        <Card style={{width:'14rem',height: '40rem', textAlign: 'center',border:'none', backgroundColor:'#ccd1e0'}} className='card-valores'>
                             <Card.Img variant="top" src={vip} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body className='body-precos'>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Individual </Card.Title>
@@ -31,7 +31,7 @@ function Precos() {
                         </Card>
                     </Col>
                     <Col className='col-valores'>
-                        <Card style={{width:'14rem', height: '40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda' }} className='card-valores'>
+                        <Card style={{width:'14rem', height: '40rem', textAlign: 'center', border:'none', backgroundColor:'#ccd1e0' }} className='card-valores'>
                             <Card.Img variant="top" src={grupo} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos até 3 pessoas</Card.Title>
@@ -48,7 +48,7 @@ function Precos() {
                         </Card>
                     </Col>
                     <Col className='col-valores'>
-                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda'}} className='card-valores'>
+                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda' }} className='card-valores'>
                             <Card.Img variant="top" src={grupos} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos</Card.Title>
@@ -66,7 +66,7 @@ function Precos() {
                         </Card>
                     </Col>
                     <Col className='col-valores'>
-                        <Card style={{width:'14rem', height: '45rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda' }} className='card-valores'>
+                        <Card style={{width:'14rem', height: '45rem', textAlign: 'center', border:'none', backgroundColor:'#ccd1e0' }} className='card-valores'>
                             <Card.Img variant="top" src={consultoria} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Consultoria avaliativa</Card.Title>
