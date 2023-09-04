@@ -22,7 +22,9 @@ function SobreMim() {
       segmento de Inglês através da Bíblia, com graduação em Letras, pós-graduação em Educação Global e Liderança Avançada
       no Haggai Institute nos EUA.Há mais de 25 anos, tenho ensinado centenas de pessoas a serem independentes no inglês 
       para realizarem seus sonhos.</p>
-      <button className='button-sobre-mim' onClick={()=>(navigate('/sobre-mim'))}>Saiba mais sobre mim</button>
+      <div className='div-button'>
+     <button className='button-sobre-mim' onClick={()=>(navigate('/sobre-mim'))}>Saiba mais sobre mim</button>
+      </div>
       </Col>
       
       </Row>
