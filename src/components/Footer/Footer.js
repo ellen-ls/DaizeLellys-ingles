@@ -18,10 +18,10 @@ const Footer = () => {
         
         <div>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
-        <img className='img-sociais-footer' src={instagram} alt=''/>
-        <img className='img-sociais-footer' src={youtube} alt=''/>
-        <img className='img-sociais-footer' src={tiktok} alt=''/>
-        <img className='img-sociais-footer' src={telegram} alt=''/>
+        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais-footer' src={instagram} alt=''/></a>
+       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais-footer' src={youtube} alt='' /></a>
+       <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais-footer' src={tiktok} alt=''/></a>
+       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais-footer' src={telegram} alt=''/></a>
       </div>
           <a id='link-topo' href='#'>^</a>
     </div>
