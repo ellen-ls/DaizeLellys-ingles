@@ -65,10 +65,13 @@
 
 }
 
-.button-sobre-mim:hover{
-   
-   color: #fff;
-   background-color: #861220;
+ .button-sobre-mim:hover{
+    color: #fff;
+    background-color: #72131e;
+ }  
+
+
   
-  }
+   
+
 
