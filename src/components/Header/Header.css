@@ -79,7 +79,7 @@
 }
 
 
-.active {
+.nav-link .active {
     text-decoration: none;
     color: #b22234!important; 
     border-bottom: 2px solid #b22234!important;
