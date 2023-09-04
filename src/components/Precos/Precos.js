@@ -48,7 +48,11 @@ function Precos() {
                         </Card>
                     </Col>
                     <Col className='col-valores'>
-                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda' }} className='card-valores'>
+<<<<<<<<< Temporary merge branch 1
+                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#9bacda'}} className='card-valores'>
+=========
+                        <Card style={{width:'14rem',height:'40rem', textAlign: 'center', border:'none', backgroundColor:'#ccd1e0' }} className='card-valores'>
+>>>>>>>>> Temporary merge branch 2
                             <Card.Img variant="top" src={grupos} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos</Card.Title>
