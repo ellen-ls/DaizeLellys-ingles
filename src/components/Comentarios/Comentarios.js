@@ -3,6 +3,9 @@ import { Carousel, Image} from 'react-bootstrap'
 import './Comentarios.css'
 import grace from './img/grace.png'
 import ellenerica from './img/ellenerica.png'
+import flaviana from './img/flaviana.png'
+import jaqueline from './img/jaqueline.png'
+import netto from './img/netto.png'
 
 function Comentarios() {
   return (
@@ -12,12 +15,12 @@ function Comentarios() {
              
         <Carousel className='comments-carrossel'>
       <Carousel.Item>
-      <Image variant="top" src={''}  style={{
+      <Image variant="top" src={jaqueline}  style={{
                             height:'5rem',
                             width:'5rem',
                             borderRadius:'50%',
-                             border:'3px solid #3c3b6e',
-                             margin:'20px 50px'}} />
+                            border:'3px solid #3c3b6e',
+                            margin:'20px 50px'}} />
         <h3>Jaqueline</h3>
         <h5>Espírito Santo</h5>
         <div className='comment-p'>
@@ -58,7 +61,7 @@ function Comentarios() {
           </div>
       </Carousel.Item>
       <Carousel.Item>
-      <Image variant="top" src={''}  style={{
+      <Image variant="top" src={flaviana}  style={{
                             height:'5rem',
                             width:'5rem',
                             borderRadius:'50%',
@@ -75,17 +78,19 @@ function Comentarios() {
         
       </Carousel.Item>
       <Carousel.Item>
-      <Image variant="top" src={''}  style={{
+      <Image variant="top" src={netto}  style={{
                             height:'5rem',
                             width:'5rem',
                             borderRadius:'50%',
                              border:'3px solid #3c3b6e',
                              margin:'20px 50px'}} />
-        <h3>Fábio</h3>
-        <h5>João Pessoa</h5>
+        <h3>José Netto</h3>
+        <h5>Campina Grande</h5>
         <div>
           <p className='comment-p'>
-            Aprender com a Bíblia é muito bom, me sinto seguro e aprendendo com muita facilidade em inglês.
+          Eu comecei o curso para aprimorar o meu inglês, o curso ajudou muito a melhorar minha fala e 
+          a minha escrita, assim como a minha comunicação que está mais natural, 
+          esse curso é muito bom e vai me ajudar a realizar o sonho de estudar no exterior.
           </p>
         </div>
       </Carousel.Item>
