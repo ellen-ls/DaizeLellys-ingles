@@ -29,9 +29,9 @@
    }
 
    .img-biblia2{
-      width: 300px;
-     
-      margin-top: 40px;
+      display: flex;
+      width: 320px;
+      margin: 50px auto;
       
    }
    
