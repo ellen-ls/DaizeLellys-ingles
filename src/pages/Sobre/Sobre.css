@@ -13,7 +13,6 @@
 
 .geral{
     
-    
     width: 50%;
     padding-top: 100px;
     justify-content: center;
@@ -23,7 +22,7 @@
 
 .sobre-mim{
     width: 350px;
-    height: 300px;
+    height: 450px;
     border: 3px solid #3c3b6e;
     border-radius: 5px;
 }

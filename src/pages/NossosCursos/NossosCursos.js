@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
-import inglesBiblia from '../../components/Metodologia/Img/ingles-atraves-da-biblia.jpeg';
+import inglesBiblia from '../../components/Metodologia/Img/livro-biblia(copia).png';
 import daizeBiblia from '../../components/Metodologia/Img/daize-biblia.jpeg';
-import livros from '../../components/Metodologia/Img/livros-biblia.jpeg';
+import celular from '../../components/Metodologia/Img/inglesBiblia-celular1.png';
 import logo from '../../components/Metodologia/Img/LOGO INGLÊS ATRAVES DA BÍBLIA COLORIDO1.png';
 import negocios from '../../components/Metodologia/Img/negocios.png'
 import musica from '../../components/Metodologia/Img/musica.jpeg'
@@ -81,7 +81,7 @@ function NossosCursos() {
             </p>
          
        </Col>  
-       <Col><img className='img-biblia' src={livros} alt=''/></Col>
+       <Col><img className='img-biblia2' src={celular} alt=''/></Col>
     </Row>    
     
      
@@ -128,7 +128,7 @@ function NossosCursos() {
                 <Row className='row-container'>
                       
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0', borderRadius:'10px', backgroundColor:'#b2223381'}} className='card-cursos'>
+                        <Card style={{ width: '15rem',height:'31rem', textAlign:'center', margin:'10px 0 20px 0', borderRadius:'10px', backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
                             <Card.Img variant="top" src={negocios} style={{height:'10rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês para negócios</Card.Title>
@@ -140,7 +140,7 @@ function NossosCursos() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px',backgroundColor:'#3c3b6e6e' }} className='card-cursos'>
+                        <Card style={{ width: '15rem',height:'31rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px',backgroundColor:'#3c3b6e', color:'#fff'  }} className='card-cursos'>
                             <Card.Img variant="top" src={musica} style={{height:'10rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês com música</Card.Title>
@@ -153,7 +153,7 @@ function NossosCursos() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px', backgroundColor:'#b2223381' }} className='card-cursos'>
+                        <Card style={{ width: '15rem',height:'31rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px', backgroundColor:'#b22234', color:'#fff'  }} className='card-cursos'>
                             <Card.Img variant="top" src={conversa} style={{height:'10rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Conversation classes</Card.Title>
@@ -168,7 +168,7 @@ function NossosCursos() {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '15rem',height:'30rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px',backgroundColor:'#3c3b6e6e' }} className='card-cursos'>
+                        <Card style={{ width: '15rem',height:'31rem', textAlign:'center', margin:'10px 0 20px 0',borderRadius:'10px',backgroundColor:'#3c3b6e', color:'#fff'  }} className='card-cursos'>
                             <Card.Img variant="top" src={estrangeiro} style={{height:'10rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Português para estrangeiros</Card.Title>

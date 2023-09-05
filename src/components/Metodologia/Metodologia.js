@@ -1,10 +1,10 @@
 import React from 'react'
 import './Metodologia.css'
 import { Col, Container, Row } from 'react-bootstrap';
-import inglesBiblia from './Img/ingles-atraves-da-biblia.jpeg';
+import inglesBiblia from './Img/livro-biblia(copia).png';
 import daizeBiblia from './Img/daize-biblia.jpeg';
-import livros from './Img/livros-biblia.jpeg'
 import logo from './Img/LOGO INGLÊS ATRAVES DA BÍBLIA COLORIDO1.png';
+import celular from './Img/inglesBiblia-celular1.png'
 
 
 
@@ -45,7 +45,8 @@ contexto culturalmente relevante, e também desenvolverá suas habilidades de le
          </p>
       
     </Col>  
-    <Col><img className='img-biblia' src={livros} alt=''/></Col>
+    
+    <Col><img className='img-biblia2' src={celular} alt=''/></Col>
  </Row>    
  
   

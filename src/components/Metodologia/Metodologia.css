@@ -11,6 +11,7 @@
    .logo-biblia{
     width: 330px;
     
+    
    }
         
    .metodologia>h1{
@@ -24,8 +25,14 @@
    .img-biblia{
       width: 300px;
       margin-top: 60px;
-      border: 2px solid #3c3b6e;
-      border-radius: 5px;
+        
+   }
+
+   .img-biblia2{
+      width: 300px;
+     
+      margin-top: 40px;
+      
    }
    
    .text1{
@@ -40,9 +47,8 @@
 
    .img-biblia1{
       width: 300px;
-      border: 2px solid #b22234;
-      border-radius: 5px;
       margin-top: 50px;
+      border-radius: 20px;
       
    }
 
