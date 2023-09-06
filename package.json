@@ -16,7 +16,7 @@
     "surge": "^0.23.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ellen-ls.github.io/Freela-SiteAulaIngles",
+  "homepage": "https://ellen-ls.github.io/DaizeLellys-ingles",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
