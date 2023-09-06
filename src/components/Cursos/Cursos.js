@@ -21,8 +21,8 @@ const Cursos = () => {
                             <Card.Body>
                                 <Card.Title style={{fontSize:'18px'}} className='linha'>Inglês para negócios</Card.Title>
                                 <Card.Text style={{fontSize:'14px'}}>
-                                Aulas síncronas, formato online, em grupo de até 6 pessoas, suporte com o professor, cronograma de atividades semanal, 
-                                feedback semestral e certificado. Aulas de 60 minutos de duração, 1 ou 2 vezes por semana.
+                                Aulas síncronas, formato online, em grupo de até 6 pessoas, suporte com o professor, cronograma de atividades semanal, feedback semestral e certificado. 
+                                Aulas de 60 minutos de duração, 1 ou 2 vezes por semana.
                                </Card.Text>
                             </Card.Body>
                         </Card>
