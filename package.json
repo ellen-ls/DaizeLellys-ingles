@@ -16,17 +16,15 @@
     "surge": "^0.23.1",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "autoprefixer": "^10.4.14"
+  }
   "homepage": "https://ellen-ls.github.io/DaizeLellys-ingles",
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
-    
-    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
