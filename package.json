@@ -16,16 +16,14 @@
     "surge": "^0.23.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ellen-ls.github.io/DaizeLellys-ingles",
+  "homepage": "https://daizelellys.com/",
   
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
-    
+    "eject": "react-scripts eject"
+       
     
   },
   "eslintConfig": {
@@ -45,8 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
+  
   }
 }

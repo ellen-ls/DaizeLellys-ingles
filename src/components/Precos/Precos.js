@@ -9,7 +9,7 @@ import consultoria from './img/consultoria.png'
 function Precos() {
     return (
         <div className='valores'>
-            <h1>Preços</h1>
+            <h1>Investimento</h1>
             <Container className='container-valores' style={{ width: '100%'}}>
                 <Row>
                     <Col>

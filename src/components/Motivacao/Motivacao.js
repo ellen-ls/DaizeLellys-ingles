@@ -16,8 +16,11 @@ import { Figure, Image } from 'react-bootstrap';
 function Motivacao() {
     return (
         <div className='motivacao'>
-            <h3>QUAL SUA MOTIVAÇÃO?</h3>
+            
             <h1>Por que falar inglês?</h1>
+
+            <p className='text1'>Nossa abordagem personalizada começa com uma avaliação cuidadosa do seu nível de conhecimento e dos seus interesses pessoais. 
+            Com base nisso, criamos aulas sob medida para atender ao seu estilo de aprendizado</p>
             <Container className='container-motivacao'>
                 <Row className='row-container'>
                     <Col>
@@ -106,6 +109,7 @@ function Motivacao() {
                 </Row>
                 
             </Container>
+            
             <div className='div-button'>
             <button className='button-motivacao'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Clique aqui para agendar uma aula experimental</a></button>
             </div>

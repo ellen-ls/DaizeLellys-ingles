@@ -6,12 +6,8 @@
     width: 100%;
     padding: 50px 40px;
 }
+
 .sobre>h1{
-    font-family: 'Rowdies', cursive;
-    font-size: 20px;
-    color: #b22234;
-}
-.sobre>h2{
     font-family: 'Rowdies', cursive;
     font-size: 30px;
     color: #3c3b6e;

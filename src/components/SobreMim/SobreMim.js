@@ -11,16 +11,21 @@ function SobreMim() {
   const navigate = useNavigate()
   return (
     <div id='quem-sou-eu' className='sobre'>
-         <h1>QUEM É SUA TEACHER</h1>
-     <h2>Sobre mim</h2>
+        
+     <h1>Sobre mim</h1>
  
     <Container className='text-sobre'>
       <Row>
         <Col><img className='img-daize' src={daize} alt=''/></Col>
         <Col> <p className='text'>Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
-      primeiro contato com o inglês aos nove anos, com uma amiga canadense. Sou Professora de Inglês, Mentora e Líder no 
-      segmento de Inglês através da Bíblia, com graduação em Letras, pós-graduação em Educação Global e Liderança Avançada
-      no Haggai Institute nos EUA.Há mais de 25 anos, tenho ensinado centenas de pessoas a serem independentes no inglês 
+      primeiro contato com o inglês aos nove anos, com uma amiga canadense. 
+      <br></br>
+      
+      Sou Professora de Inglês, Mentora e Líder no segmento de Inglês através da Bíblia, com graduação em Letras, pós-graduação em Educação Global e Liderança Avançada
+      no Haggai Institute nos EUA.
+      <br></br>
+      
+      Há mais de 25 anos, tenho ensinado centenas de pessoas a serem independentes no inglês 
       para realizarem seus sonhos.</p>
       <div className='div-button'>
      <button className='button-sobre-mim' onClick={()=>(navigate('/sobre-mim'))}>Saiba mais sobre mim</button>
