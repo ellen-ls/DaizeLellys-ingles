@@ -48,8 +48,8 @@ const Sobre = () => {
         <img className='img-sociais' src={telegram} alt=''/>
       </div>
       </Navbar>
-    
-    <Container className='geral'>
+    <div className='geral'>
+    <Container>
       <Row>
         <Col className='coluna'><img className='sobre-mim' src={daizeSobre} alt=''></img></Col>
         <Col>
@@ -97,6 +97,7 @@ const Sobre = () => {
       
       
     </Container>
+    </div>
     </div>
   )
 }
