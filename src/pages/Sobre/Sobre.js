@@ -18,9 +18,9 @@ const Sobre = () => {
     <Header></Header>
     
     <Container className='geral'>
+    
       <Row>
         <Col className='coluna'><img className='sobre-mim' src={daizeSobre} alt=''></img></Col>
-
         <Col>
         <h2 className='titulo'>Coordenadora do Programa de Inglês</h2>
         <p className='texto'>Como Coordenadora pedagógica do Programa de Inglês, pude acompanhar e avaliar o ensino e o processo de aprendizagem, 
@@ -67,6 +67,7 @@ const Sobre = () => {
       
     </Container>
     </div>
+   
   )
 }
 
