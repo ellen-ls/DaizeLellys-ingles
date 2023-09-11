@@ -9,6 +9,7 @@ import Precos from '../../components/Precos/Precos'
 import Cursos from '../../components/Cursos/Cursos'
 import Comentarios from '../../components/Comentarios/Comentarios'
 import Materiais from  '../../components/Materiais/Materiais'
+import { Youtube } from '../../components/Youtube/Youtube'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Motivacao></Motivacao>
         <Metodologia></Metodologia>
         <Cursos></Cursos>
+        <Youtube></Youtube>
         <Precos></Precos>
         <Comentarios></Comentarios>
         <Materiais></Materiais>
