@@ -2,7 +2,6 @@ import React from 'react'
 import './Metodologia.css'
 import { Col, Container, Row } from 'react-bootstrap';
 import inglesBiblia from './Img/livro-biblia(copia).png';
-import daizeBiblia from './Img/daize-biblia.jpeg';
 import logo from './Img/LOGO INGLÊS ATRAVES DA BÍBLIA COLORIDO1.png';
 import daize from './Img/daize-ingles1.png'
 
