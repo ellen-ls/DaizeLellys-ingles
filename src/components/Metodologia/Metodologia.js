@@ -89,16 +89,6 @@ contexto culturalmente relevante, e também desenvolverá suas habilidades de le
   
 </Container>
 
-<Container className='text-biblia'>
-      <Row>
-        
-        <Col> <p className='text2'>APRENDA A LÍNGUA MAIS FALADA DO MUNDO ATRAVÉS DO LIVRO MAIS LIDO DO PLANETA!</p>
-      
-    </Col> 
-    <Col><img className='img-biblia1' src={daizeBiblia} alt=''/></Col> 
- </Row>    
- 
-</Container>
 </div>
     
   )

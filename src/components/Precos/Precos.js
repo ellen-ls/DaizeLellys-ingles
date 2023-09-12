@@ -17,7 +17,7 @@ function Precos() {
                             <Card.Img variant="top" src={vip} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body className='body-precos'>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Individual </Card.Title>
-                                <Card.Text style={{ fontSize: '15px' }}>
+                                <Card.Text style={{ fontSize: '15px', textAlign:'left' }}>
                                     Aulas síncronas, formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
 
@@ -35,7 +35,7 @@ function Precos() {
                             <Card.Img variant="top" src={grupo} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos até 3 pessoas</Card.Title>
-                                <Card.Text style={{ fontSize: '15px' }}>
+                                <Card.Text style={{ fontSize: '15px', textAlign:'left' }}>
                                     Aulas síncronas, formato online,  até 3 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
                                 </Card.Text>
@@ -54,7 +54,7 @@ function Precos() {
                             <Card.Img variant="top" src={grupos} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Grupos</Card.Title>
-                                <Card.Text style={{ fontSize: '15px' }}>
+                                <Card.Text style={{ fontSize: '15px', textAlign:'left' }}>
                                     Aulas síncronas, formato online, grupos de 5 a 10 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
 
@@ -72,7 +72,7 @@ function Precos() {
                             <Card.Img variant="top" src={consultoria} style={{ height: '15rem', borderRadius:'10px'}} />
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px' }} className='linha'>Consultoria avaliativa</Card.Title>
-                                <Card.Text style={{ fontSize: '15px' }}>
+                                <Card.Text style={{ fontSize: '15px', textAlign:'left' }}>
                                     Pense numa conversa só pra você. A gente chama de Consultoria Avaliativa. Ela ajuda a entender o que você precisa e montar um plano de estudo perfeito.
                                     Com isso, os resultados que você quer,estarão ao seu alcance como nunca antes.Deixe-nos ajudá-lo a trilhar o caminho para o sucesso que você busca.
 
