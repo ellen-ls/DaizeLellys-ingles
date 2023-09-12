@@ -12,15 +12,15 @@ export const Youtube = () => {
 
     const [videos, setVideos] = useState([])
 
-    // useEffect(() => {
-    //     fetch(fetchUrl).then((response) => response.json()).then((resJson) => {
-    //         const result = resJson.items.map(doc => ({
-    //             ...doc,
-    //             videoLink: "https://www.youtube.com/embed/" + doc.id.videoId
-    //         }))
-    //         setVideos(result)
-    //     })
-    // }, [])
+    useEffect(() => {
+        fetch(fetchUrl).then((response) => response.json()).then((resJson) => {
+            const result = resJson.items.map(doc => ({
+                ...doc,
+                videoLink: "https://www.youtube.com/embed/" + doc.id.videoId
+            }))
+            setVideos(result)
+        })
+    }, [])
 
     return (
         <div className='youtube-sessao'>
