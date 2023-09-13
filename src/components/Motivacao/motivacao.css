@@ -12,11 +12,6 @@
    width: 300px;
 }
 
-.container-motivacao{
-   margin-top: 50px;
-   
-      
-}
 
 .row-container{
   
@@ -30,6 +25,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   margin-top: 80px;
 }
 
 .button-motivacao{
@@ -54,6 +50,7 @@
 
 .button-motivacao:hover{
    background-color: #b22234;
+   border: 2px solid #ffffff;
 }
 .button-motivacao:hover a{
    color: #ffffff;

@@ -18,10 +18,10 @@ const Footer = () => {
         
         <div>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
-        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais-footer' src={instagram} alt=''/></a>
-       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais-footer' src={youtube} alt='' /></a>
-       <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais-footer' src={tiktok} alt=''/></a>
-       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais-footer' src={facebook} alt=''/></a>
+        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/' target='blank'><img className='img-sociais-footer' src={instagram} alt=''/></a>
+       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa' target='blank'><img className='img-sociais-footer' src={youtube} alt='' /></a>
+       <a href='https://www.tiktok.com/@daizelellys_ingles' target='blank'><img className='img-sociais-footer' src={tiktok} alt=''/></a>
+       <a href='https://www.facebook.com/daizelellys'target='blank'><img className='img-sociais-footer' src={facebook} alt=''/></a>
       </div>
           <a id='link-topo' href='#home' >^</a>
     </div>

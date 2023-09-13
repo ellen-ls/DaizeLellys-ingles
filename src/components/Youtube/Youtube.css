@@ -1,5 +1,5 @@
 .youtube-sessao{
-    background-color: #b22234;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -10,9 +10,9 @@
 .youtube-sessao h1{
     font-family: 'Rowdies', cursive;
     font-size: 30px;
-    color: #ffffff;
+    color: #b22234;
     line-height: 1.8;
-    border-bottom:2px solid #ffffff;
+    border-bottom:2px solid #b22234;
     width: 320px;
     margin-bottom: 50px;
 }
@@ -27,13 +27,13 @@
 .youtube-videos span{
     font-weight: 700;
     text-align: center;
-    color: #ffffff;
+    color: #b22234;
 }
 .button-youtube{
 color: #b22234;
 font-weight: 700;
 background-color: #ffffff;
-border: none;
+border: 2px solid #b22234;
 border-radius: 40px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 width: 200px;
@@ -43,7 +43,9 @@ margin-top: 50px;
 }
 
 .button-youtube:hover{
+border: none;
 color: #fff;
 background-color: #72131e;
+
 
 }  
