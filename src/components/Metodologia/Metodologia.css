@@ -1,7 +1,7 @@
 .metodologia{
    display: flex;
    flex-direction: column;
-   background-color: #e6cfcf;
+   background-color: #b22234;
    height: 100%;
    width: 100%;
    padding: 50px 40px;
@@ -15,11 +15,12 @@
    }
         
    .metodologia>h1{
-      color: #3c3b6e;
+      color: #ffffff;
       font-family: 'Rowdies', cursive;
       font-size: 30px;
       line-height: 1.8;
-      border-bottom:2px solid #3c3b6e;
+      border-bottom:2px solid #ffffff;
+      width: 200px;
       
    }
    .img-biblia{
@@ -36,7 +37,7 @@
    }
    
    .text1{
-      color: #3c3b6e;
+      color: #ffffff;
       font-family: 'Rubik', sans-serif;
       font-style: normal;
       font-size: 1.2rem;
@@ -45,6 +46,7 @@
      
    }
 
+ 
    .img-biblia1{
       width: 300px;
       margin-top: 50px;
@@ -61,3 +63,28 @@
       margin-top: 50px;
      
    }
+
+   .button-ingles{
+      color: #b22234;
+      font-weight: 700;
+      display: inline-block;
+      background-color: #ffffff;
+      border: 2px solid #b22234;
+      border-radius: 40px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      width: 200px;
+      height: 84px;
+      margin-left: 30px;
+   }
+
+   .button-ingles a{
+      text-decoration: none;
+      color: #b22234;
+        
+   }
+   
+   .button-ingles:hover{
+      background-color: #b22234;
+      color: #ffffff;
+   }
+   

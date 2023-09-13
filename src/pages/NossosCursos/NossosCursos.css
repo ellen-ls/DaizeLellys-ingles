@@ -1,0 +1,17 @@
+.nossos-cursos{
+    display: flex;
+    flex-direction: column;
+    background-color: #b22234;
+    height: 100%;
+    width: 100%;
+    padding: 50px 40px;
+}
+
+.nossos-cursos>h1{
+    color: #ffffff;
+    font-family: 'Rowdies', cursive;
+    font-size: 30px;
+    line-height: 1.8;
+    border-bottom:2px solid #ffffff;
+    
+}
