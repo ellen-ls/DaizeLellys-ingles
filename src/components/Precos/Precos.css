@@ -1,16 +1,16 @@
 .valores{
     padding:50px;
-    background-color:#ccd1e0;
+    background-color:#3c3b6e;
     font-family: 'Rubik', sans-serif;
 }
 
 .valores>h1{
-    color: #b22234;
+    color: #ffffff;
     font-family: 'Rowdies', cursive;
     font-size: 30px;
     line-height: 1.8;
-    border-bottom:2px solid #b22234;
-    width: 250px;
+    border-bottom:2px solid #ffffff;
+    width: 180px;
 }
 
 .container-valores{

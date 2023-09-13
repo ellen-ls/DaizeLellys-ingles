@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-import telegram from '../Header/Img/telegram.png'
+import facebook from '../Header/Img/facebook.png'
 import instagram from '../Header/Img/instagram.png'
 import tiktok from '../Header/Img/tiktok.png'
 import youtube from '../Header/Img/youtube.png'
@@ -21,7 +21,7 @@ const Footer = () => {
         <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais-footer' src={instagram} alt=''/></a>
        <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais-footer' src={youtube} alt='' /></a>
        <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais-footer' src={tiktok} alt=''/></a>
-       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais-footer' src={telegram} alt=''/></a>
+       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais-footer' src={facebook} alt=''/></a>
       </div>
           <a id='link-topo' href='#home' >^</a>
     </div>

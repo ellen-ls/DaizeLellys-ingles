@@ -34,5 +34,6 @@
 .linha{
     
 line-height: 1.8;
-border-bottom: 1px solid #0c0505;
+border-bottom: 1px solid #fcfcfc;
+padding-bottom: 10px;
    }

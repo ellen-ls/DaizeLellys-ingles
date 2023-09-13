@@ -3,7 +3,7 @@ import './Header.css'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Nav} from 'react-bootstrap';
-import telegram from './Img/telegram.png'
+import facebook from './Img/facebook.png'
 import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
@@ -40,7 +40,7 @@ const Header = () => {
         <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais' src={instagram} alt=''/></a>
        <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais' src={youtube} alt='' /></a>
        <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais' src={tiktok} alt=''/></a>
-       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais' src={telegram} alt=''/></a>
+       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais' src={facebook} alt=''/></a>
       </div>
       </Navbar>
       
