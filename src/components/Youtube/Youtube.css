@@ -20,15 +20,19 @@
 .youtube-videos{
  display: flex;
  flex-direction: column;
+ justify-content: center;
  align-items: center;
-
+ padding-top: 50px;
 }
 
 .youtube-videos span{
-    font-weight: 700;
-    text-align: center;
+    padding-top: 10px;
+    font-family: 'Rowdies', cursive;
     color: #b22234;
+    font-size: 20px;
 }
+
+
 .button-youtube{
 color: #b22234;
 font-weight: 700;
