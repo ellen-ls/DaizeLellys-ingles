@@ -22,7 +22,7 @@ const Header = () => {
           
           <img className='fonte' src={copia} alt='/'/>
           
-          <p className='text-logo' style={{color:'#b22234'}}>Inglês sob medida</p>
+          <p className='text-logo' style={{color:'#b22234', fontWeight:'bold'}}>Inglês "fora da caixa"</p>
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
@@ -37,10 +37,10 @@ const Header = () => {
       <div>
         <p className='p-sociais'>Me siga nas redes sociais:</p>
         
-        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/'><img className='img-sociais' src={instagram} alt=''/></a>
-       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa'><img className='img-sociais' src={youtube} alt='' /></a>
-       <a href='https://www.tiktok.com/@daizelellys_ingles'><img className='img-sociais' src={tiktok} alt=''/></a>
-       <a href='https://web.telegram.org/k/#@daizelellys_inglespelabiblia'><img className='img-sociais' src={facebook} alt=''/></a>
+        <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/' target='blank'><img className='img-sociais' src={instagram} alt=''/></a>
+       <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa' target='blank'><img className='img-sociais' src={youtube} alt='' /></a>
+       <a href='https://www.tiktok.com/@daizelellys_ingles' target='blank'><img className='img-sociais' src={tiktok} alt=''/></a>
+       <a href='https://www.facebook.com/daizelellys' target='blank'><img className='img-sociais' src={facebook} alt=''/></a>
       </div>
       </Navbar>
       

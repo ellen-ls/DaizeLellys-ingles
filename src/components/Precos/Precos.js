@@ -18,7 +18,7 @@ function Precos() {
                             <Card.Body className='body-precos'>
                                 <Card.Title style={{ fontSize: '18px', color:'#ffffff' }} className='linha'>VIP</Card.Title>
                                 <Card.Text style={{ fontSize: '15px', textAlign:'left', color:'#ffffff' }}>
-                                    Aulas síncronas, formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
+                                    Aulas ao vivo (síncronas), formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
 
                                 </Card.Text>
@@ -36,7 +36,7 @@ function Precos() {
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px', color:'#ffffff' }} className='linha'>Grupos até 3 pessoas</Card.Title>
                                 <Card.Text style={{ fontSize: '15px', textAlign:'left', color:'#ffffff' }}>
-                                    Aulas síncronas, formato online,  até 3 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
+                                    Aulas ao vivo (síncronas), formato online,  até 3 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
                                 </Card.Text>
                                 <Card.Text className='text-valores' style={{color:'#ffffff'}}>
@@ -55,7 +55,7 @@ function Precos() {
                             <Card.Body>
                                 <Card.Title style={{ fontSize: '18px',color:'#ffffff' }} className='linha'>Grupos</Card.Title>
                                 <Card.Text style={{ fontSize: '15px', textAlign:'left',color:'#ffffff' }}>
-                                    Aulas síncronas, formato online, grupos de 5 a 10 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
+                                    Aulas ao vivo (síncronas), formato online, grupos de 5 a 10 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                                     Aulas de 60 minutos de duração.
 
                                 </Card.Text>

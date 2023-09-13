@@ -13,5 +13,45 @@
     font-size: 30px;
     line-height: 1.8;
     border-bottom:2px solid #ffffff;
+    width: 45vw;
     
 }
+
+.img-biblia{
+    width: 300px;
+    margin-top: 60px;
+ }
+
+ .img-biblia2{
+    display: flex;
+    width: 320px;
+    border-radius: 20px;
+ }
+ 
+ .text1{
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 50px;
+   
+ }
+ 
+
+ .img-biblia1{
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+ }
+
+ .text2{
+    color: #b22234;
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 50px;
+   
+ }
