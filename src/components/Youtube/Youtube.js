@@ -6,14 +6,14 @@ import './Youtube.css'
 const API = "AIzaSyDazRmTfpmJNYnZ5i7HSUG5bPY7HGqolpM"
 const channelId = "UC6VykeQ2wrgRf-1dWfnf4gw"
 
-let fetchUrl = `https://www.googleapis.com/youtube/v3/search?key=${API}&channelId=${channelId}&part=snippet,id&order=date&maxResults=3`
+let fetchUrl = `https://youtube.googleapis.com/youtube/v3/search?part=snippet,id&channelId=${channelId}&maxResults=3&order=date&key=${API}`
 
 export const Youtube = () => {
 
     const [videos, setVideos] = useState([])
 
-    useEffect(() => {
-        fetch(fetchUrl).then((response) => response.json()).then((resJson) => {
+     useEffect(() => {
+       fetch(fetchUrl).then((response) => response.json()).then((resJson) => {
             const result = resJson.items.map(doc => ({
                 ...doc,
                 videoLink: "https://www.youtube.com/embed/" + doc.id.videoId
@@ -22,6 +22,7 @@ export const Youtube = () => {
         })
     }, [])
 
+    console.log(videos)
     return (
         <div className='youtube-sessao'>
             <h1>Últimas do Meu Canal</h1>
