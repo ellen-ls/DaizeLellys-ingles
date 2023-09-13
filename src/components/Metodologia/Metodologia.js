@@ -1,7 +1,7 @@
 import React from 'react'
 import './Metodologia.css'
-import { Col, Container, Row } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import { Col, Container, Row } from 'react-bootstrap';
 
 
 
@@ -42,7 +42,7 @@ const Metodologia = () => {
 
 </div>
     
-  )
+)
 }
 
 export default Metodologia
