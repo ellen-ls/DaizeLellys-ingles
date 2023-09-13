@@ -19,7 +19,7 @@ function Motivacao() {
             
             <h1>Por que falar inglês?</h1>
 
-            <p className='text1'>Nossa abordagem personalizada começa com uma avaliação cuidadosa do seu nível de conhecimento e dos seus interesses pessoais. 
+            <p className='text-motivacao'>Nossa abordagem personalizada começa com uma avaliação cuidadosa do seu nível de conhecimento e dos seus interesses pessoais. 
             Com base nisso, criamos aulas sob medida para atender ao seu estilo de aprendizado</p>
             <Container className='container-motivacao'>
                 <Row className='row-container'>
