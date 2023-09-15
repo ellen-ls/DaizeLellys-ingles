@@ -6,6 +6,8 @@ import ellenerica from './img/ellenerica.png'
 import flaviana from './img/flaviana.png'
 import jaqueline from './img/jaqueline.png'
 import netto from './img/netto.png'
+import joalisson from './img/joalisson.png'
+import leonardo from './img/leonardo.png'
 
 function Comentarios() {
   return (
@@ -16,8 +18,8 @@ function Comentarios() {
         <Carousel className='comments-carrossel'>
       <Carousel.Item>
       <Image variant="top" src={jaqueline}  style={{
-                            height:'5rem',
-                            width:'5rem',
+                            height:'10rem',
+                            width:'10rem',
                             borderRadius:'50%',
                             border:'3px solid #3c3b6e',
                             margin:'20px 50px'}} />
@@ -30,8 +32,8 @@ function Comentarios() {
       </Carousel.Item>
       <Carousel.Item>
       <Image variant="top" src={grace}  style={{
-                            height:'5rem',
-                            width:'5rem',
+                            height:'10rem',
+                            width:'10rem',
                             borderRadius:'50%',
                              border:'3px solid #3c3b6e',
                              margin:'20px 50px'}} />
@@ -46,8 +48,8 @@ function Comentarios() {
       </Carousel.Item>
       <Carousel.Item>
       <Image variant="top" src={ellenerica}  style={{
-                            height:'5rem',
-                            width:'5rem',
+                            height:'10em',
+                            width:'10rem',
                             borderRadius:'50%',
                              border:'3px solid #3c3b6e',
                              margin:'20px 50px'}} />
@@ -62,8 +64,8 @@ function Comentarios() {
       </Carousel.Item>
       <Carousel.Item>
       <Image variant="top" src={flaviana}  style={{
-                            height:'5rem',
-                            width:'5rem',
+                            height:'10rem',
+                            width:'10rem',
                             borderRadius:'50%',
                              border:'3px solid #3c3b6e',
                              margin:'20px 50px'}} />
@@ -79,18 +81,54 @@ function Comentarios() {
       </Carousel.Item>
       <Carousel.Item>
       <Image variant="top" src={netto}  style={{
-                            height:'5rem',
-                            width:'5rem',
+                            height:'10rem',
+                            width:'10rem',
                             borderRadius:'50%',
                              border:'3px solid #3c3b6e',
                              margin:'20px 50px'}} />
         <h3>José Netto</h3>
         <h5>Campina Grande</h5>
-        <div>
-          <p className='comment-p'>
+        <div className='comment-p'>
+          <p >
           Eu comecei o curso para aprimorar o meu inglês, o curso ajudou muito a melhorar minha fala e 
           a minha escrita, assim como a minha comunicação que está mais natural, 
           esse curso é muito bom e vai me ajudar a realizar o sonho de estudar no exterior.
+          </p>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Image variant="top" src={joalisson}  style={{
+                            height:'10rem',
+                            width:'10rem',
+                            borderRadius:'50%',
+                             border:'3px solid #3c3b6e',
+                             margin:'20px 50px'}} />
+        <h3>Joalisson Douglas </h3>
+        <h5>João Pessoa</h5>
+        <div className='comment-p'>
+          <p >
+          As aulas estão me ajudando muito a ganhar confiança para falar inglês. 
+          As aulas são dinâmicas e são uma oportunidade fantástica de prática e aprendizagem do idioma. 
+          Recomendo para todos que buscam aprender ou aprimorar o seu inglês.
+          </p>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+      <Image variant="top" src={leonardo}  style={{
+                            height:'10rem',
+                            width:'10rem',
+                            borderRadius:'50%',
+                             border:'3px solid #3c3b6e',
+                             margin:'20px 50px'}} />
+        <h3>Leonardo Albuquerque </h3>
+        <h5>Cabedelo</h5>
+        <div className='comment-p'>
+          <p >
+          Primeiramente quero agradecer pela teacher que és. Vejo em você uma teacher que ensina com amor a língua inglesa, 
+          que ama o que faz, e tudo isso é transmitido para nós alunos.Falando sobre as aulas, sim, você está ajudando bastante a
+          língua que muitos acham que é difícil, mas de uma forma simples e eficaz você mostra que somos capazes sim, porque além de teacher,
+          você é amiga e nos dá conselhos, como no nosso primeiro dia de encontro. Quem tem um teacher igual a você, ganhou na loteria.
+          Good bless you. Kiss.
           </p>
         </div>
       </Carousel.Item>
