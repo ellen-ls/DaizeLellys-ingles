@@ -8,13 +8,10 @@
 .img-carrossel{
     width: 100%;
     border-bottom:10px solid #b22234;
-   
 }
 
 .dark .carousel-control-prev-icon,
 .dark .carousel-control-next-icon{
     display: none;
-   
-    
 }
 
