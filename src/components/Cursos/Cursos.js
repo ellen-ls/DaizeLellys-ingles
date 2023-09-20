@@ -63,7 +63,7 @@ const Cursos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
+                        <Card style={{ width: '16rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
                             <Card.Img variant="top" src={estrangeiro} style={{height:'12rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'17px'}} className='linha'>Português para estrangeiros</Card.Title>

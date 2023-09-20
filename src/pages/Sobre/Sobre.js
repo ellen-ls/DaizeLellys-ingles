@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer'
 
 
 
@@ -66,6 +67,7 @@ const Sobre = () => {
       
       
     </Container>
+    <Footer></Footer>
     </div>
    
   )

@@ -10,6 +10,7 @@
 }
 
 .cursos>h1{
+   text-align: center;
     color: #3c3b6e;
     font-family: 'Rowdies', cursive;
     font-size: 30px;
@@ -22,7 +23,7 @@
 
 .container-cursos{
     margin-top: 100px;
-   }
+}
    
 .card-cursos{
  
