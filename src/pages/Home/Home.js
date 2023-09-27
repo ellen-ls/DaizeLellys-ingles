@@ -9,6 +9,7 @@ import Precos from '../../components/Precos/Precos'
 import Comentarios from '../../components/Comentarios/Comentarios'
 
 import { Youtube } from '../../components/Youtube/Youtube'
+import Cursos from '../../components/Cursos/Cursos'
 
 const Home = () => {
   return (
@@ -16,10 +17,11 @@ const Home = () => {
         <Header></Header>
         <Carrossel></Carrossel>
         <SobreMim></SobreMim>
+        <Cursos></Cursos>
+        <Precos></Precos>
         <Motivacao></Motivacao>
         <Metodologia></Metodologia>
         <Youtube></Youtube>
-        <Precos></Precos>
         <Comentarios></Comentarios>
         <Footer></Footer>
 

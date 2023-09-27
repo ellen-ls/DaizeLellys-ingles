@@ -10,13 +10,43 @@ const Cursos = () => {
   return (
     <div className='cursos'>
 
-<h1>Cursos Complementares</h1>
+<h1>Cursos</h1>
             
             <Container className='container-cursos' style={{width:'100%'}}>
                 <Row className='row-container'>
+                <Col>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0', borderRadius:'5px', backgroundColor:'#3c3b6e', color:'#fff'}} className='card-cursos'>
+                            <Card.Img variant="top" src={negocios} style={{height:'12rem'}} />
+                            <Card.Body>
+                                <Card.Title style={{fontSize:'17px'}} className='linha'>Inglês através da Bíblia</Card.Title>
+                                <Card.Text style={{fontSize:'12px', textAlign:'left'}}>
+                                É uma modalidade específica e se concentra no aprendizado do vocabulário para o meio empresarial.
+                                <br></br>
+                                Ou seja, é mais formal e é usado como uma ferramenta de linguagem para negócios, mais técnica e adequada ao contexto profissional. 
+                                <br></br>
+                                Além disso, o estudo do Business English parte de um conhecimento prévio do idioma, pelo menos a partir do intermediário.
+                               </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0', borderRadius:'5px', backgroundColor:'#b22234', color:'#fff'}} className='card-cursos'>
+                            <Card.Img variant="top" src={negocios} style={{height:'12rem'}} />
+                            <Card.Body>
+                                <Card.Title style={{fontSize:'17px'}} className='linha'>Inglês para viagens</Card.Title>
+                                <Card.Text style={{fontSize:'12px', textAlign:'left'}}>
+                                É uma modalidade específica e se concentra no aprendizado do vocabulário para o meio empresarial.
+                                <br></br>
+                                Ou seja, é mais formal e é usado como uma ferramenta de linguagem para negócios, mais técnica e adequada ao contexto profissional. 
+                                <br></br>
+                                Além disso, o estudo do Business English parte de um conhecimento prévio do idioma, pelo menos a partir do intermediário.
+                               </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                       
                     <Col>
-                        <Card style={{ width: '16rem',height:'32rem', margin:'10px 0 20px 0', borderRadius:'5px', backgroundColor:'#3c3b6e', color:'#fff'}} className='card-cursos'>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0', borderRadius:'5px', backgroundColor:'#3c3b6e', color:'#fff'}} className='card-cursos'>
                             <Card.Img variant="top" src={negocios} style={{height:'12rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'17px'}} className='linha'>Inglês para negócios</Card.Title>
@@ -31,7 +61,7 @@ const Cursos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '16rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
                             <Card.Img variant="top" src={musica} style={{height:'12rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'17px'}} className='linha'>Inglês com música</Card.Title>
@@ -46,7 +76,7 @@ const Cursos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '16rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px', backgroundColor:'#3c3b6e', color:'#fff'}} className='card-cursos'>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px', backgroundColor:'#3c3b6e', color:'#fff'}} className='card-cursos'>
                             <Card.Img variant="top" src={conversa} style={{height:'12rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{fontSize:'17px'}} className='linha'>Conversation classes</Card.Title>
@@ -63,7 +93,7 @@ const Cursos = () => {
                         </Card>
                     </Col>
                     <Col>
-                        <Card style={{ width: '16rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
+                        <Card style={{ width: '17rem',height:'32rem', margin:'10px 0 20px 0',borderRadius:'5px',backgroundColor:'#b22234', color:'#fff' }} className='card-cursos'>
                             <Card.Img variant="top" src={estrangeiro} style={{height:'12rem'}} />
                             <Card.Body>
                                 <Card.Title style={{fontSize:'17px'}} className='linha'>Português para estrangeiros</Card.Title>
