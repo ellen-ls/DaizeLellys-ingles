@@ -28,13 +28,13 @@
 .card-cursos{
  
  box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
- 
-    
+  
 }
 
-.linha{
+.accordion-header .accordion-button{
+    font-family: 'Rowdies', cursive;
     
-line-height: 1.8;
-border-bottom: 1px solid #fcfcfc;
-padding-bottom: 10px;
-   }
+    background-color: #3c3b6e!important;
+    color: #fff !important;
+}
+
