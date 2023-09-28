@@ -16,7 +16,7 @@
     font-size: 30px;
     line-height: 1.8;
     border-bottom:2px solid #3c3b6e;
-    width: 150px;
+    width: 100px;
     
 }
 
@@ -26,15 +26,16 @@
 }
    
 .card-cursos{
- 
- box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
+  box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
   
 }
 
 .accordion-header .accordion-button{
     font-family: 'Rowdies', cursive;
-    
     background-color: #3c3b6e!important;
     color: #fff !important;
 }
 
+.accordion-button::after{
+  display: none;
+}

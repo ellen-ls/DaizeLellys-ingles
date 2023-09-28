@@ -1,5 +1,6 @@
 import React from 'react'
-import { Accordion, Card, Col, Container, Row } from 'react-bootstrap'
+import { Accordion, Card, Col, Container, Row} from 'react-bootstrap'
+import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import biblia from '../Metodologia/Img/ingles-atraves-da-biblia.jpeg'
 import viagens from '../Metodologia/Img/viagens.png'
 import negocios from '../Metodologia/Img/negocios.png'
@@ -9,6 +10,31 @@ import estrangeiro from '../Metodologia/Img/estrangeiro.png'
 import './Cursos.css'
 
 const Cursos = () => {
+
+    function CustomToggle({ children, eventKey }) {
+        const decoratedOnClick = useAccordionButton(eventKey, () =>
+          console.log('totally custom!'),
+        );
+      
+        return (
+          <span
+            type="button"
+            style={{ 
+                backgroundColor: 'transparent',
+                margin:'5px 0',
+                color:'#fff',
+                borderBottom:'1px solid #fff',
+                fontSize:'12px',
+                fontStyle:'oblique',
+                fontWeight:'200'
+                
+             }}
+            onClick={decoratedOnClick}
+          >
+            {children}
+          </span>
+        );
+      }
 
 
     const cursos = [{
@@ -61,10 +87,10 @@ const Cursos = () => {
                         <Col key={curso.id}>
                             <Card
                                 style={{
-                                   
+
                                     width: '20rem',
                                     margin: '10px 0 20px 0',
-                                    right:'20px',
+                                    right: '20px',
                                     borderRadius: '5px',
                                     backgroundColor: '#3c3b6e',
                                     color: '#fff',
@@ -74,46 +100,48 @@ const Cursos = () => {
                                 <Card.Img variant="top" src={curso.image}
                                     style={{
                                         height: '12rem',
-                                       
+
 
                                     }} />
-                               
-                                 <Accordion defaultActiveKey={curso.id} flush 
-                                      style={{
-                                            fontSize: '17px',
+
+                                <Accordion defaultActiveKey={curso.id} flush
+                                    style={{
+                                        fontSize: '17px',
+                                    }}
+                                >
+                                    <Accordion.Item eventKey
+                                        style={{
+                                            backgroundColor: '#3c3b6e',
+                                            color: '#fff',
+
+
                                         }}
-                                                    >
-                                        <Accordion.Item eventKey 
-                                        style= {{
-                                        backgroundColor:'#3c3b6e',
-                                        color:'#fff',
-                                        
-                                       
-                                        }} 
-                                       >
+                                    >
 
-                                            <Accordion.Header>
-                                                <Card.Title
-                                                   >{curso.title}
-                                                </Card.Title>
-                                            </Accordion.Header>
-                                            <Accordion.Body   style={{
-                                                        fontSize: '12px',
-                                                        textAlign: 'left',
+                                        <Accordion.Header>
+                                            <Card.Title
+                                            >{curso.title}
+                                            </Card.Title>
+                                           
+                                        </Accordion.Header>
+                                        <CustomToggle eventKey>Mais Detalhes</CustomToggle>
+                                        <Accordion.Body
+                                            style={{
+                                                fontSize: '12px',
+                                                textAlign: 'left',
 
-                                                    }}>
+                                            }}>
 
-                                                <Card.Text
-                                                  >
-                                                    {curso.text}
+                                            <Card.Text>
+                                                {curso.text}
 
-                                                </Card.Text>
+                                            </Card.Text>
 
-                                            </Accordion.Body>
-                                        </Accordion.Item>
-                                    </Accordion>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                </Accordion>
 
-                               
+
                             </Card>
                         </Col>
                     ))}
