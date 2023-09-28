@@ -53,16 +53,16 @@
   text-decoration: none;
   color: #FFFFFF;
   background-color: #3c3b6e;
-  padding: 10px;
   font-size: 2rem;
   position: absolute;
   right: 10px;
-  bottom: 100px;
-  border-radius: 50%;
+  bottom: 250px;
+  border-radius: 20%;
   text-align: center;
   font-weight: 700;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 
 .employment{
     border-top: 0.5px solid #3c3b6e;

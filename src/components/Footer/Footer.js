@@ -23,7 +23,7 @@ const Footer = () => {
        <a href='https://www.tiktok.com/@daizelellys_ingles' target='blank'><img className='img-sociais-footer' src={tiktok} alt=''/></a>
        <a href='https://www.facebook.com/daizelellys'target='blank'><img className='img-sociais-footer' src={facebook} alt=''/></a>
       </div>
-          <a id='link-topo' href='#home' >^</a>
+          <a id='link-topo' href='#home'>⋀</a>
     </div>
     
     
