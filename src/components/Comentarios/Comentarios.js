@@ -63,7 +63,7 @@ function Comentarios() {
 
   
 ]
-console.log(comentarios)
+
   return (
     <div className='comentarios'>
       <h1>O que meus alunos falam</h1>
