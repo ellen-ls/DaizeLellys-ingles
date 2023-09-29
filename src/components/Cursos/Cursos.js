@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { Accordion, Card, Col, Container, Row } from 'react-bootstrap'
+import { Accordion, Card} from 'react-bootstrap'
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import biblia from '../Metodologia/Img/ingles-atraves-da-biblia.jpeg'
 import viagens from '../Metodologia/Img/viagens.png'
