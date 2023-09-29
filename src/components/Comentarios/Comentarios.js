@@ -8,6 +8,7 @@ import jaqueline from './img/jaqueline.png'
 import netto from './img/netto.png'
 import joalisson from './img/joalisson.png'
 import leonardo from './img/leonardo.png'
+import walter from './img/walter.jpeg'
 
 function Comentarios() {
 
@@ -60,6 +61,15 @@ function Comentarios() {
     state:'Cabedelo',
     comment: 'Primeiramente quero agradecer pela teacher que és. Vejo em você uma teacher que ensina com amor a língua inglesa, que ama o que faz, e tudo isso é transmitido para nós alunos.Falando sobre as aulas, sim, você está ajudando bastante a língua que muitos acham que é difícil, mas de uma forma simples e eficaz você mostra que somos capazes sim, porque além de teacher, você é amiga e nos dá conselhos, como no nosso primeiro dia de encontro. Quem tem um teacher igual a você, ganhou na loteria. Good bless you. Kiss.'
   },
+
+  {
+    id:8,
+    image:walter,
+    name:'Walter Reinaldo',
+    state:'João Pessoa',
+    comment: 'My last experience in a classroom happened 50 years ago. Inexplicably, the desire to learn the English language arose in my thoughts, and the question remained in my heart; how, where, what is the cost? To my surprise, a friend recommended me to Elegis and I am grateful for everything that is happening. Thankful for an amazing teacher in the teaching format applied, for her charisma, for her perception of clear things that humanity should know better. I call her Miss Deize our teacher.'
+  },
+
 
   
 ]

@@ -6,7 +6,7 @@
     width: 100%;
     padding: 50px 40px;
     
-    
+  
 }
 
 .cursos>h1{
@@ -20,16 +20,20 @@
     
 }
 
-
-.container-cursos{
-    margin-top: 100px;
-}
-   
 .card-cursos{
-  box-shadow: 4px 4px 4px 0px rgba(6, 11, 22, 0.288);
-  
+ margin: 20px;
+ 
 }
 
+.react-multiple-carousel__arrow--right{
+  right: 2px;
+  background-color: #b22234 ;
+}
+
+.react-multiple-carousel__arrow--left{
+  left: 2px;
+  background-color: #b22234 ;
+}
 .accordion-header .accordion-button{
     font-family: 'Rowdies', cursive;
     background-color: #3c3b6e!important;

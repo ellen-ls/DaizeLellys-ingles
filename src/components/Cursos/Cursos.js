@@ -1,5 +1,7 @@
 import React from 'react'
-import { Accordion, Card, Col, Container, Row} from 'react-bootstrap'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import { Accordion, Card, Col, Container, Row } from 'react-bootstrap'
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
 import biblia from '../Metodologia/Img/ingles-atraves-da-biblia.jpeg'
 import viagens from '../Metodologia/Img/viagens.png'
@@ -11,30 +13,52 @@ import './Cursos.css'
 
 const Cursos = () => {
 
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: { max: 4000, min: 1024 },
+            items: 4
+        },
+        desktop: {
+            breakpoint: { max: 1024, min: 800 },
+            items: 3
+        },
+        tablet: {
+            breakpoint: { max: 800, min: 464 },
+            items: 2
+        },
+        mobile: {
+            breakpoint: { max: 464, min: 0 },
+            items: 1
+        }
+    };
+
+
+
     function CustomToggle({ children, eventKey }) {
         const decoratedOnClick = useAccordionButton(eventKey, () =>
-          console.log('totally custom!'),
+            console.log('totally custom!'),
         );
-      
+
         return (
-          <span
-            type="button"
-            style={{ 
-                backgroundColor: 'transparent',
-                margin:'5px 0',
-                color:'#fff',
-                borderBottom:'1px solid #fff',
-                fontSize:'12px',
-                fontStyle:'oblique',
-                fontWeight:'200'
-                
-             }}
-            onClick={decoratedOnClick}
-          >
-            {children}
-          </span>
+            <span
+                type="button"
+                style={{
+                    backgroundColor: 'transparent',
+                    margin: '10px 20px',
+                    color: '#fff',
+                    borderBottom: '1px solid #fff',
+                    fontSize: '12px',
+                    fontStyle: 'oblique',
+                    fontWeight: '200',
+               
+                }}
+                onClick={decoratedOnClick}
+            >
+                {children}
+            </span>
         );
-      }
+    }
 
 
     const cursos = [{
@@ -80,74 +104,56 @@ const Cursos = () => {
 
             <h1>Cursos</h1>
 
-            <Container className='container-cursos' style={{ width: '100%' }} >
-                <Row className='row-container'>
+            <Carousel responsive={responsive} className='carrossel-cursos'>
+                              
                     {cursos.map((curso) => (
 
-                        <Col key={curso.id}>
-                            <Card
-                                style={{
-
-                                    width: '20rem',
-                                    margin: '10px 0 20px 0',
-                                    right: '20px',
-                                    borderRadius: '5px',
-                                    backgroundColor: '#3c3b6e',
-                                    color: '#fff',
-                                    cursor: 'pointer',
-                                }}
-                                className='card-cursos'>
+                            <div key={curso.id} 
+                               
+                              className='card-cursos'>
                                 <Card.Img variant="top" src={curso.image}
                                     style={{
                                         height: '12rem',
-
-
+                                        borderRadius:'10px 10px 0 0'
                                     }} />
 
                                 <Accordion defaultActiveKey={curso.id} flush
                                     style={{
                                         fontSize: '17px',
+                                        
                                     }}
                                 >
                                     <Accordion.Item eventKey
                                         style={{
                                             backgroundColor: '#3c3b6e',
                                             color: '#fff',
-
-
+                                            borderRadius:'0 0 10px 10px'
+                                            
                                         }}
                                     >
-
                                         <Accordion.Header>
-                                            <Card.Title
-                                            >{curso.title}
-                                            </Card.Title>
-                                           
+
+                                            {curso.title}
+
                                         </Accordion.Header>
                                         <CustomToggle eventKey>Mais Detalhes</CustomToggle>
                                         <Accordion.Body
                                             style={{
                                                 fontSize: '12px',
                                                 textAlign: 'left',
-
+                                                
                                             }}>
-
-                                            <Card.Text>
-                                                {curso.text}
-
-                                            </Card.Text>
-
+                                          {curso.text}
+    
                                         </Accordion.Body>
                                     </Accordion.Item>
                                 </Accordion>
-
-
-                            </Card>
-                        </Col>
+                            </div>
+                       
                     ))}
-                </Row>
-            </Container>
-        </div>
+                
+                </Carousel>
+           </div>
     )
 }
 
