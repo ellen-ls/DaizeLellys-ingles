@@ -12,7 +12,7 @@ function SobreMim() {
   return (
     <div id='quem-sou-eu' className='sobre'>
         
-     <h1>Sobre mim</h1>
+    
  
     <Container className='text-sobre'>
       <Row>

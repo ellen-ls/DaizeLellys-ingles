@@ -1,5 +1,6 @@
 .motivacao{
- 
+ background-image: url('../Comentarios/img/papel.jpg');
+ background-size: cover;
  padding:50px;
 }
 
@@ -32,6 +33,7 @@
    justify-content: center;
    align-items: center;
    margin-top: 80px;
+   
 }
 
 .button-motivacao{
@@ -45,6 +47,7 @@
    width: 200px;
    height: 84px;
    margin-left: 30px;
+   
  
 }
 

@@ -5,7 +5,8 @@
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-  
+    background-image: url('../Comentarios/img/papel.jpg'); 
+    background-size: cover;
 }
 
 .cursos>h1{
