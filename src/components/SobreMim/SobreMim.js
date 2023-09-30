@@ -1,6 +1,6 @@
 import React from 'react'
 import './SobreMim.css'
-import daize from './img/IMG_1484.jpg'
+import daize from './img/daize-sobre-mim.png'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -17,7 +17,10 @@ function SobreMim() {
     <Container className='text-sobre'>
       <Row>
         <Col><img className='img-daize' src={daize} alt=''/></Col>
-        <Col> <p className='text'>Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
+        
+        <Col> 
+        <h1 className='text-h1'>Sobre Mim</h1>
+        <p className='text'>Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
       primeiro contato com o inglês aos nove anos, com uma amiga canadense. 
       <br></br>
       

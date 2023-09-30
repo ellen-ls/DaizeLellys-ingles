@@ -1,28 +1,40 @@
 .valores{
     padding:50px;
-    background-color:#3c3b6e;
     font-family: 'Rubik', sans-serif;
+    background-image: url('./img/papel.jpg');
+    background-size: cover;
+    border-top: 2px solid #3c3b6e;
+    
 }
 
 .valores>h1{
-    color: #ffffff;
+    position: relative;
     font-family: 'Rowdies', cursive;
-    font-size: 30px;
-    line-height: 1.8;
-    border-bottom:2px solid #ffffff;
-    width: 180px;
+    font-size: 3rem;
+    text-align: center;
+    
 }
 
+.valores>h1::before{
+    position: absolute;
+    content: '';
+    width: 95px;
+    height: 5px;
+    background-color: #3c3b6e;
+    bottom: 4px;
+}
 .container-valores{
    
-    margin-top: 100px;
+padding: 60px;
+margin: 20px;
     
-   
+ 
 }
 
 .text-valores{
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
+    color: #b22234;
 }
 
 .link-valores{

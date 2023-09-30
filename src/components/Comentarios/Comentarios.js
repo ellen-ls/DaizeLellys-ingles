@@ -43,41 +43,20 @@ function Comentarios() {
   },
   {
     id:2,
-    image:ellenerica,
-    name:'Ellen e Erica',
-    state:'Fortaleza',
-    comment: 'Excelente profissional, sempre nos motivando a aprender, aulas super divertidas e dinâmicas, recomendamos muito nota 1000.'
-  },
-  {
-    id:3,
-    image:flaviana,
-    name:'Flaviana',
-    state:'João Pessoa',
-    comment: 'Curso e aulas maravilhosas, professoras super dinâmica e sinto-me livre na hora de flar inglês, amo as aulas e agradeço cada nível de meu aprendizado.Recomendo.'
-  },
-  {
-    id:4,
-    image:jaqueline,
-    name:'Jaqueline',
-    state:'Espírito Santo',
-    comment: 'A cada aprendizado um encanto e a felicidade de poder aprender cada vez mais e melhorar a fluência em Inglês, com aulas super descontraídas.'
-  },
-  {
-    id:5,
-    image:netto,
-    name:'José Netto',
-    state:'Campina Grande',
-    comment: 'Eu comecei o curso para aprimorar o meu inglês, o curso ajudou muito a melhorar minha fala e a minha escrita, assim como a minha comunicação que está mais natural, esse curso é muito bom e vai me ajudar a realizar o sonho de estudar no exterior.'
-  },
-  {
-    id:6,
     image:joalisson,
     name:'Joalisson Douglas',
     state:'João Pessoa',
     comment: 'As aulas estão me ajudando muito a ganhar confiança para falar inglês. As aulas são dinâmicas e são uma oportunidade fantástica de prática e aprendizagem do idioma. Recomendo para todos que buscam aprender ou aprimorar o seu inglês.'
   },
   {
-    id:7,
+    id:3,
+    image:ellenerica,
+    name:'Ellen e Erica',
+    state:'Fortaleza',
+    comment: 'Excelente profissional, sempre nos motivando a aprender, aulas super divertidas e dinâmicas, recomendamos muito nota 1000.'
+  },
+  {
+    id:4,
     image:leonardo,
     name:'Leonardo',
     state:'Cabedelo',
@@ -85,12 +64,36 @@ function Comentarios() {
   },
 
   {
-    id:8,
+    id:5,
+    image:flaviana,
+    name:'Flaviana',
+    state:'João Pessoa',
+    comment: 'Curso e aulas maravilhosas, professoras super dinâmica e sinto-me livre na hora de flar inglês, amo as aulas e agradeço cada nível de meu aprendizado.Recomendo.'
+  },
+  {
+    id:6,
     image:walter,
     name:'Walter Reinaldo',
     state:'João Pessoa',
     comment: 'My last experience in a classroom happened 50 years ago. Inexplicably, the desire to learn the English language arose in my thoughts, and the question remained in my heart; how, where, what is the cost? To my surprise, a friend recommended me to Elegis and I am grateful for everything that is happening. Thankful for an amazing teacher in the teaching format applied, for her charisma, for her perception of clear things that humanity should know better. I call her Miss Deize our teacher.'
   },
+
+  {
+    id:7,
+    image:jaqueline,
+    name:'Jaqueline',
+    state:'Espírito Santo',
+    comment: 'A cada aprendizado um encanto e a felicidade de poder aprender cada vez mais e melhorar a fluência em Inglês, com aulas super descontraídas.'
+  },
+  {
+    id:8,
+    image:netto,
+    name:'José Netto',
+    state:'Campina Grande',
+    comment: 'Eu comecei o curso para aprimorar o meu inglês, o curso ajudou muito a melhorar minha fala e a minha escrita, assim como a minha comunicação que está mais natural, esse curso é muito bom e vai me ajudar a realizar o sonho de estudar no exterior.'
+  },
+ 
+
 
   
 ]

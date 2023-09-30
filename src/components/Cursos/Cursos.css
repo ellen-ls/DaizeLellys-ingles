@@ -1,27 +1,45 @@
 .cursos{
+    position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #fcfcfc;
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-    background-image: url('../Comentarios/img/papel.jpg'); 
+    background-color: #fff;
     background-size: cover;
+    border-top:2px solid #3c3b6e;
+}
+
+.cursos::before{
+  content: '';
+  position:absolute ;
+  top: 0;
+  right: 0;
+  border: 60px solid transparent;
+  border-top: 60px solid #3c3b6e;
+  border-right: 60px solid #3c3b6e;
 }
 
 .cursos>h1{
-   
-    color: #3c3b6e;
+    position: relative;
     font-family: 'Rowdies', cursive;
-    font-size: 30px;
-    line-height: 1.8;
-    border-bottom:2px solid #3c3b6e;
-    width: 100px;
-    
+    font-size: 3rem;
+    text-align: center;
+   
+  }
+
+.cursos>h1::before{
+position: absolute;
+content: '';
+width: 95px;
+height: 5px;
+background-color: #b22234;
+bottom: 4px;
 }
 
 .card-cursos{
  margin: 20px;
+ padding-top: 50px;
  
 }
 

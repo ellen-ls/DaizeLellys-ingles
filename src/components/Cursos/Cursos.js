@@ -102,7 +102,7 @@ const Cursos = () => {
     return (
         <div className='cursos'>
 
-            <h1>Cursos</h1>
+            <h1>Por que meus cursos são um diferencial?</h1>
 
             <Carousel responsive={responsive} className='carrossel-cursos'>
                               

@@ -4,10 +4,6 @@ import Sobre from './pages/Sobre/Sobre.js'
 import { Routes, Route} from 'react-router-dom';
 
 
-
-
-
-
 function App() {
   return (
   

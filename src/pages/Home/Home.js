@@ -24,7 +24,6 @@ const Home = () => {
         <Youtube></Youtube>
         <Comentarios></Comentarios>
         <Footer></Footer>
-
       
     </div>
   )

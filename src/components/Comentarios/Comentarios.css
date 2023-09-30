@@ -1,20 +1,30 @@
 .comentarios {
     display: flex;
     flex-direction: column;
-    background-color: #fcfcfc;
     height: 100%;
     width: 100%;
     padding: 50px 40px;
     background-image: url('./img/papel.jpg');
     background-size: cover;
+    border-top: 2px solid #3c3b6e;
 }
 
 .comentarios>h1 {
-    color: #b22234;
+    position: relative;
     font-family: 'Rowdies', cursive;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 20px 0 50px 0;
     text-align: center;
+    
+}
+
+.comentarios>h1::before{
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 5px;
+    background-color: #b22234;
+    bottom: 4px;
 }
 
 .comments-carrossel {
