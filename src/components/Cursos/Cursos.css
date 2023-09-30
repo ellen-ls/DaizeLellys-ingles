@@ -5,7 +5,6 @@
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-    
   
 }
 
@@ -28,12 +27,16 @@
 .react-multiple-carousel__arrow--right{
   right: 2px;
   background-color: #b22234 ;
+ 
 }
 
 .react-multiple-carousel__arrow--left{
   left: 2px;
   background-color: #b22234 ;
+  
+  
 }
+
 .accordion-header .accordion-button{
     font-family: 'Rowdies', cursive;
     background-color: #3c3b6e!important;

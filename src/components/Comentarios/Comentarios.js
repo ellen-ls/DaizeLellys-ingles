@@ -1,5 +1,7 @@
 import React from 'react'
-import { Carousel, Image } from 'react-bootstrap'
+import Carousel from "react-multi-carousel"
+import "react-multi-carousel/lib/styles.css"
+import {Card} from 'react-bootstrap'
 import './Comentarios.css'
 import grace from './img/grace.png'
 import ellenerica from './img/ellenerica.png'
@@ -11,6 +13,26 @@ import leonardo from './img/leonardo.png'
 import walter from './img/walter.jpeg'
 
 function Comentarios() {
+
+  const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 1024 },
+        items: 2
+    },
+    desktop: {
+        breakpoint: { max: 1024, min: 800 },
+        items: 2
+    },
+    tablet: {
+        breakpoint: { max: 800, min: 464 },
+        items: 2
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
 
   const comentarios = [{
     id:1,
@@ -70,171 +92,42 @@ function Comentarios() {
     comment: 'My last experience in a classroom happened 50 years ago. Inexplicably, the desire to learn the English language arose in my thoughts, and the question remained in my heart; how, where, what is the cost? To my surprise, a friend recommended me to Elegis and I am grateful for everything that is happening. Thankful for an amazing teacher in the teaching format applied, for her charisma, for her perception of clear things that humanity should know better. I call her Miss Deize our teacher.'
   },
 
-
   
 ]
 
   return (
     <div className='comentarios'>
+      
       <h1>O que meus alunos falam</h1>
       
-      <Carousel className='comments-carrossel'>
+      <Carousel responsive={responsive}  className='comments-carrossel'>
      
       {comentarios.map((comentario)=>(
-        <Carousel.Item key={comentario.id}>
+       
+       <div key={comentario.id} className='card-comentarios'>
 
-          <Image variant="top" src={comentario.image} style={{
+          <Card.Img variant="top" src={comentario.image} style={{
+            
             height: '10rem',
             width: '10rem',
-
             borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
+          
           }} />
+          <Card.Body>
+          <Card.Title>
           <h3>{comentario.name}</h3>
-          <h5>{comentario.state}</h5>
-
+          <span>{comentario.state}</span>
+          </Card.Title>
           <div className='comment-p'>
-            <p>{comentario.comment} </p>
+          <Card.Text className='text-comentarios'>
+            {comentario.comment}
+          </Card.Text>
           </div>
-
-
-        </Carousel.Item>
+          </Card.Body>
+        </div>
      
       ))}
         </Carousel>
-
-      {/* <Carousel className='comments-carrossel'>
-        <Carousel.Item>
-
-          <Image variant="top" src={jaqueline} style={{
-            height: '10rem',
-            width: '10rem',
-
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>Jaqueline</h3>
-          <h5>Espírito Santo</h5>
-
-          <div className='comment-p'>
-            <p>A cada aprendizado um encanto e a felicidade de poder aprender cada vez mais e melhorar a fluência em Inglês,
-              com aulas super descontraídas. </p>
-          </div>
-
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={grace} style={{
-            height: '10rem',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-
-          <h3>Grace</h3>
-          <h5>Fortaleza</h5>
-          <div className='comment-p'>
-            <p>Fazia 30 anos que não estudava inglês e com apoio dos meus filhos e esposo e por gostar de inglês, resolvi voltar a estudar e com a metodologia da Bíblia facilitou muito o meu aprendizado
-              ,eu sabia que não iria ser fácil pois tinha que ter a dedicação mas que eu falo sempre que em cada aula eu aprendo um pouco de inglês e estou muito feliz
-              com esse aprendizado.</p>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={ellenerica} style={{
-            height: '10em',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>Ellen e Érica</h3>
-          <h5>Fortaleza</h5>
-          <div className='comment-p'>
-            <p>
-              Excelente profissional, sempre nos motivando a aprender, aulas super divertidas e dinâmicas,
-              recomendamos muito nota 1000.
-            </p>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={flaviana} style={{
-            height: '10rem',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>Flaviana</h3>
-          <h5>João Pessoa</h5>
-          <div>
-            <p className='comment-p'>
-              Curso e aulas maravilhosas, professoras super dinâmica e sinto-me livre na hora de flar inglês, amo
-              as aulas e agradeço cada nível de meu aprendizado.Recomendo.
-            </p>
-          </div>
-
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={netto} style={{
-            height: '10rem',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>José Netto</h3>
-          <h5>Campina Grande</h5>
-          <div className='comment-p'>
-            <p >
-              Eu comecei o curso para aprimorar o meu inglês, o curso ajudou muito a melhorar minha fala e
-              a minha escrita, assim como a minha comunicação que está mais natural,
-              esse curso é muito bom e vai me ajudar a realizar o sonho de estudar no exterior.
-            </p>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={joalisson} style={{
-            height: '10rem',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>Joalisson Douglas </h3>
-          <h5>João Pessoa</h5>
-          <div className='comment-p'>
-            <p >
-              As aulas estão me ajudando muito a ganhar confiança para falar inglês.
-              As aulas são dinâmicas e são uma oportunidade fantástica de prática e aprendizagem do idioma.
-              Recomendo para todos que buscam aprender ou aprimorar o seu inglês.
-            </p>
-          </div>
-        </Carousel.Item>
-        <Carousel.Item>
-          <Image variant="top" src={leonardo} style={{
-            height: '10rem',
-            width: '10rem',
-            borderRadius: '50%',
-            border: '3px solid #3c3b6e',
-            margin: '20px 50px'
-          }} />
-          <h3>Leonardo Albuquerque </h3>
-          <h5>Cabedelo</h5>
-          <div className='comment-p'>
-            <p >
-              Primeiramente quero agradecer pela teacher que és. Vejo em você uma teacher que ensina com amor a língua inglesa,
-              que ama o que faz, e tudo isso é transmitido para nós alunos.Falando sobre as aulas, sim, você está ajudando bastante a
-              língua que muitos acham que é difícil, mas de uma forma simples e eficaz você mostra que somos capazes sim, porque além de teacher,
-              você é amiga e nos dá conselhos, como no nosso primeiro dia de encontro. Quem tem um teacher igual a você, ganhou na loteria.
-              Good bless you. Kiss.
-            </p>
-          </div>
-        </Carousel.Item>
-
-      </Carousel> */}
 
     </div>
   )
