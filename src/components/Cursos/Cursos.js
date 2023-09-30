@@ -3,12 +3,12 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Accordion, Card} from 'react-bootstrap'
 import { useAccordionButton } from 'react-bootstrap/AccordionButton';
-import biblia from '../Metodologia/Img/ingles-atraves-da-biblia.jpeg'
-import viagens from '../Metodologia/Img/viagens.png'
-import negocios from '../Metodologia/Img/negocios.png'
-import musica from '../Metodologia/Img/musica.jpeg'
-import conversa from '../Metodologia/Img/conversa.png'
-import estrangeiro from '../Metodologia/Img/estrangeiro.png'
+import biblia from './Img/ingles-atraves-da-biblia.jpeg'
+import viagens from './Img/viagens.png'
+import negocios from './Img/negocios.png'
+import musica from './Img/musica.jpeg'
+import conversa from './Img/conversa.png'
+import estrangeiro from './Img/estrangeiro.png'
 import './Cursos.css'
 
 const Cursos = () => {
