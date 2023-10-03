@@ -7,9 +7,9 @@ import Motivacao from '../../components/Motivacao/Motivacao'
 import Metodologia from '../../components/Metodologia/Metodologia'
 import Precos from '../../components/Precos/Precos'
 import Comentarios from '../../components/Comentarios/Comentarios'
-
 import { Youtube } from '../../components/Youtube/Youtube'
 import Cursos from '../../components/Cursos/Cursos'
+import Ebook from '../../components/Ebook/Ebook'
 
 const Home = () => {
   return (
@@ -22,6 +22,7 @@ const Home = () => {
         <Motivacao></Motivacao>
         <Metodologia></Metodologia>
         <Youtube></Youtube>
+        <Ebook></Ebook>
         <Comentarios></Comentarios>
         <Footer></Footer>
 

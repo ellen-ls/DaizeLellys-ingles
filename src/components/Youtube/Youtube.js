@@ -18,7 +18,7 @@ export const Youtube = () => {
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
+                            allowfullscreen='true'>
                         </iframe>
                         <span>Evoluir o Inglês em pouco tempo</span>
                     </Col>
@@ -33,7 +33,7 @@ export const Youtube = () => {
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
+                            allowfullscreen='true'>
                         </iframe>
                         <span>Persistência é a chave para a fluência </span>
                     </Col>
@@ -46,7 +46,7 @@ export const Youtube = () => {
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
+                            allowfullscreen='true'>
                         </iframe>
                         <span>Aprenda Inglês em apenas 20 minutos</span>
                     </Col> 

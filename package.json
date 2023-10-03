@@ -3,10 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@sendgrid/mail": "^7.7.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mailersend": "^2.2.0",
+    "nodemailer": "^6.9.5",
+    "nodemailer-sendgrid-transport": "^0.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
@@ -18,7 +26,7 @@
   },
   "homepage": "https://daizelellys.com/",
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "env-cmd -f ./.env react-scripts --openssl-legacy-provider start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
