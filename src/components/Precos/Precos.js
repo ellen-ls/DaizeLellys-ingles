@@ -1,6 +1,6 @@
 import React from 'react'
 import './Precos.css'
-import { Card, Col, Container, Row } from 'react-bootstrap'
+import {Col, Container, Row } from 'react-bootstrap'
 import vip from './img/vip.png'
 import grupo from './img/grupo-3.png'
 import grupos from './img/grupos.png'
