@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
@@ -13,8 +13,8 @@ const Ebook = () => {
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("");
-
-   
+ 
+  
   const handleValidation = () => {
     let tempError = {}
     let isValid = true
@@ -33,8 +33,9 @@ const Ebook = () => {
     console.log("errors", errors)
     return isValid
   }
+  useEffect(()=>emailjs.init(process.env.REACT_APP_PUBLIC_KEY),[])
 
-  const handleSubmit =  (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
    
     let template = {
@@ -88,7 +89,7 @@ const Ebook = () => {
           <Form.Label>Email*</Form.Label>
           <Form.Control
             type='email'
-            placeholder='exemple@exemple.com'
+            placeholder='example@example.com'
             value={email}
             onChange={(e) => {setEmail(e.target.value) }} />
         </Form.Group>
@@ -97,7 +98,7 @@ const Ebook = () => {
           type='submit'
           className='button-ebook'
         >
-         Quero adquirir!
+         Quero receber!
         </Button>
         <div className='text-sucesso'>{buttonText}</div>
       </Form>
