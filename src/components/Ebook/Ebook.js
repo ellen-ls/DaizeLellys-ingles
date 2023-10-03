@@ -33,10 +33,12 @@ const Ebook = () => {
     console.log("errors", errors)
     return isValid
   }
-  useEffect(()=>emailjs.init(process.env.REACT_APP_PUBLIC_KEY),[])
+
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
+    useEffect(()=>emailjs.init(process.env.REACT_APP_PUBLIC_KEY),[])
    
     let template = {
       from_name:'',
