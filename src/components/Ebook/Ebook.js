@@ -13,13 +13,13 @@ const Ebook = () => {
 
   //   Setting button text on form submission
   const [buttonText, setButtonText] = useState("");
- 
-  
+
+
   const handleValidation = () => {
     let tempError = {}
     let isValid = true
 
-   
+
     if (name.length <= 0) {
       tempError["Name"] = true
       isValid = false
@@ -38,29 +38,28 @@ const Ebook = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    useEffect(()=>emailjs.init(process.env.REACT_APP_PUBLIC_KEY),[])
-   
-    let template = {
-      from_name:'',
-      name:name,
-      email:email
-     } 
+    useEffect(() => emailjs.init(process.env.REACT_APP_PUBLIC_KEY), [])
 
-      let isValidForm = handleValidation()
+    let template = {
+      from_name: '',
+      name: name,
+      email: email
+    }
+
+    let isValidForm = handleValidation()
 
     if (isValidForm) {
       setButtonText('Email enviado com sucesso, check seu email ou spam e vamos aprender!!!');
       emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, template, process.env.REACT_APP_PUBLIC_KEY)
-      .then(
-        function (response) {
-          console.log("SUCCESS!", response);
-        },
-        function (error) {
-          console.log("FAILED...", error);
-        }
-      );
-   
-              
+        .then(
+          function (response) {
+            console.log("SUCCESS!", response);
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
+
     }
     console.log(name, email);
   }
@@ -68,43 +67,43 @@ const Ebook = () => {
   return (
     <div className='ebook'>
       <Row>
-      <Col className='ebook-text'>
+        <Col className='ebook-text'>
 
-      <h2>Quer receber um E-book gratuito?</h2>
-      <h2>Cadastre-se, é só preencher o campo abaixo.</h2>
-      </Col>
-     
-  <Col>
-      <Form
-        className='forms-ebook'
-        onSubmit={handleSubmit}
-      >
-        <Form.Group>
-          <Form.Label>Name*</Form.Label>
-          <Form.Control
-            type='text'
-            placeholder='nome'
-            value={name}
-            onChange={(e) => {setName(e.target.value) }} />
-        </Form.Group>
-        <Form.Group>
-          <Form.Label>Email*</Form.Label>
-          <Form.Control
-            type='email'
-            placeholder='example@example.com'
-            value={email}
-            onChange={(e) => {setEmail(e.target.value) }} />
-        </Form.Group>
+          <h2>Quer receber um E-book gratuito?</h2>
+          <h2>Cadastre-se, é só preencher o campo abaixo.</h2>
+        </Col>
 
-        <Button
-          type='submit'
-          className='button-ebook'
-        >
-         Quero receber!
-        </Button>
-        <div className='text-sucesso'>{buttonText}</div>
-      </Form>
-      </Col>
+        <Col>
+          <Form
+            className='forms-ebook'
+            onSubmit={handleSubmit}
+          >
+            <Form.Group>
+              <Form.Label>Name*</Form.Label>
+              <Form.Control
+                type='text'
+                placeholder='nome'
+                value={name}
+                onChange={(e) => { setName(e.target.value) }} />
+            </Form.Group>
+            <Form.Group>
+              <Form.Label>Email*</Form.Label>
+              <Form.Control
+                type='email'
+                placeholder='example@example.com'
+                value={email}
+                onChange={(e) => { setEmail(e.target.value) }} />
+            </Form.Group>
+
+            <Button
+              type='submit'
+              className='button-ebook'
+            >
+              Quero receber!
+            </Button>
+            <div className='text-sucesso'>{buttonText}</div>
+          </Form>
+        </Col>
       </Row>
     </div>
   )
