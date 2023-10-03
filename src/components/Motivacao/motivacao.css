@@ -16,6 +16,12 @@
 }
 
 .motivacao>h1{
+   font-family: 'Rowdies', cursive;
+   font-size: 3rem;
+   text-align: center; 
+}
+
+.motivacao-h1{
    position: relative;
    font-family: 'Rowdies', cursive;
    font-size: 3rem;
@@ -23,7 +29,7 @@
  
 }
 
-.motivacao>h1::before{
+.motivacao-h1::before{
    position: absolute;
    content: '';
    width: 95px;

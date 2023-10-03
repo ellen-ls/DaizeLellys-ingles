@@ -17,7 +17,7 @@ function Motivacao() {
     return (
         <div className='motivacao'>
             
-            <h1>Por que falar inglês?</h1>
+            <h1 className='motivacao-h1'>Por que</h1><h1>falar inglês?</h1>
 
             <p className='text-motivacao'>Nossa abordagem personalizada começa com uma avaliação cuidadosa do seu nível de conhecimento e dos seus interesses pessoais.
             <br></br>

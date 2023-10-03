@@ -21,6 +21,12 @@
 }
 
 .cursos>h1{
+  font-family: 'Rowdies', cursive;
+  font-size: 3rem;
+  text-align: center;
+ 
+}
+.cursos-h1{
     position: relative;
     font-family: 'Rowdies', cursive;
     font-size: 3rem;
@@ -28,13 +34,17 @@
    
   }
 
-.cursos>h1::before{
+.cursos-h1::before{
 position: absolute;
 content: '';
 width: 95px;
 height: 5px;
 background-color: #b22234;
 bottom: 4px;
+}
+
+.cursos-h1{
+  
 }
 
 .card-cursos{
