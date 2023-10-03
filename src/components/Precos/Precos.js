@@ -14,7 +14,7 @@ function Precos() {
                 <Row>
                     <Col className='card-valores'>
 
-                        <img variant="top" src={vip} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} />
+                        <img src={vip} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }}/>
 
                     </Col>
 
@@ -33,7 +33,7 @@ function Precos() {
                     </Col>
                     <Col className='card-valores'>
 
-                        <img variant="top" src={grupo} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} />
+                        <img src={grupo} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }}/>
 
 
                     </Col>
@@ -52,8 +52,7 @@ function Precos() {
                     </Col>
                     <Col className='card-valores'>
 
-                        <img variant="top" src={grupos} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} />
-
+                        <img src={grupos} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }}/>
 
                     </Col>
 
@@ -74,7 +73,7 @@ function Precos() {
                     </Col>
                     <Col className='card-valores'>
 
-                        <img variant="top" src={consultoria} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} />
+                        <img src={consultoria} style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }}/>
 
 
                     </Col>
