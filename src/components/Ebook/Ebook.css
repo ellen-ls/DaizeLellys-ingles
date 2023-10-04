@@ -6,6 +6,7 @@
     background-color: #c6c6c6;
     padding: 50px;
     font-family: 'Rowdies', cursive;
+    border-top: 2px solid #b22234;
     
 }
 .forms-ebook{
@@ -22,7 +23,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right: 3px solid #72131e;
+    border-right: 3px solid #b22234;
 }
 
 .button-ebook{
