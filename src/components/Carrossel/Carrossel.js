@@ -14,7 +14,7 @@ const Carrossel = () => {
           <button className='btn-home'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Comece agora!</a></button>
         </Col>
         <Col>
-        <img className='img-carrossel' src={home}></img>
+        <img className='img-carrossel' src={home} alt=''></img>
         </Col>
       </Row>
     </div>
