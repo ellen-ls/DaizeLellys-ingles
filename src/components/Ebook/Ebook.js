@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
@@ -40,8 +40,7 @@ const Ebook = () => {
     e.preventDefault()
 
 
-    useEffect(() => init(process.env.REACT_APP_PUBLIC_KEY), [])
-
+    init(process.env.REACT_APP_PUBLIC_KEY)
 
     let template = {
       from_name: '',
