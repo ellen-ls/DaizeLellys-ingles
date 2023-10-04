@@ -33,7 +33,7 @@
    
 padding: 60px;
 margin: 20px;
-    
+ 
  
 }
 
@@ -41,6 +41,7 @@ margin: 20px;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
     color: #b22234;
+    text-align: center;
 }
 
 .link-valores{
@@ -51,6 +52,7 @@ margin: 20px;
     color: #b22234;
     font-weight: 500;
     
+    
 
 }
 .link-valores:hover{
@@ -58,4 +60,17 @@ margin: 20px;
     background-color: #b22234;
 }
 
+.img-precos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-precos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
