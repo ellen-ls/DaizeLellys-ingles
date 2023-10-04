@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
+import { init } from '@emailjs/browser'
 
 const Ebook = () => {
 
@@ -38,7 +39,7 @@ const Ebook = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    useEffect(() => emailjs.init(process.env.REACT_APP_PUBLIC_KEY), [])
+    useEffect(() => init(process.env.REACT_APP_PUBLIC_KEY), [])
 
     let template = {
       from_name: '',
