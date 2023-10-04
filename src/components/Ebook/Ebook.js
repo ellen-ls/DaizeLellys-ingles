@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
