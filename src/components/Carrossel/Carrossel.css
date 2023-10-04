@@ -1,6 +1,7 @@
 .primeira {
    font-family: 'Rowdies', cursive;
    background-color: #b22234;
+   border-bottom:2px solid #b22234;
    
 }
 
@@ -25,21 +26,23 @@
 
 .text3-carrossel {
     font-size: 2em;
-    position: relative;
-    margin-bottom: 50px;
     padding: 0 0 20px 20px ;
 }
 
-.text3-carrossel::before {
-    bottom: 0;
-    content: '';
-    position: absolute;
-    border: 5px solid #b22234;
-    padding: 30px ;
-    left: 210px;
-    width: 120px;
+.div-text3{
+    display: flex;
+    
 }
 
+.text4-carrossel{
+    font-size: 2em;
+    margin-left: 5px;
+    padding: 0 10px 0 10px;
+    border: 3px solid #b22234;
+    text-align: center;
+    
+    
+}
 .img-carrossel {
   height: 100%;
   width:800px;
