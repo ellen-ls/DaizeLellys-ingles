@@ -1,26 +1,25 @@
 import React from 'react'
 import './Precos.css'
-import {Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import vip from './img/vip.png'
 import grupo from './img/grupo-3.png'
 import grupos from './img/grupos.png'
-import consultoria from './img/consultoria.png'
+// import consultoria from './img/consultoria.png'
 
 function Precos() {
     return (
         <div className='valores'>
             <h1 className='valores-h1'>Conheça </h1> <h1>nossos melhores planos para você</h1>
-            <Container className='container-valores' style={{ width: '100%' }}>
+            <Container className='container-valores' >
+
                 <Row>
-                    <Col className='card-valores'>
 
-                        <img style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} src={vip} alt=''/>
-
-                    </Col>
-
-                    <Col className='linha' style={{paddingBottom:'50px' }}>
+                    <Col className='linha' style={{ paddingBottom: '70px' }}>
+                        <div className='img-precos'>
+                            <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={vip} alt='' />
+                        </div>
                         <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }} className='linha'>VIP</h2>
-                        <p style={{ fontSize: '15px', textAlign: 'left'}}>
+                        <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                             Aulas de 60 minutos de duração.
 
@@ -28,17 +27,16 @@ function Precos() {
                         <p className='text-valores'>
                             Módulo por 6x R$397.00.
                         </p>
+                        <div className='button-precos'>
                         <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+individual%21' target='blank' className='link-valores'>Contrate-me</button>
-
-                    </Col>
-                    <Col className='card-valores'>
-
-                        <img style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} src={grupo}  alt=''/>
-
-
+                        </div>
                     </Col>
 
-                    <Col className='linha' style={{paddingBottom:'50px' }}>
+
+                    <Col className='linha' style={{ paddingBottom: '50px' }}>
+                        <div className='img-precos'>
+                            <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={grupo} alt='' />
+                        </div>
                         <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }}>Grupos até 3 pessoas</h2>
                         <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online,  até 3 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
@@ -47,17 +45,15 @@ function Precos() {
                         <p className='text-valores'>
                             Módulo por 6x R$297.00 por pessoa.
                         </p>
+                        <div className='button-precos'>
                         <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+até+3+pessoas%21' target='blank' className='link-valores'>Contrate-me</button>
-
-                    </Col>
-                    <Col className='card-valores'>
-
-                        <img style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} src={grupos} alt=''/>
-
+                        </div>
                     </Col>
 
-                    <Col className='linha' style={{paddingBottom:'50px' }}>
-
+                    <Col className='linha' style={{ paddingBottom: '50px' }}>
+                        <div className='img-precos'>
+                            <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={grupos} alt='' />
+                        </div>
                         <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }} >Grupos</h2>
                         <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online, grupos de 5 a 10 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
@@ -67,11 +63,12 @@ function Precos() {
                         <p className='text-valores'>
                             Módulo por  6x R$197.00 por pessoa.
                         </p>
+                        <div className='button-precos'>
                         <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+5+ou+mais+pessoas%21' target='blank' className='link-valores' >Contrate-me</button>
-
+                        </div>
 
                     </Col>
-                    <Col className='card-valores'>
+                    {/* <Col className='card-valores'>
 
                         <img style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} src={consultoria} alt=''/>
 
@@ -92,7 +89,7 @@ function Precos() {
                         <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Gostaria+de+uma+consultoria+avaliativa%21' target='blank' className='link-valores'>Contrate-me</button>
 
 
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </div>

@@ -65,7 +65,7 @@ const Cursos = () => {
         id: 1,
         image: biblia,
         title: 'Inglês através da Bíblia',
-        text: ' Você já pensou em estudar inglês ouvindo, lendo a Bíblia e ainda cantando seus versículos? Este projeto traz uma abordagem cristã de ensino da Língua Inglesa que utiliza áudios, textos da Bíblia, informações bíblicas e apropria Bíblia em inglês, como veículo para o ensino. Uma ótima oportunidade de aprender inglês e ao mesmo tempo conhecer melhor este LIVRO tão rico.'
+        text: 'O curso de "Inglês através da Bíblia" tem o objetivo de preparar o aluno para comunicar-se de forma eficaz em inglês do Nível Iniciante A1 ao Avançado C1.O projeto traz uma abordagem cristã de ensino da Língua Inglesa que utiliza textos da Bíblia, informações bíblicas e a própria Bíblia em inglês, como veículo para o ensino.'
     },
     {
         id: 2,
