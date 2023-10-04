@@ -40,8 +40,7 @@ const Ebook = () => {
     e.preventDefault()
 
 
-    useEffect(() => init(process.env.REACT_APP_PUBLIC_KEY), [])
-
+    init(process.env.REACT_APP_PUBLIC_KEY)
 
     let template = {
       from_name: '',
