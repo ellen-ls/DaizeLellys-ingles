@@ -18,9 +18,9 @@ const Home = () => {
         <Carrossel></Carrossel>
         <SobreMim></SobreMim>
         <Cursos></Cursos>
+        <Metodologia></Metodologia>
         <Precos></Precos>
         <Motivacao></Motivacao>
-        <Metodologia></Metodologia>
         <Youtube></Youtube>
         <Ebook></Ebook>
         <Comentarios></Comentarios>
