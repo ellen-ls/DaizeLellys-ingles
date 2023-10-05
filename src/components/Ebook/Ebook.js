@@ -3,6 +3,9 @@ import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
 import { init } from '@emailjs/browser'
+import dotenv from 'dotenv'
+
+dotenv.config();
 
 const Ebook = () => {
 
