@@ -100,7 +100,7 @@ jobs:
         uses: actions/deploy-pages@v2
         
       - name: Deploy to GitHub Secrets
-        uses: DaizeLellys-ingles/actions-gh-pages@v3
+        uses: ellen-ls/DaizeLellys-ingles/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build   
