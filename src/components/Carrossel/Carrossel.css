@@ -25,7 +25,7 @@
 }
 
 .text3-carrossel {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0 0 20px 20px ;
 }
 
@@ -35,12 +35,11 @@
 }
 
 .text4-carrossel{
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left: 5px;
     padding: 0 10px 0 10px;
     border: 3px solid #b22234;
     text-align: center;
-    
     
 }
 .img-carrossel {
@@ -51,7 +50,9 @@
 .btn-home {
     color: #b22234;
     font-weight: 700;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ffffff;
     border: 2px solid #b22234;
     border-radius: 40px;

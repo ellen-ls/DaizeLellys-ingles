@@ -1,10 +1,20 @@
 .valores{
-    padding:50px 60px;
+    position: relative;
+    padding:50px;
     font-family: 'Rubik', sans-serif;
-    background-image: url('./img/papel.jpg');
-    background-size: cover;
+    background-color: #fff;
     border-top: 2px solid #3c3b6e;
     
+}
+
+.valores::before{
+    content: '';
+    position:absolute ;
+    top: 0;
+    right: 0;
+    border: 60px solid transparent;
+    border-top: 60px solid #3c3b6e;
+    border-right: 60px solid #3c3b6e;
 }
 .valores>h1{
     font-family: 'Rowdies', cursive;

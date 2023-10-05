@@ -1,5 +1,6 @@
 .youtube-sessao{
-    background-color: #d3d3d3;
+    background-image: url('./Img/papel.jpg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     height: 100%;
