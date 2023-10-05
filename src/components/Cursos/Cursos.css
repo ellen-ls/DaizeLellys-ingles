@@ -2,9 +2,9 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    padding: 50px 60px;
     height: 100%;
     width: 100%;
-    padding: 50px 40px;
     background-color: #fff;
     background-size: cover;
     border-top:2px solid #3c3b6e;
@@ -41,10 +41,6 @@ width: 95px;
 height: 5px;
 background-color: #b22234;
 bottom: 4px;
-}
-
-.cursos-h1{
-  
 }
 
 .card-cursos{
