@@ -40,7 +40,7 @@ const Metodologia = () => {
 
       </Container>
       <div className='div-button'>
-        <button className='button-ingles'>Veja nossos cursos</button>
+      <a href='#curso'><button className='button-ingles'>Veja nossos cursos</button></a>
       </div>
 
 

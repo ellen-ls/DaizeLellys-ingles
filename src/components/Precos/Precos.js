@@ -12,7 +12,7 @@ function Precos() {
             <h1 className='valores-h1'>Conheça </h1> <h1>nossos melhores planos para você</h1>
             <Container className='container-valores' >
 
-                <Row>
+                <Row style={{width:'100%'}}>
 
                     <Col className='linha' style={{ paddingBottom: '70px' }}>
                         <div className='img-precos'>
