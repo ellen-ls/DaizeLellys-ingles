@@ -6,7 +6,13 @@ on:
   push:
     branches: [main]
 
-  # Allows you to run this workflow manually from the Actions tab
+env:
+  REACT_APP_EMAIL_FROM: ${{ secrets.REACT_APP_EMAIL_FROM}}
+  REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
+  REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
+  REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
+ 
+    # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 
@@ -99,17 +105,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
       
-      - name: Configure environment variables
-        env:
-          REACT_APP_EMAIL_FROM: ${{ secrets.GITHUB_TOKEN.REACT_APP_EMAIL_FROM}}
-          REACT_APP_SERVICE_ID: ${{ secrets.GITHUB_TOKEN.REACT_APP_SERVICE_ID }}
-          REACT_APP_TEMPLATE_ID: ${{ secrets.GITHUB_TOKEN.REACT_APP_TEMPLATE_ID }}
-          REACT_APP_PUBLIC_KEY: ${{ secrets.GITHUB_TOKEN.REACT_APP_PUBLIC_KEY }}
-        run: |
-         
-         echo "REACT_APP_EMAIL_FROM=${{secrets.REACT_APP_EMAIL_FROM}}" >> .env
-         echo "REACT_APP_SERVICE_ID=${{secrets.REACT_APP_SERVICE_ID}}" >> .env
-         echo "REACT_APP_TEMPLATE_ID=${{secrets.REACT_APP_TEMPLATE_ID}}" >> .env
-         echo "REACT_APP_PUBLIC_KEY=${{secrets.REACT_APP_PUBLIC_KEY}}" >> .env
+      
 
    
