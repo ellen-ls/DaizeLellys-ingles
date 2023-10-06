@@ -101,10 +101,10 @@ jobs:
       
       - name: Configure environment variables
         env:
-          REACT_APP_EMAIL_FROM: ${{ secrets.REACT_APP_EMAIL_FROM}}
-          REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
-          REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
-          REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
+          REACT_APP_EMAIL_FROM: ${{ secrets.GITHUB_TOKEN.REACT_APP_EMAIL_FROM}}
+          REACT_APP_SERVICE_ID: ${{ secrets.GITHUB_TOKEN.REACT_APP_SERVICE_ID }}
+          REACT_APP_TEMPLATE_ID: ${{ secrets.GITHUB_TOKEN.REACT_APP_TEMPLATE_ID }}
+          REACT_APP_PUBLIC_KEY: ${{ secrets.GITHUB_TOKEN.REACT_APP_PUBLIC_KEY }}
         run: |
          echo 
          "REACT_APP_EMAIL_FROM=${REACT_APP_EMAIL_FROM}" >> .env
