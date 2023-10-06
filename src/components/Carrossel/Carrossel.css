@@ -1,21 +1,16 @@
-.primeira {
+.template {
    font-family: 'Rowdies', cursive;
-   background-color: #b22234;
-   border-bottom:2px solid #b22234;
-   
-}
-
-.coluna-esquerda-home {
-    background-color: rgb(19, 19, 37);
-    height: 100%;
-    color: #fff;
-    padding: 50px ;
-    
-}
+   border-bottom:1px solid #b22234;
+   background-image: url('./Img/fundo-template.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}  
 
 .text1-carrossel {
     font-size: 1.5em;
-    padding: 20px;
+    padding: 100px 20px 0;
+    
 }
 
 .text2-carrossel {
@@ -30,7 +25,6 @@
 
 .div-text3{
     display: flex;
-    
 }
 
 .text4-carrossel{
@@ -39,48 +33,34 @@
     padding: 0 10px 0 10px;
     border: 3px solid #b22234;
     text-align: center;
-    
-}
-
-.img-carrossel {
-  height: 100%;
-  width:800px;
 }
 
 .btn-home {
-    color: #b22234;
+    color: #ffffff;
     font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    border: 2px solid #b22234;
+    background-color: #b22234;
+    border: none;
     border-radius: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 200px;
     height: 84px;
-    margin: 50px 0 0 100px;
+    margin: 40px;
 }
 
 .btn-home a {
     text-decoration: none;
-    color: #b22234;
-}
-
-.btn-home:hover {
-    background-color: #b22234;
-    border: 2px solid #ffffff;
-}
-
-.btn-home:hover a {
     color: #ffffff;
 }
 
-@media (max-width: 750px) {
-    .img-carrossel {
-        
-        width:380px;
-      }
-
-
+.btn-home:hover {
+    background-color: #ffffff;
+    border: 2px solid #b22234;
 }
+
+.btn-home:hover a {
+    color: #b22234;
+}
+

@@ -2,12 +2,12 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 50px 60px;
+    padding: 50px;
     height: 100%;
     width: 100%;
     background-color: #fff;
     background-size: cover;
-    border-top:2px solid #3c3b6e;
+    border-top:1px solid #1c2b6c;
 }
 
 .cursos::before{
@@ -16,8 +16,8 @@
   top: 0;
   right: 0;
   border: 60px solid transparent;
-  border-top: 60px solid #3c3b6e;
-  border-right: 60px solid #3c3b6e;
+  border-top: 60px solid #1c2b6c;
+  border-right: 60px solid #1c2b6c;
 }
 
 .cursos>h1{
@@ -32,22 +32,22 @@
     font-size: 3rem;
     text-align: center;
    
-  }
+}
 
 .cursos-h1::before{
 position: absolute;
 content: '';
 width: 95px;
 height: 5px;
-background-color: #3c3b6e;
+background-color: #1c2b6c;
 bottom: 4px;
 }
 
 .card-cursos{
  margin: 20px;
- padding-top: 50px;
  
 }
+
 
 .react-multiple-carousel__arrow--right{
   right: 2px;
@@ -58,16 +58,37 @@ bottom: 4px;
 .react-multiple-carousel__arrow--left{
   left: 2px;
   background-color: #b22234 ;
-  
-  
+ 
 }
 
-.accordion-header .accordion-button{
-    font-family: 'Rowdies', cursive;
-    background-color: #3c3b6e!important;
-    color: #fff !important;
+.btn-cursos {
+  color: #ffffff;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b22234;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 200px;
+  height: 84px;
+  margin: 40px auto;
 }
 
-.accordion-button::after{
-  display: none;
+.btn-cursos a {
+  text-decoration: none;
+  color: #ffffff;
 }
+
+.btn-cursos:hover {
+  background-color: #ffffff;
+  border: 2px solid #b22234;
+}
+
+.btn-cursos:hover a {
+  color: #b22234;
+}
+
+
+
