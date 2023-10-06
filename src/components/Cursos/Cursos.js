@@ -1,8 +1,7 @@
 import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { Accordion, Card} from 'react-bootstrap'
-import { useAccordionButton } from 'react-bootstrap/AccordionButton';
+import { Card} from 'react-bootstrap'
 import biblia from './Img/ingles-atraves-da-biblia.jpeg'
 import viagens from './Img/viagens.png'
 import negocios from './Img/negocios.png'
@@ -25,7 +24,7 @@ const Cursos = () => {
         },
         tablet: {
             breakpoint: { max: 800, min: 464 },
-            items: 2
+            items: 1
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
@@ -33,34 +32,7 @@ const Cursos = () => {
         }
     };
 
-
-
-    function CustomToggle({ children, eventKey }) {
-        const decoratedOnClick = useAccordionButton(eventKey, () =>
-            console.log('totally custom!'),
-        );
-
-        return (
-            <span
-                type="button"
-                style={{
-                    backgroundColor: 'transparent',
-                    margin: '10px 20px',
-                    color: '#fff',
-                    borderBottom: '1px solid #fff',
-                    fontSize: '12px',
-                    fontStyle: 'oblique',
-                    fontWeight: '200',
-               
-                }}
-                onClick={decoratedOnClick}
-            >
-                {children}
-            </span>
-        );
-    }
-
-
+      
     const cursos = [{
         id: 1,
         image: biblia,
@@ -101,60 +73,32 @@ const Cursos = () => {
 
     return (
         <div className='cursos'>
-
             <h1 className='cursos-h1'>Por que</h1><h1>meus cursos são um diferencial?</h1>
-
-            <Carousel responsive={responsive} className='carrossel-cursos'>
-                              
+              <Carousel responsive={responsive} className='carrossel-cursos'>          
                     {cursos.map((curso) => (
-
-                            <div key={curso.id} 
-                               
-                              className='card-cursos'>
-                                <Card.Img variant="top" src={curso.image}
-                                    style={{
-                                        height: '12rem',
-                                        borderRadius:'10px 10px 0 0'
-                                    }} />
-
-                                <Accordion defaultActiveKey={curso.id} flush
-                                    style={{
-                                        fontSize: '17px',
-                                        
-                                    }}
-                                >
-                                    <Accordion.Item eventKey
-                                        style={{
-                                            backgroundColor: '#3c3b6e',
-                                            color: '#fff',
-                                            borderRadius:'0 0 10px 10px'
-                                            
-                                        }}
-                                    >
-                                        <Accordion.Header>
-
-                                            {curso.title}
-
-                                        </Accordion.Header>
-                                        <CustomToggle eventKey>Mais Detalhes</CustomToggle>
-                                        <Accordion.Body
+                         <Card key={curso.id} className='card-cursos' style={{height:'45rem'}}>
+                                <Card.Img variant="top" src={curso.image} style={{height:'18rem'}}/>
+                            <Card.Body>
+                                <Card.Title style={{textAlign:'center', borderBottom:'1px solid #d9d9d9'}}>{curso.title}</Card.Title>
+                                       
+                                        <Card.Text
                                             style={{
-                                                fontSize: '12px',
+                                                fontSize: '14px',
                                                 textAlign: 'left',
-                                                
+                                                paddingTop:'20px'
                                             }}>
                                           {curso.text}
-    
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                </Accordion>
-                            </div>
-                       
+                                         </Card.Text>
+                            </Card.Body>
+                           
+                            </Card>  
+                           
                     ))}
-                
-                </Carousel>
+                    </Carousel> 
+
+                    <button className='btn-cursos'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Adquira já!</a></button>
+              
            </div>
     )
 }
-
 export default Cursos

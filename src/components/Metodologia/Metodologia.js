@@ -1,14 +1,8 @@
 import React from 'react'
 import './Metodologia.css'
-import { useNavigate } from 'react-router-dom';
 import { Col, Container, Row } from 'react-bootstrap';
 
-
-
-
 const Metodologia = () => {
-
-  const navigate = useNavigate()
 
   return (
 
@@ -46,7 +40,7 @@ const Metodologia = () => {
 
       </Container>
       <div className='div-button'>
-        <button className='button-ingles' onClick={() => (navigate('/cursos'))}>Veja nossos cursos</button>
+        <button className='button-ingles'>Veja nossos cursos</button>
       </div>
 
 

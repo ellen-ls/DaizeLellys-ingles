@@ -20,10 +20,10 @@ const Home = () => {
         <Cursos></Cursos>
         <Metodologia></Metodologia>
         <Precos></Precos>
+        <Comentarios></Comentarios>
         <Motivacao></Motivacao>
         <Youtube></Youtube>
         <Ebook></Ebook>
-        <Comentarios></Comentarios>
         <Footer></Footer>
       
     </div>
