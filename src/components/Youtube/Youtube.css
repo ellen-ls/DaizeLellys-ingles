@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-    border-top: 2px solid #3c3b6e;
+    border-top: 2px solid #1c2b6c;
 }
 
 .youtube-sessao h1{
@@ -22,7 +22,7 @@
     content: '';
     width: 95px;
     height: 5px;
-    background-color: #3c3b6e;
+    background-color: #1c2b6c;
     bottom: 4px;
 }
 
@@ -38,7 +38,7 @@
     padding-top: 10px;
     font-family: 'Rowdies', cursive;
     font-size: 20px;
-    border-bottom: 2px solid #3c3b6e;
+    border-bottom: 2px solid #1c2b6c;
     
 }
 

@@ -6,7 +6,7 @@
     padding: 50px 40px;
     background-image: url('./img/papel.jpg');
     background-size: cover;
-    border-top: 2px solid #3c3b6e;
+    border-top: 2px solid #1c2b6c;
 }
 
 .comentarios>h1 {
@@ -45,7 +45,7 @@
     -webkit-backdrop-filter: blur(5.1px);
     border: 1px solid rgba(180, 185, 239, 0.27);
     font-family: 'Rowdies', cursive;
-    color: #3c3b6e;
+    color: #1c2b6c;
 }
 
 .comment-p {
