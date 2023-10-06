@@ -98,16 +98,16 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        
-      - name: Deploy to GitHub Secrets
-        uses: ellen-ls/DaizeLellys-ingles@v2
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build   
-        
+      
+      - name: Configure environment variables
         env:
           REACT_APP_EMAIL_FROM: ${{ secrets.REACT_APP_EMAIL_FROM}}
           REACT_APP_SERVICE_ID: ${{ secrets.REACT_APP_SERVICE_ID }}
           REACT_APP_TEMPLATE_ID: ${{ secrets.REACT_APP_TEMPLATE_ID }}
           REACT_APP_PUBLIC_KEY: ${{ secrets.REACT_APP_PUBLIC_KEY }}
-          
+        run: |
+         echo "REACT_APP_EMAIL_FROM=${REACT_APP_EMAIL_FROM}" >> .env
+         "REACT_APP_SERVICE_ID=${REACT_APP_SERVICE_ID}" >> .env
+         "REACT_APP_TEMPLATE_ID=${REACT_APP_TEMPLATE_ID}" >> .env
+         "REACT_APP_PUBLIC_KEY=${REACT_APP_PUBLIC_KEY}" >> .env
+
