@@ -12,13 +12,13 @@ function Precos() {
             <h1 className='valores-h1'>Conheça </h1> <h1>nossos melhores planos para você</h1>
             <Container className='container-valores' >
 
-                <Row>
+                <Row style={{width:'100%'}}>
 
                     <Col className='linha' style={{ paddingBottom: '70px' }}>
                         <div className='img-precos'>
                             <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={vip} alt='' />
                         </div>
-                        <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }} className='linha'>VIP</h2>
+                        <h2 style={{ fontSize: '18px', backgroundColor: '#1c2b6c', color: '#fff', padding: '5px 0', textAlign: 'center' }} className='linha'>VIP</h2>
                         <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                             Aulas de 60 minutos de duração.
@@ -37,7 +37,7 @@ function Precos() {
                         <div className='img-precos'>
                             <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={grupo} alt='' />
                         </div>
-                        <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }}>Grupos até 3 pessoas</h2>
+                        <h2 style={{ fontSize: '18px', backgroundColor: '#1c2b6c', color: '#fff', padding: '5px 0', textAlign: 'center' }}>Grupos até 3 pessoas</h2>
                         <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online,  até 3 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                             Aulas de 60 minutos de duração.
@@ -54,7 +54,7 @@ function Precos() {
                         <div className='img-precos'>
                             <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={grupos} alt='' />
                         </div>
-                        <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '5px 0', textAlign: 'center' }} >Grupos</h2>
+                        <h2 style={{ fontSize: '18px', backgroundColor: '#1c2b6c', color: '#fff', padding: '5px 0', textAlign: 'center' }} >Grupos</h2>
                         <p style={{ fontSize: '15px', textAlign: 'left' }}>
                             Aulas ao vivo (síncronas), formato online, grupos de 5 a 10 pessoas, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
                             Aulas de 60 minutos de duração.

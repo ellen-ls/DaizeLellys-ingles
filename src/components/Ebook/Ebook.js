@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Ebook.css'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import emailjs from '@emailjs/browser'
-import { init } from '@emailjs/browser'
+
 
 const Ebook = () => {
 
@@ -39,8 +39,10 @@ const Ebook = () => {
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-
-    init(process.env.REACT_APP_PUBLIC_KEY)
+    const publicKey = process.env.REACT_APP_PUBLIC_KEY
+    const serviceId = process.env.REACT_APP_SERVICE_ID
+    const templateId = process.env.REACT_APP_TEMPLATE_ID
+    emailjs.init(publicKey)
 
     let template = {
       from_name: '',
@@ -52,7 +54,7 @@ const Ebook = () => {
 
     if (isValidForm) {
       setButtonText('Email enviado com sucesso, check seu email ou spam e vamos aprender!!!');
-      emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, template, process.env.REACT_APP_PUBLIC_KEY)
+      emailjs.send(serviceId, templateId, template, publicKey)
         .then(
           function (response) {
             console.log("SUCCESS!", response);

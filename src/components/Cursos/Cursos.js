@@ -72,11 +72,11 @@ const Cursos = () => {
     ]
 
     return (
-        <div className='cursos'>
+        <div className='cursos' id='curso'>
             <h1 className='cursos-h1'>Por que</h1><h1>meus cursos são um diferencial?</h1>
               <Carousel responsive={responsive} className='carrossel-cursos'>          
                     {cursos.map((curso) => (
-                         <Card key={curso.id} className='card-cursos' style={{height:'45rem'}}>
+                         <Card key={curso.id} className='card-cursos' style={{height:'47rem'}}>
                                 <Card.Img variant="top" src={curso.image} style={{height:'18rem'}}/>
                             <Card.Body>
                                 <Card.Title style={{textAlign:'center', borderBottom:'1px solid #d9d9d9'}}>{curso.title}</Card.Title>
