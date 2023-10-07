@@ -2,9 +2,9 @@
    font-family: 'Rowdies', cursive;
    border-bottom:1px solid #b22234;
    background-image: url('./Img/fundo-template.jpeg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
+   background-repeat:round;
+   height: 150vh;
+   color: #1c2b6c;
 }  
 
 .text1-carrossel {
@@ -62,5 +62,12 @@
 
 .btn-home:hover a {
     color: #b22234;
+}
+
+@media (max-width: 800px) {
+    .template {
+       
+       height: 100%;
+     } 
 }
 
