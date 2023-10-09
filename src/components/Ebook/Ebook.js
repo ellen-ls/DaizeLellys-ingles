@@ -74,7 +74,7 @@ const Ebook = () => {
         <Col className='ebook-text'>
 
           <h2>Quer receber um E-book gratuito?</h2>
-          <h2>Cadastre-se, é só preencher o campo abaixo.</h2>
+          <h2>Cadastre-se.</h2>
         </Col>
 
         <Col>
