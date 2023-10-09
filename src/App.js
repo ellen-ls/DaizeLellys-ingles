@@ -15,6 +15,7 @@ function App() {
      <Route path="/sobre-mim" element={<Sobre/>} />
       
     </Routes>
+     
      </div>
          
   
