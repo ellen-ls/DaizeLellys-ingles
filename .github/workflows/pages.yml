@@ -91,17 +91,17 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Setup Secrets
-        run: |
+      steps:
+        - name: Setup Secrets
+       run: |
           echo "REACT_APP_EMAIL_FROM=${{ secrets.REACT_APP_EMAIL_FROM }}" >> $GITHUB_ENV
           echo "REACT_APP_SERVICE_ID=${{ secrets.REACT_APP_SERVICE_ID }}" >> $GITHUB_ENV
           echo "REACT_APP_TEMPLATE_ID=${{ secrets.REACT_APP_TEMPLATE_ID }}" >> $GITHUB_ENV
           echo "REACT_APP_PUBLIC_KEY=${{ secrets.REACT_APP_PUBLIC_KEY }}" >> $GITHUB_ENV
-
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      
       - name: Deploy to GitHub Pagess
         id: deployment
         uses: actions/deploy-pages@v2
