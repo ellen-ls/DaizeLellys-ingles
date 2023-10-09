@@ -85,6 +85,11 @@
     color: #ffffff;
 }
 
+#btn-flutuante:hover{
+    background-color: #1c2b6c;
+   
+}
+
 
 @media (max-width: 800px) {
     .template {
