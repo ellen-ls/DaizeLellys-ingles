@@ -28,7 +28,7 @@
   "homepage": "https://daizelellys.com/",
   "scripts": {
     "start": "env-cmd -f ./.env react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
