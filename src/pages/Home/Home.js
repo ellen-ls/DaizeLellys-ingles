@@ -24,7 +24,7 @@ const Home = () => {
         <Comentarios></Comentarios>
         <Motivacao></Motivacao>
         <Youtube></Youtube>
-        <Ebook></Ebook>
+        {/* <Ebook></Ebook> */}
         <Footer></Footer>
       
     </div>
