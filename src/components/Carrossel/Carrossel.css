@@ -63,6 +63,29 @@
     color: #b22234;
 }
 
+#btn-flutuante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #b22234;
+    width: 200px;
+    height: 84px;
+    border-radius: 40px;
+    right: 5px;
+    bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+        
+}
+#btn-flutuante a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
 @media (max-width: 800px) {
     .template {
        display: flex;
