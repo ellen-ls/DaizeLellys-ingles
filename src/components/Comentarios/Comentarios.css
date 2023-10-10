@@ -4,9 +4,7 @@
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-    background-image: url('./img/papel.jpg');
-    background-size: cover;
-   
+       
 }
 
 .comentarios>h1 {
@@ -39,7 +37,7 @@
     padding: 20px;
     box-shadow: 4px 4px 4px 4px #b2223369;
     border-radius: 20px;
-    background: rgba(234, 235, 243, 0.39);
+    background: #ffffff;
     border-radius: 16px;
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
