@@ -28,7 +28,7 @@ function Precos() {
                             Módulo por 6x R$397.00.
                         </p>
                         <div className='button-precos'>
-                        <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+individual%21' target='blank' className='link-valores'>Contrate-me</button>
+                       <button className='link-valores'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+individual%21' target='blank' >Contrate-me</a></button>
                         </div>
                     </Col>
 
@@ -46,7 +46,7 @@ function Precos() {
                             Módulo por 6x R$297.00 por pessoa.
                         </p>
                         <div className='button-precos'>
-                        <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+até+3+pessoas%21' target='blank' className='link-valores'>Contrate-me</button>
+                        <button className='link-valores'> <a href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+até+3+pessoas%21' target='blank'>Contrate-me</a></button>
                         </div>
                     </Col>
 
@@ -64,7 +64,7 @@ function Precos() {
                             Módulo por  6x R$197.00 por pessoa.
                         </p>
                         <div className='button-precos'>
-                        <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+5+ou+mais+pessoas%21' target='blank' className='link-valores' >Contrate-me</button>
+                        <button className='link-valores' ><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+5+ou+mais+pessoas%21' target='blank'>Contrate-me</a></button>
                         </div>
 
                     </Col>

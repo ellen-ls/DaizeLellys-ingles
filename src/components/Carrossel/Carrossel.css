@@ -79,7 +79,8 @@
     z-index: 1;
     cursor: pointer;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    padding: 5px;
 }
 
 #btn-flutuante a{
