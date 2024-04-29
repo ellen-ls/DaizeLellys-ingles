@@ -1,9 +1,8 @@
 .template {
    font-family: 'Rowdies', cursive;
-   border-bottom:1px solid #b22234;
-   background-image: url('./Img/fundo-template.jpeg');
+   background-image: url('./Img/fundo.png');
    background-repeat:round;
-   height: 150vh;
+   height: 120vh;
    color: #1c2b6c;
 }  
 
@@ -64,10 +63,47 @@
     color: #b22234;
 }
 
+#btn-flutuante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #b22234;
+    width: 200px;
+    height: 84px;
+    border-radius: 40px;
+    right: 5px;
+    bottom: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+#btn-flutuante a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#btn-flutuante:hover{
+    background-color: #1c2b6c;
+   
+}
+
+
 @media (max-width: 800px) {
     .template {
-       
-       height: 100%;
+       display: flex;
+       height: 50%;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       color: #b22234;
+      
      } 
+     .text4-carrossel{
+        border: 3px solid #1c2b6c;
+        
+    }
 }
 

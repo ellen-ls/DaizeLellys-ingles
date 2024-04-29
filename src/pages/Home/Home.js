@@ -9,7 +9,8 @@ import Precos from '../../components/Precos/Precos'
 import Comentarios from '../../components/Comentarios/Comentarios'
 import { Youtube } from '../../components/Youtube/Youtube'
 import Cursos from '../../components/Cursos/Cursos'
-import Ebook from '../../components/Ebook/Ebook'
+
+
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
         <Comentarios></Comentarios>
         <Motivacao></Motivacao>
         <Youtube></Youtube>
-        <Ebook></Ebook>
+        {/* <Ebook></Ebook> */}
         <Footer></Footer>
       
     </div>
