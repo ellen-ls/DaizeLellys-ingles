@@ -1,37 +1,46 @@
 .template {
-   font-family: 'Rowdies', cursive;
-   background-image: url('./Img/fundo.png');
-   background-repeat:round;
-   height: 120vh;
-   color: #1c2b6c;
-}  
+height: 120vh;
+position: relative;
+color: #1c2b6c;
+
+
+
+   
+} 
+.template::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./Img/fundo-2.webp");
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+    background-attachment: fixed;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    
+    
+}
 
 .text1-carrossel {
     font-size: 50px;
     padding: 100px 20px 0;
+    
     
 }
 
 .text2-carrossel {
     font-size: 60px;
     padding: 0 0 20px 20px ;
+   
+    
 }
 
 .text3-carrossel {
     font-size: 40px;
     padding: 0 0 20px 20px ;
-}
 
-.div-text3{
-    display: flex;
-}
-
-.text4-carrossel{
-    font-size: 40px;
-    margin-left: 5px;
-    padding: 0 10px 0 10px;
-    border: 3px solid #b22234;
-    text-align: center;
+    
 }
 
 .btn-home {
@@ -44,8 +53,8 @@
     border: none;
     border-radius: 40px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 300px;
-    height: 90px;
+    width: 200px;
+    height: 80px;
     margin: 40px;
 }
 
@@ -101,14 +110,15 @@
        justify-content: center;
        align-items: center;
        flex-direction: column;
-       color: #b22234;
+       
        
     } 
+    .template::before{
 
-     
-    .text4-carrossel{
-        border: 3px solid #1c2b6c;
-        
+        background-image: url("../Carrossel/Img/fundo-mobile.jpg");
+        opacity: 0.7;
     }
+
+
 }
 

@@ -16,7 +16,7 @@ const Header = () => {
  
   return (
 
-    <Navbar expand="lg" className="header" sticky='top' >
+    <Navbar expand="lg" className="header" >
       <Container>
       <Navbar.Brand className='div-logo'>
           

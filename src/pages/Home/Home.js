@@ -15,7 +15,7 @@ import Cursos from '../../components/Cursos/Cursos'
 const Home = () => {
   return (
     <div>
-        <Header></Header>
+        
         <Carrossel></Carrossel>
         <SobreMim></SobreMim>
         <Cursos></Cursos>

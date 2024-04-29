@@ -1,29 +1,20 @@
 .cursos{
-    position: relative;
+    
     display: flex;
     flex-direction: column;
     padding: 50px;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #1c2b6c;
     background-size: cover;
    
-}
-
-.cursos::before{
-  content: '';
-  position:absolute ;
-  top: 0;
-  right: 0;
-  border: 60px solid transparent;
-  border-top: 60px solid #1c2b6c;
-  border-right: 60px solid #1c2b6c;
 }
 
 .cursos>h1{
   font-family: 'Rowdies', cursive;
   font-size: 3rem;
   text-align: center;
+  color: #ffffff;
  
 }
 .cursos-h1{
@@ -39,7 +30,7 @@ position: absolute;
 content: '';
 width: 95px;
 height: 5px;
-background-color: #1c2b6c;
+
 bottom: 4px;
 }
 

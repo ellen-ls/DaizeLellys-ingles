@@ -4,7 +4,6 @@
    height: 100%;
    width: 100%;
    padding: 50px 40px;
-   background-image: url('./Img/papel.jpg');
    background-size: cover;
   
    
@@ -14,22 +13,27 @@
     width: 330px;
    
    }
-        
    .metodologia>h1{
+      text-align: end;
+      margin-right: 7rem;
+   }
+        
+   .metodologia>p{
       position: relative;
       font-family: 'Rowdies', cursive;
-      font-size: 3rem;
-      text-align: center;
+      text-align: end;
+      margin-right: 10rem;
+      font-size: 1.2rem;
      
    }
 
-   .metodologia>h1::before{
+   .metodologia>p::before{
       position: absolute;
       content: '';
       width: 95px;
-      height: 5px;
-      background-color: #b22234;
-      bottom: 4px;
+      height: 2px;
+      background-color: black;
+      bottom: 1px;
    }
    .video-youtube-metodologia{
       display: flex;
@@ -68,4 +72,20 @@
       font-family: 'Rowdies', cursive;
 
    }
+
+   @media (max-width: 800px) {
+      .metodologia>h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         font-size: 2rem;
+         margin-left: 20px;
+         
+      }
+      .metodologia>{
+       text-align: center;
+      
+       }
+  
+  }
    

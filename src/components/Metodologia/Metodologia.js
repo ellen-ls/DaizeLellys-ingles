@@ -9,7 +9,8 @@ const Metodologia = () => {
     <div className='metodologia'>
 
 
-      <h1>Metodologia</h1>
+      <h1>Como minhas aulas funcionam</h1>
+      <p>Aprenda fora da caixa de modo simples e divertido</p>
       <Container className='text-biblia'>
         <Row>
           <Col className='video-youtube-metodologia'>
