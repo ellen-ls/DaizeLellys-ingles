@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../components/Header/Header'
 import Carrossel from '../../components/Carrossel/Carrossel'
 import SobreMim from '../../components/SobreMim/SobreMim'
 import Footer from '../../components/Footer/Footer'
