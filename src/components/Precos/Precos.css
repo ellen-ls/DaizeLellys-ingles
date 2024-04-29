@@ -49,6 +49,7 @@ margin: 20px auto;
 
 .text-valores{
     font-weight: 700;
+    font-size: 1.5em;
     font-family: 'Rubik', sans-serif;
     color: #b22234;
     text-align: center;
@@ -62,9 +63,17 @@ margin: 20px auto;
     color: #b22234;
     font-weight: 500;
     
-    
-
 }
+
+.link-valores a{
+    text-decoration: none;
+    color: #b22234;
+}
+
+.link-valores a:hover{
+    color: #fff;
+}
+
 .link-valores:hover{
     color:#fff;
     background-color: #b22234;
