@@ -5,13 +5,6 @@
 
 /* ----- Header ----- */
  
-
-.header{
-   position: fixed; 
-    
-    
-}
-
 .div-logo{
     display: flex;
     flex-direction: row;
