@@ -1,9 +1,8 @@
 .footer {
-    background-color: #b22234;
+    background-color: #1c2b6c;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    border-top:15px solid #1c2b6c;
     position: relative;
     width: 100%;
     bottom: 0;
@@ -31,6 +30,10 @@
   color: #fff;
  background-color: #262552;
 
+}
+.redes-sociais{
+  display: flexbox;
+  
 }
 
 .img-sociais-footer{
@@ -65,13 +68,13 @@
 
 
 .employment{
-    border-top: 0.5px solid #1c2b6c;
     margin-top: 20px;
     
 }
 
 .employment p{
-
+    
     margin-bottom: 2px;
+    font-size: 12px;
 }
 

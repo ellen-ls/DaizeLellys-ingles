@@ -13,10 +13,11 @@ const Footer = () => {
         
     <footer className="footer">
     <div className="footer-content">
+        <div>
         <h2 className='contact'>Contact</h2>
         <button className='button'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank' >Clique aqui para assistir uma aula experimental</a></button>
-        
-        <div>
+        </div>
+        <div className='redes-sociais'>
         <p className='p-sociais-footer'>Me siga nas redes sociais:</p>
         <a href='https://www.instagram.com/teacherdaize_inglespelabiblia/' target='blank'><img className='img-sociais-footer' src={instagram} alt=''/></a>
        <a href='https://www.youtube.com/DaizeLellyssuaprofessoraforadacaixa' target='blank'><img className='img-sociais-footer' src={youtube} alt='' /></a>
@@ -26,9 +27,8 @@ const Footer = () => {
           <a id='link-topo' href='#home'>⋀</a>
     </div>
     
-    
     <div className='employment'>
-        <p>Desenvolvido por Els Development</p>
+        <p>&copy; Twin's development 2023</p>
     </div>
 </footer>
       

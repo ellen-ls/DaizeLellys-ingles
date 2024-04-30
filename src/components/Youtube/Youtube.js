@@ -12,8 +12,8 @@ export const Youtube = () => {
                 <Row className='youtube-container'>
                     <Col className='youtube-videos'>
                         <iframe
-                            width="355"
-                            height="315"
+                            width="300"
+                            height="300"
                             src="https://www.youtube-nocookie.com/embed/LfaR1b6Gqiw?si=9171ZwDjZz1n_SjS&amp;controls=0"
                             title="YouTube video player"
                             frameborder="0"
@@ -27,8 +27,8 @@ export const Youtube = () => {
                
                 <Col className='youtube-videos'>
                         <iframe
-                            width="355"
-                            height="315"
+                            width="300"
+                            height="300"
                             src="https://www.youtube-nocookie.com/embed/tzSFM0QHlK0?si=TPGzafi38uOVsv3x&amp;controls=0"
                             title="YouTube video player"
                             frameborder="0"
@@ -40,8 +40,8 @@ export const Youtube = () => {
                
                 <Col className='youtube-videos'>
                         <iframe
-                            width="355"
-                            height="315"
+                            width="300"
+                            height="300"
                             src="https://www.youtube-nocookie.com/embed/2ydcpSy4f2A?si=gFvxqvXM7idyPzu0&amp;controls=0"
                             title="YouTube video player"
                             frameborder="0"

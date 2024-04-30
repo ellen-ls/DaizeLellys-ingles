@@ -1,11 +1,9 @@
 .youtube-sessao{
-    background-image: url('./Img/papel.jpg');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 50px 40px;
+    padding:40px;
     
 }
 
@@ -20,7 +18,7 @@
 .youtube-sessao h1::before{
     position: absolute;
     content: '';
-    width: 95px;
+    width: 80px;
     height: 5px;
     background-color: #1c2b6c;
     bottom: 4px;
@@ -32,12 +30,13 @@
  justify-content: center;
  align-items: center;
  padding-top: 50px;
+
 }
 
 .youtube-videos span{
     padding-top: 10px;
     font-family: 'Rowdies', cursive;
-    font-size: 20px;
+    font-size: 17px;
     border-bottom: 2px solid #1c2b6c;
     
 }
@@ -63,5 +62,4 @@ background-color: #72131e;
 
 
 }
-
 

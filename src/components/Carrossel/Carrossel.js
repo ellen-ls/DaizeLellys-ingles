@@ -16,7 +16,7 @@ const Carrossel = () => {
           <button className='btn-home'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'>Comece agora!</a></button>
          
           <div id='btn-flutuante'>
-            <Link to={'/valores'}>Adquira já o seu plano!</Link>
+            <Link to={'/valores'}>Adquira já</Link>
            </div>
     </div>
   )}

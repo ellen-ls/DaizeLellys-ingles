@@ -21,10 +21,7 @@ const Header = () => {
       <Navbar.Brand className='div-logo'>
           
           <img className='fonte' src={copia} alt='/'/>
-          <div>
-          <p className='text-logo' style={{color:'#b22234', fontWeight:'bold'}}>Sua Teacher</p>
-          <p className='text-logo1' style={{color:'#b22234', fontWeight:'bold'}}>"Fora da Caixa"</p>
-          </div>
+
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">

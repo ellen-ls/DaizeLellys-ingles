@@ -2,10 +2,8 @@
 height: 120vh;
 position: relative;
 color: #1c2b6c;
-
-
-
-   
+font-family: 'Rowdies', cursive;
+ 
 } 
 .template::before{
     content: "";
@@ -16,8 +14,8 @@ color: #1c2b6c;
     z-index: -1;
     opacity: 0.7;
     background-attachment: fixed;
-    border-bottom-left-radius: 300px;
-    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 230px;
+    border-bottom-right-radius:230px;
     
     
 }
@@ -79,8 +77,8 @@ color: #1c2b6c;
     align-items: center;
     position: fixed;
     background-color: #b22234;
-    width: 200px;
-    height: 84px;
+    width: 150px;
+    height: 80px;
     border-radius: 40px;
     right: 5px;
     bottom: 10px;
@@ -117,6 +115,9 @@ color: #1c2b6c;
 
         background-image: url("../Carrossel/Img/fundo-mobile.jpg");
         opacity: 0.7;
+    }
+    #btn-flutuante{
+        display: none;
     }
 
 

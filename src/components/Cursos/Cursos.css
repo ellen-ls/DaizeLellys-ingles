@@ -136,6 +136,10 @@
   flex-direction: column;
   
  }
+.imagem{
+  width: 18rem;
+  height: 16rem;
+}
      
      
 } 

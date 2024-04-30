@@ -19,7 +19,6 @@ const Home = () => {
         <SobreMim></SobreMim>
         <Cursos></Cursos>
         <Metodologia></Metodologia>
-        <Precos></Precos>
         <Comentarios></Comentarios>
         <Motivacao></Motivacao>
         <Youtube></Youtube>

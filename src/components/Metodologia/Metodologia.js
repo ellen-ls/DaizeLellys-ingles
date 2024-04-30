@@ -14,8 +14,8 @@ const Metodologia = () => {
         <Row>
           <Col className='video-youtube-metodologia'>
             <iframe
-              height="400"
-              width="400"
+              height="300"
+              width="300"
               src="https://www.youtube.com/embed/Dwpj0o5RU1w?si=bJKiyY_KqukPRMKR"
               title="YouTube video player"
               frameborder="0"
