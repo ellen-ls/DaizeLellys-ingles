@@ -72,7 +72,7 @@ const Cursos = () => {
         {cursos.map((curso) => (
           <div key={curso.id} className="card-curso">
             
-            <img className="imagem" variant="top" src={curso.image} />
+            <img className="imagem" src={curso.image} />
             <div className="middle">
             <div className="text-curso">
             <h4>{curso.title}</h4>
