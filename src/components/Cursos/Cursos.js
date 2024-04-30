@@ -68,11 +68,10 @@ const Cursos = () => {
       </div>
      
       <div className="container" >
-        
-        {cursos.map((curso) => (
+      {cursos.map((curso) => (
           <div key={curso.id} className="card-curso">
             
-            <img className="imagem" src={curso.image} />
+            <img className="imagem" src={curso.image} alt="imagem" />
             <div className="middle">
             <div className="text-curso">
             <h4>{curso.title}</h4>
