@@ -1,117 +1,29 @@
-import React, { useState } from 'react'
-import './Ebook.css'
-import { Button, Col, Form, Row } from 'react-bootstrap'
-import emailjs from '@emailjs/browser'
-
-
+import React from "react";
+ 
 const Ebook = () => {
-
-  const [name, setName] = useState('')
-  const [email, setEmail] = useState('')
-
-  //   Form validation state
-  const [errors, setErrors] = useState({})
-
-  //   Setting button text on form submission
-  const [buttonText, setButtonText] = useState("");
-
-
-  const handleValidation = () => {
-    let tempError = {}
-    let isValid = true
-
-
-    if (name.length <= 0) {
-      tempError["Name"] = true
-      isValid = false
-    }
-    if (email.length <= 0) {
-      tempError["Email"] = true
-      isValid = false
-    }
-
-    setErrors({ ...tempError })
-    console.log("errors", errors)
-    return isValid
-  }
-
-
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-
-    const publicKey = process.env.REACT_APP_PUBLIC_KEY
-    const serviceId = process.env.REACT_APP_SERVICE_ID
-    const templateId = process.env.REACT_APP_TEMPLATE_ID
-    emailjs.init(publicKey)
-
-    let template = {
-      from_name: '',
-      name: name,
-      email: email
-    }
-
-    let isValidForm = handleValidation()
-
-    if (isValidForm) {
-      setButtonText('Email enviado com sucesso, check seu email ou spam e vamos aprender!!!');
-      emailjs.send(serviceId, templateId, template, publicKey)
-        .then(
-          function (response) {
-            console.log("SUCCESS!", response);
-          },
-          function (error) {
-            console.log("FAILED...", error);
-          }
-        );
-
-    }
-    console.log(name, email);
-  }
-
-  return (
-    <div className='ebook'>
-      <Row>
-        <Col className='ebook-text'>
-
-          <h2>Quer receber um E-book gratuito?</h2>
-          <h2>Cadastre-se.</h2>
-        </Col>
-
-        <Col>
-          <Form
-            className='forms-ebook'
-            onSubmit={handleSubmit}
-          >
-            <Form.Group>
-              <Form.Label>Name*</Form.Label>
-              <Form.Control
-                type='text'
-                placeholder='nome'
-                value={name}
-                onChange={(e) => { setName(e.target.value) }} />
-            </Form.Group>
-            <Form.Group>
-              <Form.Label>Email*</Form.Label>
-              <Form.Control
-                type='email'
-                placeholder='example@example.com'
-                value={email}
-                onChange={(e) => { setEmail(e.target.value) }} />
-            </Form.Group>
-
-            <Button
-              type='submit'
-              className='button-ebook'
-            >
-              Quero receber!
-            </Button>
-            <div className='text-sucesso'>{buttonText}</div>
-          </Form>
-        </Col>
-      </Row>
-    </div>
-  )
-}
-
-
+    const onButtonClick = () => {
+        const pdfUrl = "Sample.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "document.pdf"; // specify the filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    return (
+        <>
+            <center>
+                <h1>Welcome to Geeks for Geeks</h1>
+                <h3>
+                    Click on below button to download PDF
+                    file
+                </h3>
+                <button onClick={onButtonClick}>
+                    Download PDF
+                </button>
+            </center>
+        </>
+    );
+};
+ 
 export default Ebook

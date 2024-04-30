@@ -2,14 +2,16 @@ import React from 'react'
 import './Metodologia.css'
 import { Col, Container, Row } from 'react-bootstrap';
 
+import 'animate.css';
+
 const Metodologia = () => {
 
   return (
 
     <div className='metodologia'>
 
-      <h1>Como minhas aulas funcionam</h1>
-      <p>Aprenda fora da caixa de modo simples e divertido</p>
+      <h1 className="animate__animated animate__fadeInRight">Como minhas aulas funcionam</h1>
+      <p className="animate__animated animate__fadeInRight">Aprenda fora da caixa de modo simples e divertido</p>
       <Container className='text-biblia'>
         <Row>
           <Col className='video-youtube-metodologia'>
@@ -22,8 +24,10 @@ const Metodologia = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen>
             </iframe>
+                         
           </Col>
-          <Col> <p className='text1'>Considerando que o aluno já conhece a Bíblia em seu próprio idioma, aplicaremos o princípio pedagógico em que ele parte do que lhe é 'conhecido e familiar' como ponte para a construção de um novo conhecimento.
+          
+           <Col> <p className='text1 animate__animated animate__fadeInRight'>Considerando que o aluno já conhece a Bíblia em seu próprio idioma, aplicaremos o princípio pedagógico em que ele parte do que lhe é 'conhecido e familiar' como ponte para a construção de um novo conhecimento.
             Mesmo sendo iniciante, ou tendo estudado inglês, mas não falando, se sentirá mais confiante e tranquilo para discorrer sobre o que já conhece naturalmente.
             <br></br>
             Em nossa metodologia seguimos um programa que mescla e desenvolve as quatro principais habilidade para o aprendizado

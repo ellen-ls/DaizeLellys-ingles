@@ -11,6 +11,8 @@ import netto from './img/netto.png'
 import joalisson from './img/joalisson.png'
 import leonardo from './img/leonardo.png'
 import walter from './img/walter.jpeg'
+import estrela from './img/estrela.png'
+
 
 function Comentarios() {
 
@@ -18,15 +20,15 @@ function Comentarios() {
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 1024 },
-        items: 2
+        items: 1
     },
     desktop: {
         breakpoint: { max: 1024, min: 800 },
-        items: 2
+        items: 1
     },
     tablet: {
         breakpoint: { max: 800, min: 464 },
-        items: 2
+        items: 1
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -99,9 +101,10 @@ function Comentarios() {
 ]
 
   return (
+
     <div className='comentarios'>
       
-      <h1>O que meus alunos falam</h1>
+      <h1>Depoimentos</h1>
       
       <Carousel responsive={responsive}  className='comments-carrossel'>
      
@@ -111,15 +114,16 @@ function Comentarios() {
 
           <Card.Img variant="top" src={comentario.image} style={{
             
-            height: '10rem',
-            width: '10rem',
+            height: '5rem',
+            width: '5rem',
             borderRadius: '50%',
           
           }} />
           <Card.Body>
           <Card.Title>
           <h3>{comentario.name}</h3>
-          <span>{comentario.state}</span>
+          <p className='estados'>{comentario.state}</p>
+          <img src={estrela} className='img-estrela'/>
           </Card.Title>
           <div className='comment-p'>
           <Card.Text className='text-comentarios'>

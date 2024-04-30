@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useNavigate } from 'react-router-dom';
 
+import 'animate.css';
+
 function SobreMim() {
 
   const navigate = useNavigate()
@@ -20,7 +22,7 @@ function SobreMim() {
         
         <Col> 
         <h1 className='text-h1'>Daize Lellys</h1>
-        <p className='text'>Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
+        <p className='text animate__animated animate__fadeInDown' >Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
       primeiro contato com o inglês aos nove anos, com uma amiga canadense. 
       <br></br>
       
