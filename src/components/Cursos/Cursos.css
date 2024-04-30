@@ -1,56 +1,105 @@
 .cursos{
-    
     display: flex;
-    flex-direction: column;
+    align-items: center;
     padding: 50px;
     height: 100%;
     width: 100%;
     background-color: #1c2b6c;
     background-size: cover;
+       
+}
+.cursos-h1{
+  text-align: center;
+  font-family: 'Rowdies', cursive;
+ 
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.card-curso{
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  width: 22rem;
+  text-align: center;
+  
+  
+  
+}
+.title>p{
+  position: relative;
+  font-family: 'Rowdies', cursive;
+  
+}
+.title>p::before{
+  position: absolute;
+  content: '';
+  width: 95px;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: -10px;
+  margin-left: 70px;
+  
+  
+}
+
+.imagem{
+  opacity: 1;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  width:22rem;
+  height: 18rem;
+  border-radius: 30px 0 30px 0;
+ 
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.card-curso:hover .imagem {
+  opacity: 0.3;
+}
+
+.card-curso:hover .middle {
+  opacity: 1;
+}
+
+.text-curso {
+  background-color: #0b0c0c41;
+  color: white;
+  width: 22rem;
+  height: 18rem;
+  font-size: 12px;
+  padding: 30px;
+  border-radius: 20px 0 20px 0;
    
 }
 
-.cursos>h1{
+.title>p{
   font-family: 'Rowdies', cursive;
-  font-size: 3rem;
   text-align: center;
+  font-size: 1.5rem;
   color: #ffffff;
  
 }
 .cursos-h1{
-    position: relative;
-    font-family: 'Rowdies', cursive;
-    font-size: 3rem;
-    text-align: center;
-   
+  color: #ffffff;
 }
 
-.cursos-h1::before{
-position: absolute;
-content: '';
-width: 95px;
-height: 5px;
-
-bottom: 4px;
-}
-
-.card-cursos{
- margin: 20px;
- 
-}
-
-
-.react-multiple-carousel__arrow--right{
-  right: 2px;
-  background-color: #b22234 ;
- 
-}
-
-.react-multiple-carousel__arrow--left{
-  left: 2px;
-  background-color: #b22234 ;
- 
-}
 
 .btn-cursos {
   color: #ffffff;
@@ -62,8 +111,8 @@ bottom: 4px;
   border: none;
   border-radius: 40px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 200px;
-  height: 84px;
+  width: 150px;
+  height: 65px;
   margin: 40px auto;
 }
 
@@ -80,6 +129,18 @@ bottom: 4px;
 .btn-cursos:hover a {
   color: #b22234;
 }
+
+@media (max-width: 800px) {
+ .cursos{
+  display: flex;
+  flex-direction: column;
+  
+ }
+     
+     
+} 
+ 
+
 
 
 
