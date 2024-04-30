@@ -123,7 +123,7 @@ function Comentarios() {
           <Card.Title>
           <h3>{comentario.name}</h3>
           <p className='estados'>{comentario.state}</p>
-          <img src={estrela} className='img-estrela'/>
+          <img src={estrela} alt='' className='img-estrela'/>
           </Card.Title>
           <div className='comment-p'>
           <Card.Text className='text-comentarios'>
