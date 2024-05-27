@@ -24,7 +24,7 @@ const Metodologia = () => {
               width='100%'
               height='100%'
               light={
-                <img src={wallpaper} alt='' width="100%" height='100%'/>
+                <img src={wallpaper} alt='wallpaper' width="100%" height='100%'/>
             }
               controls
               allowfullscreen>
