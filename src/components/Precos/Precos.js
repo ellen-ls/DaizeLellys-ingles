@@ -68,28 +68,7 @@ function Precos() {
                         </div>
 
                     </Col>
-                    {/* <Col className='card-valores'>
-
-                        <img style={{ height: '15rem', borderRadius: '10px', marginBottom:'20px' }} src={consultoria} alt=''/>
-
-
-                    </Col>
-
-                    <Col className='linha' style={{paddingBottom:'50px' }}>
-
-                        <h2 style={{ fontSize: '18px', backgroundColor: '#3c3b6e', color: '#fff', padding: '10px 0', textAlign: 'center'}} >Consultoria avaliativa</h2>
-                        <p style={{ fontSize: '15px', textAlign: 'left' }}>
-                            Pense numa conversa só pra você. A gente chama de Consultoria Avaliativa. Ela ajuda a entender o que você precisa e montar um plano de estudo perfeito.
-                            Com isso, os resultados que você quer,estarão ao seu alcance como nunca antes.Deixe-nos ajudá-lo a trilhar o caminho para o sucesso que você busca.
-
-                        </p>
-                        <p className='text-valores'>
-                            A partir de R$200,00.
-                        </p>
-                        <button href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Gostaria+de+uma+consultoria+avaliativa%21' target='blank' className='link-valores'>Contrate-me</button>
-
-
-                    </Col> */}
+                    
                 </Row>
             </Container>
         </div>

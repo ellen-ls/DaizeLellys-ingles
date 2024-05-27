@@ -1,8 +1,8 @@
 .template {
 height: 120vh;
 position: relative;
-color: #1c2b6c;
-font-family: 'Rowdies', cursive;
+
+
  
 } 
 .template::before{
@@ -19,37 +19,38 @@ font-family: 'Rowdies', cursive;
     
     
 }
+.div-geral-carrossel{
+    width: 40%;
+    text-align: center;
+}
 
 .text1-carrossel {
-    font-size: 50px;
-    padding: 100px 20px 0;
-    
+    font-size: 40px;
+    padding: 80px 50px 0;
+    color: #1c2b6c;
+    font-weight: 800;
     
 }
 
 .text2-carrossel {
-    font-size: 60px;
-    padding: 0 0 20px 20px ;
+    font-size: 50px;
+     color: #b22234;
+    font-weight: 800;
    
     
 }
 
 .text3-carrossel {
-    font-size: 40px;
-    padding: 0 0 20px 20px ;
-
-    
+    font-size: 20px;
+     
 }
 
 .btn-home {
     color: #ffffff;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #b22234;
-    border: none;
-    border-radius: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 200px;
     height: 80px;
@@ -76,18 +77,14 @@ font-family: 'Rowdies', cursive;
     justify-content: center;
     align-items: center;
     position: fixed;
-    background-color: #b22234;
-    width: 150px;
-    height: 80px;
-    border-radius: 40px;
     right: 5px;
     bottom: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     z-index: 1;
     cursor: pointer;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 4em;
     padding: 5px;
+    transition: font-size 0.5s;
 }
 
 #btn-flutuante a{
@@ -96,8 +93,7 @@ font-family: 'Rowdies', cursive;
 }
 
 #btn-flutuante:hover{
-    background-color: #1c2b6c;
-   
+   font-size: 5em;   
 }
 
 
@@ -108,18 +104,36 @@ font-family: 'Rowdies', cursive;
        justify-content: center;
        align-items: center;
        flex-direction: column;
-       
+       color:#b22234;     
+    
        
     } 
     .template::before{
 
-        background-image: url("../Carrossel/Img/fundo-mobile.jpg");
+        background-image: url("../Carrossel/Img/bigban.jpg");
         opacity: 0.7;
-    }
-    #btn-flutuante{
-        display: none;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
     }
 
+    .div-geral-carrossel{
+        width: 100%;
+        text-align: center;
+    }
 
+    .text1-carrossel {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text2-carrossel {
+        font-size: 40px;
+        text-align: center;
+    }
+    .text3-carrossel {
+        font-size: 20px;
+        text-align: center; 
+        color: black;
+   
+    }
 }
 
