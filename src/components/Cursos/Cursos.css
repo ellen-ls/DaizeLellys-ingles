@@ -89,16 +89,30 @@
    
 }
 
-.title>p{
+.cursos-p{
   font-family: 'Rowdies', cursive;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ffffff;
  
 }
+.cursos-p::before{
+
+  text-align: center;
+  position: absolute;
+  content: '';
+  width: 60px;
+  height: 2px;
+  background-color: #ffffff;
+  bottom: -7px;
+  margin-left: 60px;
+  
+  
+  }
 .cursos-h1{
   color: #ffffff;
 }
+
 
 
 .btn-cursos {

@@ -38,18 +38,18 @@
 }
 
 .nav-link{
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, 0.986);
   
 }
 
 .nav-link a{
     text-decoration: none;
-    color: rgba(0,0,0,.55);
+    color: rgba(0, 0, 0, 0.884);
     border-bottom: 2px solid rgba(0,0,0,.55);
 }
 .nav-link a:hover{
     text-decoration: none;
-    color: rgb(80, 76, 76);
+    color: rgb(66, 64, 64);
     
 }
 

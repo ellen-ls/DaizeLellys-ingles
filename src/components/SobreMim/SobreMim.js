@@ -5,8 +5,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { useNavigate } from 'react-router-dom';
+import ScrollAnimation from 'react-animate-on-scroll';
 
-import 'animate.css';
 
 function SobreMim() {
 
@@ -22,7 +22,7 @@ function SobreMim() {
         
         <Col> 
         <h1 className='text-h1'>Daize Lellys</h1>
-        <p className='text animate__animated animate__fadeInDown' >Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
+        <ScrollAnimation animateIn='fadeInDown'><p className='text' >Meu nome é Daize (com A e Z mesmo), uma professora apaixonada por idiomas e culturas diferentes, desde que tive meu 
       primeiro contato com o inglês aos nove anos, com uma amiga canadense. 
       <br></br>
       
@@ -32,6 +32,7 @@ function SobreMim() {
       
       Há mais de 25 anos, tenho ensinado centenas de pessoas a serem independentes no inglês 
       para realizarem seus sonhos.</p>
+      </ScrollAnimation>
       <div className='div-button'>
      <button className='button-sobre-mim' onClick={()=>(navigate('/sobre-mim'))}>Saiba mais sobre mim</button>
       </div>

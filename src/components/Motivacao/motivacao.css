@@ -18,7 +18,8 @@
 .motivacao>h1{
    font-family: 'Rowdies', cursive;
    font-size: 3rem;
-   text-align: center; 
+   text-align: center;
+   
 }
 
 .motivacao-h1{
@@ -26,6 +27,7 @@
    font-family: 'Rowdies', cursive;
    font-size: 3rem;
    text-align: center;
+   margin-bottom: 50px;
  
 }
 

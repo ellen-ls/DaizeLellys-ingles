@@ -91,6 +91,11 @@
        .video-youtube-metodologia{
          width: 18rem;
        }
+
+       .react-player{
+         width:300px;
+         height: 300px;
+       }
   
   }
    

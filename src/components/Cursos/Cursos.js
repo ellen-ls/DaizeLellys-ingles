@@ -10,7 +10,7 @@ import conversa from "./Img/conversa.png";
 import estrangeiro from "./Img/estrangeiro.png";
 import "./Cursos.css";
 
-import 'animate.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 const Cursos = () => {
@@ -56,9 +56,12 @@ const Cursos = () => {
 
   return (
     <div className="cursos" id="curso">
-        <div className="title">
-      <h2 className="cursos-h1 animate__animated animate__fadeInDown">Por que meus cursos são um diferencial?</h2>
-       <p className="animate__animated animate__fadeInDown">Veja minhas modalidades</p>
+      
+      <div className="title">
+        <ScrollAnimation animateIn='fadeInDown'>
+      <h2 className="cursos-h1">Por que meus cursos são um diferencial?</h2>
+      <p className="cursos-p">Veja minhas modalidades</p>
+       </ScrollAnimation>
       <button className="btn-cursos">
         <a
           href="https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21"
