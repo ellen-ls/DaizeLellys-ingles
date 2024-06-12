@@ -55,18 +55,22 @@
       width: 200px;
       height: 84px;
       margin-top: 30px;
+           
    }
 
    .button-ingles a{
       text-decoration: none;
       color: #b22234;
-        
+         
    }
    
    .button-ingles:hover{
       background-color: #b22234;
+      border: 2px solid #ffffff;
       color: #ffffff;
-      border: 2px solid #ffffff ;
+   }
+   .button-ingles:hover a{
+      color: #ffffff;
    }
 
    .text1{

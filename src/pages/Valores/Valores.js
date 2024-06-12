@@ -5,6 +5,7 @@ import vip from '../../components/Precos/img/vip.png'
 import grupo from '../../components/Precos/img/grupo-3.png'
 import grupos from '../../components/Precos/img/grupos.png'
 import Footer from '../../components/Footer/Footer'
+import './Valores.css'
 
 
 const Valores = () => {
@@ -12,15 +13,15 @@ const Valores = () => {
     <div>
         <Header></Header>
 
-        <Container className='container-valores' >
+<Container className='container-valores' >
 
-<Row style={{width:'100%'}}>
-
-    <Col className='linha' style={{ paddingBottom: '70px'}}>
+ <Row>
+    
+    <Col className='linha'>
         <div className='img-precos'>
             <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={vip} alt='' />
         </div>
-        <h2 style={{ fontSize: '18px', backgroundColor: '#1c2b6c', color: '#fff', padding: '5px 0', textAlign: 'center' }} className='linha'>VIP</h2>
+        <h2 style={{ fontSize: '18px', backgroundColor: '#1c2b6c', color: '#fff', padding: '5px 0', textAlign: 'center' }}>VIP</h2>
         <p style={{ fontSize: '15px', textAlign: 'left' }}>
             Aulas ao vivo (síncronas), formato online, individual, suporte com o professor, plano de estudo semanal feedback semestral e certificado.
             Aulas de 60 minutos de duração.
@@ -33,7 +34,7 @@ const Valores = () => {
         <button className='link-valores'><a href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+individual%21' target='blank' >Contrate-me</a></button>
         </div>
     </Col>
-
+   
 
     <Col className='linha' style={{ paddingBottom: '50px'}}>
         <div className='img-precos'>
@@ -51,7 +52,7 @@ const Valores = () => {
         <button className='link-valores'> <a href='https://api.whatsapp.com/send?phone=5583999220306&text=Olá,+Quero+contratar+o+plano+de+até+3+pessoas%21' target='blank'>Contrate-me</a></button>
         </div>
     </Col>
-
+  
     <Col className='linha' style={{ paddingBottom: '50px'}}>
         <div className='img-precos'>
             <img style={{ height: '15rem', borderRadius: '10px', marginBottom: '20px' }} src={grupos} alt='' />
@@ -70,7 +71,7 @@ const Valores = () => {
         </div>
 
     </Col>
-
+   
 </Row>
 </Container>
 <Footer></Footer>

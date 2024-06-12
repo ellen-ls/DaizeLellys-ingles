@@ -1,6 +1,5 @@
 import React from 'react'
 import './Carrossel.css'
-import { Link} from 'react-router-dom'
 import Header from '../Header/Header'
 
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -21,7 +20,7 @@ const Carrossel = () => {
         
          
           <div id='btn-flutuante'>
-            <Link to={'/valores'}><IoLogoWhatsapp color='green'/></Link>
+            <a href='https://api.whatsapp.com/send?phone=5583999220306&text=Quero+agendar+uma+aula+experimental%21' target='blank'><IoLogoWhatsapp color='green'/></a>
            </div>
     </div>
   )}

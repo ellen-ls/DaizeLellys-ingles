@@ -41,7 +41,7 @@ const Metodologia = () => {
             <br></br>
             Utilizamos também o recurso da música para ensinar e ajudar aos alunos a memorizar versículos da Bíblia, aumentando assim, consideravelmente seu vocabulário.
           </p>
-          <a href='#curso'><button className='button-ingles'>Veja nossos cursos</button></a>
+          <button className='button-ingles' ><a href='#curso' target='blank'>Veja nossos cursos</a></button>
           </Col>
         </Row>
       </Container>
