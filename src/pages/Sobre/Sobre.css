@@ -6,7 +6,7 @@
 /* ------ Sobre -----*/
 
 .principal{
-    background-color: #9bacda;
+    background-color: #ffff;
 }
 
 .geral{
@@ -16,15 +16,13 @@
     height: 100%;
     width: 100%;
     padding: 50px 40px;
-
     
 }
 
 .sobre-mim{
-    width: 300px;
+    width: 400px;
     height: 450px;
-    border: 3px solid #3c3b6e;
-    border-radius: 5px;
+
 }
 
 .titulo{
@@ -41,7 +39,16 @@
 
 .texto{
     width: 18rem;
-    
+   
+}
+
+@media (max-width: 800px) {
+    .sobre-mim{
+   width: 300px;
+   height: 350px;
+    }
+
+
 }
 
 

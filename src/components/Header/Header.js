@@ -7,7 +7,7 @@ import facebook from './Img/facebook.png'
 import instagram from './Img/instagram.png'
 import youtube from './Img/youtube.png'
 import tiktok from './Img/tiktok.png'
-import copia from './Img/logo daize lellys.png'
+import logoDaize from './Img/logo daize lellys.png'
 import { NavLink } from 'react-router-dom';
 
 
@@ -20,7 +20,7 @@ const Header = () => {
       <Container>
       <Navbar.Brand className='div-logo'>
           
-          <img className='fonte' src={copia} alt='/'/>
+          <img className='fonte' src={logoDaize} alt='/'/>
 
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>

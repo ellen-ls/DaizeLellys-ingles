@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import './Sobre.css'
-import daizeSobre from './Img/daize-sobre-mim.jpg';
+import daizeSobre from './Img/sobre-mim.png';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 

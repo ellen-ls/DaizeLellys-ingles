@@ -16,25 +16,16 @@
 
 .fonte{
     width: 250px;
-    margin-left: 30px;
     padding: 10px;
     
 }
 
-.text-logo{
-    font-size: 13px;
-    padding-top: 20px;
-}
-
-.text-logo1{
-    font-size: 13px;
-
-}
 
 .me-auto {
    margin-left:30% ;    
    gap: 20px;
    font-weight: 700;
+
 }
 
 .nav-link{
@@ -72,6 +63,17 @@
     border-bottom: 2px solid #b22234!important;
 }
 
+@media (max-width: 990px) {
+.fonte{
+   width: 180px;
+   height: 100px;
+}
+.me-auto{
+    background-color: #ffffff94;
+    border-radius: 10px;
+    text-align: center;
+}
+}
 
 
 

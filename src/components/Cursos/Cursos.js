@@ -26,7 +26,7 @@ const Cursos = () => {
       id: 2,
       image: viagens,
       title: "Inglês para Viagens",
-      text: 'Prepare-se para suas viagens com nosso curso de inglês especializado (Travel Course). No primeiro módulo, abordamos situações essenciais, como aeroporto, avião e alfândega, para tornar o início de sua jornada tranquilo. No segundo módulo, focamos em aspectos práticos, desde reservas de hotel até refeições em restaurantes locais e exploração da cidade. Com nossos instrutores experientes, você desenvolverá as habilidades linguísticas necessárias para uma experiência de viagem mais suave. Junte-se a nós e ganhe confiança para explorar o mundo!"',
+      text: 'Prepare-se para viajar com nosso curso de inglês especializado! No primeiro módulo, você aprenderá a lidar com situações essenciais no aeroporto, avião e alfândega. No segundo módulo, focamos em reservas de hotel, refeições em restaurantes e exploração da cidade. Com instrutores experientes, você desenvolverá habilidades linguísticas para uma viagem tranquila. Junte-se a nós e viaje com confiança!',
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ const Cursos = () => {
       id: 5,
       image: conversa,
       title: "Conversation Class",
-      text: " Nossas aulas de conversação  diferem de uma aula convencional porque o foco, dessa vez, está em falar inglês. Nosso curso prepara você para conversar sobre qualquer assunto. Assim, você estará pronto para uma entrevista de emprego, uma reunião com parceiros estrangeiros ou mesmo um bate-papo com um novo amigo que não é brasileiro. À medida que você pratica inglês conversação, vai se sentindo mais seguro para essas situações.",
+      text: "Nossas aulas de conversação focam em falar inglês, diferente das aulas convencionais. Nosso curso prepara você para conversar sobre qualquer assunto, seja para uma entrevista de emprego, reunião com parceiros estrangeiros ou bate-papo com um amigo estrangeiro. Praticando conversação, você se sentirá mais seguro em diversas situações.",
     },
     {
       id: 6,
