@@ -1,7 +1,5 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import dinheiro from "./img/ganhar-dinheiro.png";
 import interagir from "./img/interagir.png";
 import viajar from "./img/viagem.png";
