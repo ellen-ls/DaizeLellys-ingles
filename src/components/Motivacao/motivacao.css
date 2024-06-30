@@ -17,24 +17,24 @@
   margin-bottom: 50px;
   color: #b22234;
 }
-.container{
+.container-motivacao{
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
-img,
-.figure-caption {
+.img-motivacao,
+.caption-motivacao {
   display: inline-block;
   padding: 10px;
  
 }
 
-.figure-caption{
+.caption-motivacao{
    width: 200px;
 } 
 
-.figure {
+.img-figura {
   
   box-shadow: 2px 2px 2px 0 #1a12132a;
   border-radius: 20px;

@@ -8,8 +8,8 @@ export const Youtube = () => {
     return (
         <div className='youtube-sessao'>
             <h1>Últimas do Meu Canal</h1>
-            <Container >
-                <Row className='youtube-container'>
+            <Container className='youtube-container'>
+                <Row >
                     <Col className='youtube-videos'>
                         <iframe
                             width="300"

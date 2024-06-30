@@ -23,19 +23,13 @@
  justify-content: center;
  align-items: center;
  padding-top: 50px;
- 
+ margin-left: 80px;
 
 }
+
 iframe{
     border-radius: 20px;
 }
-.youtube-videos span{
-    padding-top: 10px;
-    font-family: 'Rowdies', cursive;
-    font-size: 17px;
-   
-}
-
 
 .button-youtube{
 color: #ffffff;
