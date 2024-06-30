@@ -14,11 +14,11 @@
  
 }
 
-.container {
+.container-curso {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-
+  
 }
 
 .card-curso{
@@ -82,7 +82,7 @@
   color: white;
   width: 22rem;
   height: 18rem;
-  font-size: 12px;
+  font-size: 14px;
   padding: 30px;
   border-radius: 20px 0 20px 0;
    
@@ -149,16 +149,7 @@
   flex-direction: column;
   
  }
-.imagem{
-  width: 18rem;
-  height: 16rem;
-   
-}
-.text-curso {
-width: 18rem;
-height: 16rem;
-}
-     
+
      
 } 
  

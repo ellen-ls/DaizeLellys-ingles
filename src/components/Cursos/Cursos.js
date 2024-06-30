@@ -72,7 +72,7 @@ const Cursos = () => {
       </button>
       </div>
      
-      <div className="container" >
+      <div className="container-curso" >
       {cursos.map((curso) => (
           <div key={curso.id} className="card-curso">
             

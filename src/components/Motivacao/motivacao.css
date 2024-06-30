@@ -23,6 +23,15 @@
    justify-content: center;
 }
 
+.row-container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+ 
+
+}
+
 .img-motivacao,
 .caption-motivacao {
   display: inline-block;
@@ -78,7 +87,11 @@
 }
 
 @media (max-width: 800px) {
-   .figure{
-      margin-right: 80px;
+  .img-figura {
+    margin-right: 80px;
+   }
+   .row-container{
+   
+    text-align: center;
    }
 }
